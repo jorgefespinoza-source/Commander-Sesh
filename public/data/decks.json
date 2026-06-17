@@ -1,0 +1,852 @@
+﻿[
+    {
+        "name":  "Ms. Bumbleflower (C)",
+        "owner":  "Caballol",
+        "colorIdentity":  "WU"
+    },
+    {
+        "name":  "Rin and Seri (C)",
+        "owner":  "Caballol",
+        "colorIdentity":  "WRG"
+    },
+    {
+        "name":  "Killian, Decisive Mentor",
+        "owner":  "Caballol",
+        "colorIdentity":  "WB"
+    },
+    {
+        "name":  "Rin and Seri (D)",
+        "owner":  "Diame",
+        "colorIdentity":  "WRG"
+    },
+    {
+        "name":  "Strefan, Maurer Progenitor",
+        "owner":  "Eddy",
+        "colorIdentity":  "BR"
+    },
+    {
+        "name":  "Jared Carthalion",
+        "owner":  "Eddy",
+        "colorIdentity":  "WUBRG"
+    },
+    {
+        "name":  "Firkraag",
+        "owner":  "Eddy",
+        "colorIdentity":  "UR"
+    },
+    {
+        "name":  "Magus Lucea Kane",
+        "owner":  "Eddy",
+        "colorIdentity":  "URG"
+    },
+    {
+        "name":  "Rona",
+        "owner":  "Eddy",
+        "colorIdentity":  "UB"
+    },
+    {
+        "name":  "TMNT",
+        "owner":  "Eddy",
+        "colorIdentity":  "WUBRG"
+    },
+    {
+        "name":  "The Swarmlord",
+        "owner":  "Eddy",
+        "colorIdentity":  "URG"
+    },
+    {
+        "name":  "Eladamri",
+        "owner":  "Eddy",
+        "colorIdentity":  "G"
+    },
+    {
+        "name":  "Tidus",
+        "owner":  "Eddy",
+        "colorIdentity":  "WUG"
+    },
+    {
+        "name":  "Cloud",
+        "owner":  "Gonzalo",
+        "colorIdentity":  "WRG"
+    },
+    {
+        "name":  "Hazel (G)",
+        "owner":  "Gonzalo",
+        "colorIdentity":  "BG"
+    },
+    {
+        "name":  "Kykar",
+        "owner":  "Gonzalo",
+        "colorIdentity":  "WUR"
+    },
+    {
+        "name":  "Bello (G)",
+        "owner":  "Gonzalo",
+        "colorIdentity":  "RG"
+    },
+    {
+        "name":  "Wick",
+        "owner":  "Gonzalo",
+        "colorIdentity":  "B"
+    },
+    {
+        "name":  "Helga",
+        "owner":  "Gonzalo",
+        "colorIdentity":  "WUG"
+    },
+    {
+        "name":  "Zinnia (G)",
+        "owner":  "Gonzalo",
+        "colorIdentity":  "WUR"
+    },
+    {
+        "name":  "Ms. Bumbleflower (G)",
+        "owner":  "Gonzalo",
+        "colorIdentity":  "WUG"
+    },
+    {
+        "name":  "Ghalta",
+        "owner":  "Halvin",
+        "colorIdentity":  "G"
+    },
+    {
+        "name":  "The Council",
+        "owner":  "Halvin",
+        "colorIdentity":  "WU"
+    },
+    {
+        "name":  "Elas-il Kor",
+        "owner":  "Halvin",
+        "colorIdentity":  "WB"
+    },
+    {
+        "name":  "Teysa",
+        "owner":  "Halvin",
+        "colorIdentity":  "WB"
+    },
+    {
+        "name":  "Abdel",
+        "owner":  "Halvin",
+        "colorIdentity":  "W"
+    },
+    {
+        "name":  "Giada",
+        "owner":  "Halvin",
+        "colorIdentity":  "W"
+    },
+    {
+        "name":  "Baylen",
+        "owner":  "Halvin",
+        "colorIdentity":  "WRG"
+    },
+    {
+        "name":  "Infinite Guideline Station",
+        "owner":  "Halvin",
+        "colorIdentity":  "WUBRG"
+    },
+    {
+        "name":  "Fire Lord Azula (H)",
+        "owner":  "Halvin",
+        "colorIdentity":  "UBR"
+    },
+    {
+        "name":  "Alela, Artful Provocateur",
+        "owner":  "Halvin",
+        "colorIdentity":  "UB"
+    },
+    {
+        "name":  "Toshiro Umezaua",
+        "owner":  "Halvin",
+        "colorIdentity":  "B"
+    },
+    {
+        "name":  "Shadowheart",
+        "owner":  "Halvin",
+        "colorIdentity":  "B"
+    },
+    {
+        "name":  "Breya (H)",
+        "owner":  "Halvin",
+        "colorIdentity":  "WUBR"
+    },
+    {
+        "name":  "Wilhelt",
+        "owner":  "Halvin",
+        "colorIdentity":  "UB"
+    },
+    {
+        "name":  "Anikthea",
+        "owner":  "Halvin",
+        "colorIdentity":  "WBG"
+    },
+    {
+        "name":  "Washitora",
+        "owner":  "Halvin",
+        "colorIdentity":  "BRG"
+    },
+    {
+        "name":  "Ulalek (H)",
+        "owner":  "Halvin",
+        "colorIdentity":  ""
+    },
+    {
+        "name":  "Emmara (H)",
+        "owner":  "Halvin",
+        "colorIdentity":  "WG"
+    },
+    {
+        "name":  "Gisa and Geralf",
+        "owner":  "Halvin",
+        "colorIdentity":  "UB"
+    },
+    {
+        "name":  "Dihada (H)",
+        "owner":  "Halvin",
+        "colorIdentity":  "WBR"
+    },
+    {
+        "name":  "Neriv",
+        "owner":  "Halvin",
+        "colorIdentity":  "WBR"
+    },
+    {
+        "name":  "Shiko and Narset",
+        "owner":  "Ianfi",
+        "colorIdentity":  "WUR"
+    },
+    {
+        "name":  "Felothar (i)",
+        "owner":  "Ianfi",
+        "colorIdentity":  "WBG"
+    },
+    {
+        "name":  "Hazel (i)",
+        "owner":  "Ianfi",
+        "colorIdentity":  "BG"
+    },
+    {
+        "name":  "Bello (i)",
+        "owner":  "Ianfi",
+        "colorIdentity":  "RG"
+    },
+    {
+        "name":  "Alela, Cunning Conqueror (i)",
+        "owner":  "Ianfi",
+        "colorIdentity":  "UB"
+    },
+    {
+        "name":  "Ashling",
+        "owner":  "Ianfi",
+        "colorIdentity":  "WUBRG"
+    },
+    {
+        "name":  "Avatar Aang",
+        "owner":  "Ianfi",
+        "colorIdentity":  "WUBRG"
+    },
+    {
+        "name":  "Iroh Grand Lotus",
+        "owner":  "Ianfi",
+        "colorIdentity":  "URG"
+    },
+    {
+        "name":  "Sokka, Tenacious Tactician (i)",
+        "owner":  "Ianfi",
+        "colorIdentity":  "WUR"
+    },
+    {
+        "name":  "Fire Lord Azula (i)",
+        "owner":  "Ianfi",
+        "colorIdentity":  "UBR"
+    },
+    {
+        "name":  "Betor, Ancestor\u0027s Voice",
+        "owner":  "Ianfi",
+        "colorIdentity":  "WBG"
+    },
+    {
+        "name":  "Cristiano Ronaldo, The Goat",
+        "owner":  "Ianfi",
+        "colorIdentity":  "RG"
+    },
+    {
+        "name":  "Witherbloom, The Balancer",
+        "owner":  "Ianfi",
+        "colorIdentity":  "BG"
+    },
+    {
+        "name":  "Terra (J)",
+        "owner":  "Jorge Espinoza",
+        "colorIdentity":  "WBR"
+    },
+    {
+        "name":  "Celes",
+        "owner":  "Jorge Espinoza",
+        "colorIdentity":  "WBR"
+    },
+    {
+        "name":  "Hearthhull (J)",
+        "owner":  "Jorge Espinoza",
+        "colorIdentity":  "BRG"
+    },
+    {
+        "name":  "Dina",
+        "owner":  "Jorge Espinoza",
+        "colorIdentity":  "BG"
+    },
+    {
+        "name":  "Gorma",
+        "owner":  "Jorge Espinoza",
+        "colorIdentity":  "BG"
+    },
+    {
+        "name":  "Quintorious",
+        "owner":  "Jorge Espinoza",
+        "colorIdentity":  "WR"
+    },
+    {
+        "name":  "Aziza",
+        "owner":  "Jorge Espinoza",
+        "colorIdentity":  "WR"
+    },
+    {
+        "name":  "Miirym",
+        "owner":  "Jorge Kourie",
+        "colorIdentity":  "URG"
+    },
+    {
+        "name":  "Ur Dragon",
+        "owner":  "Jorge Kourie",
+        "colorIdentity":  "WUBRG"
+    },
+    {
+        "name":  "Sauron",
+        "owner":  "Jorge Kourie",
+        "colorIdentity":  "UBR"
+    },
+    {
+        "name":  "Krenko",
+        "owner":  "Jorge Kourie",
+        "colorIdentity":  "R"
+    },
+    {
+        "name":  "Yuna",
+        "owner":  "Jorge Kourie",
+        "colorIdentity":  "WUG"
+    },
+    {
+        "name":  "Wulfgar",
+        "owner":  "Jorge Kourie",
+        "colorIdentity":  "RG"
+    },
+    {
+        "name":  "Kaalia",
+        "owner":  "Jorge Kourie",
+        "colorIdentity":  "WBR"
+    },
+    {
+        "name":  "Alania",
+        "owner":  "Jorge Kourie",
+        "colorIdentity":  "UR"
+    },
+    {
+        "name":  "Tiamat",
+        "owner":  "Jorge Kourie",
+        "colorIdentity":  "WUBRG"
+    },
+    {
+        "name":  "Nahiri",
+        "owner":  "Jorge Kourie",
+        "colorIdentity":  "WR"
+    },
+    {
+        "name":  "Eladamri",
+        "owner":  "Jorge Kourie",
+        "colorIdentity":  "G"
+    },
+    {
+        "name":  "Faldorn",
+        "owner":  "Jorge Kourie",
+        "colorIdentity":  "RG"
+    },
+    {
+        "name":  "Ulalek (J)",
+        "owner":  "Jorge Kourie",
+        "colorIdentity":  "WUBRG"
+    },
+    {
+        "name":  "Valgavoth (J)",
+        "owner":  "Jorge Kourie",
+        "colorIdentity":  "BR"
+    },
+    {
+        "name":  "Silk",
+        "owner":  "Jorge Kourie",
+        "colorIdentity":  "BG"
+    },
+    {
+        "name":  "Emmara (J)",
+        "owner":  "Jose",
+        "colorIdentity":  "WG"
+    },
+    {
+        "name":  "Teval (J)",
+        "owner":  "Jose",
+        "colorIdentity":  "UBG"
+    },
+    {
+        "name":  "Bello (J)",
+        "owner":  "Jose",
+        "colorIdentity":  "RG"
+    },
+    {
+        "name":  "Admiral Brass (J)",
+        "owner":  "Jose",
+        "colorIdentity":  "UBR"
+    },
+    {
+        "name":  "Don Andrés",
+        "owner":  "Jose",
+        "colorIdentity":  "UBR"
+    },
+    {
+        "name":  "The Second Doctor",
+        "owner":  "Jose",
+        "colorIdentity":  "U"
+    },
+    {
+        "name":  "Kangee Sky Warden",
+        "owner":  "Konstantinos",
+        "colorIdentity":  "WU"
+    },
+    {
+        "name":  "Frodo and Sam (L)",
+        "owner":  "Lasa",
+        "colorIdentity":  "WBG"
+    },
+    {
+        "name":  "Zurgo (L)",
+        "owner":  "Lasa",
+        "colorIdentity":  "WBR"
+    },
+    {
+        "name":  "Ms. Bumbleflower (L)",
+        "owner":  "Lasa",
+        "colorIdentity":  "WUG"
+    },
+    {
+        "name":  "Rin and Seri (L)",
+        "owner":  "Lasa",
+        "colorIdentity":  "WRG"
+    },
+    {
+        "name":  "Zangief",
+        "owner":  "Lasa",
+        "colorIdentity":  "BRG"
+    },
+    {
+        "name":  "Gary",
+        "owner":  "Lasa",
+        "colorIdentity":  "B"
+    },
+    {
+        "name":  "Hearthhull (L)",
+        "owner":  "Lasa",
+        "colorIdentity":  "BRG"
+    },
+    {
+        "name":  "Tifa Lockhart",
+        "owner":  "Lasa",
+        "colorIdentity":  "G"
+    },
+    {
+        "name":  "Plankton",
+        "owner":  "Lasa",
+        "colorIdentity":  "B"
+    },
+    {
+        "name":  "Aragorn, El Negro (L)",
+        "owner":  "Lasa",
+        "colorIdentity":  "WB"
+    },
+    {
+        "name":  "Obeka",
+        "owner":  "Lasa",
+        "colorIdentity":  "UBR"
+    },
+    {
+        "name":  "Betor, Ancestor\u0027s Voice",
+        "owner":  "Lasa",
+        "colorIdentity":  "WBG"
+    },
+    {
+        "name":  "Smeagol",
+        "owner":  "Lasa",
+        "colorIdentity":  "BG"
+    },
+    {
+        "name":  "Tom Bombadil",
+        "owner":  "Lasa",
+        "colorIdentity":  "WUBRG"
+    },
+    {
+        "name":  "Flubs",
+        "owner":  "Lasa",
+        "colorIdentity":  "BG"
+    },
+    {
+        "name":  "Eowyn",
+        "owner":  "Mak",
+        "colorIdentity":  "W"
+    },
+    {
+        "name":  "Urza",
+        "owner":  "Mak",
+        "colorIdentity":  "WUB"
+    },
+    {
+        "name":  "Breya (M)",
+        "owner":  "Mak",
+        "colorIdentity":  "WUBR"
+    },
+    {
+        "name":  "Beledros Witherbloom",
+        "owner":  "Mak",
+        "colorIdentity":  "BG"
+    },
+    {
+        "name":  "Zhudolock",
+        "owner":  "Mak",
+        "colorIdentity":  ""
+    },
+    {
+        "name":  "Kozilek",
+        "owner":  "Mak",
+        "colorIdentity":  ""
+    },
+    {
+        "name":  "Asusa",
+        "owner":  "Mak",
+        "colorIdentity":  "G"
+    },
+    {
+        "name":  "Minn",
+        "owner":  "Mak",
+        "colorIdentity":  "U"
+    },
+    {
+        "name":  "Sythis",
+        "owner":  "Mak",
+        "colorIdentity":  "WG"
+    },
+    {
+        "name":  "Ulamog",
+        "owner":  "Mak",
+        "colorIdentity":  ""
+    },
+    {
+        "name":  "Kenrith",
+        "owner":  "Mak",
+        "colorIdentity":  "WUBRG"
+    },
+    {
+        "name":  "Selvala",
+        "owner":  "Mak",
+        "colorIdentity":  "G"
+    },
+    {
+        "name":  "Adeline",
+        "owner":  "Mak",
+        "colorIdentity":  "W"
+    },
+    {
+        "name":  "Valgavoth (M)",
+        "owner":  "Migue",
+        "colorIdentity":  "BR"
+    },
+    {
+        "name":  "Admiral Brass (M)",
+        "owner":  "Migue",
+        "colorIdentity":  "UBR"
+    },
+    {
+        "name":  "Teval (M)",
+        "owner":  "Migue",
+        "colorIdentity":  "UBG"
+    },
+    {
+        "name":  "Toph, First Metalbender",
+        "owner":  "Migue",
+        "colorIdentity":  "WRG"
+    },
+    {
+        "name":  "Reaper, King No More (M)",
+        "owner":  "Migue",
+        "colorIdentity":  "BRG"
+    },
+    {
+        "name":  "Auntie Ool (M)",
+        "owner":  "Migue",
+        "colorIdentity":  "BRG"
+    },
+    {
+        "name":  "The Lord of Pain",
+        "owner":  "Migue",
+        "colorIdentity":  "BR"
+    },
+    {
+        "name":  "Zinnia (M)",
+        "owner":  "Mike",
+        "colorIdentity":  "WUR"
+    },
+    {
+        "name":  "Galadriel",
+        "owner":  "Mike",
+        "colorIdentity":  "UG"
+    },
+    {
+        "name":  "Frodo and Sam (M)",
+        "owner":  "Mike",
+        "colorIdentity":  "WBG"
+    },
+    {
+        "name":  "Ureni (M)",
+        "owner":  "Mike",
+        "colorIdentity":  "URG"
+    },
+    {
+        "name":  "Eshki (M)",
+        "owner":  "Mike",
+        "colorIdentity":  "URG"
+    },
+    {
+        "name":  "Sigarda",
+        "owner":  "Mike",
+        "colorIdentity":  "WG"
+    },
+    {
+        "name":  "Hakbal",
+        "owner":  "Nicolas",
+        "colorIdentity":  "UG"
+    },
+    {
+        "name":  "Stella Lee",
+        "owner":  "Nicolas",
+        "colorIdentity":  "UR"
+    },
+    {
+        "name":  "Hazel (N)",
+        "owner":  "Nicolas",
+        "colorIdentity":  "BG"
+    },
+    {
+        "name":  "Talrand",
+        "owner":  "Nicolas",
+        "colorIdentity":  "U"
+    },
+    {
+        "name":  "Goro-Goro",
+        "owner":  "Nicolas",
+        "colorIdentity":  "UBR"
+    },
+    {
+        "name":  "Hashaton",
+        "owner":  "Nicolas",
+        "colorIdentity":  "WUB"
+    },
+    {
+        "name":  "Teval (N)",
+        "owner":  "Nicolas",
+        "colorIdentity":  "UBG"
+    },
+    {
+        "name":  "Eriette",
+        "owner":  "Nicolas",
+        "colorIdentity":  "WB"
+    },
+    {
+        "name":  "Kuja",
+        "owner":  "Nicolas",
+        "colorIdentity":  "BR"
+    },
+    {
+        "name":  "Cirdan",
+        "owner":  "Nicolas",
+        "colorIdentity":  "UG"
+    },
+    {
+        "name":  "Ragost",
+        "owner":  "Nicolas",
+        "colorIdentity":  "WR"
+    },
+    {
+        "name":  "Sokka, Tenacious Tactician (N)",
+        "owner":  "Nicolas",
+        "colorIdentity":  "WUR"
+    },
+    {
+        "name":  "Blech",
+        "owner":  "Nicolas",
+        "colorIdentity":  "BG"
+    },
+    {
+        "name":  "Jodah, The Unifier",
+        "owner":  "Nicolas",
+        "colorIdentity":  "WUBRG"
+    },
+    {
+        "name":  "Kefka",
+        "owner":  "Nicolas",
+        "colorIdentity":  "UBR"
+    },
+    {
+        "name":  "Valgavoth (O)",
+        "owner":  "Octaviano",
+        "colorIdentity":  "BR"
+    },
+    {
+        "name":  "Felothar (O)",
+        "owner":  "Octaviano",
+        "colorIdentity":  "WBG"
+    },
+    {
+        "name":  "Bello (O)",
+        "owner":  "Octaviano",
+        "colorIdentity":  "RG"
+    },
+    {
+        "name":  "Admiral Brass (O)",
+        "owner":  "Octaviano",
+        "colorIdentity":  "UBR"
+    },
+    {
+        "name":  "Malcom \u0026 Breeches",
+        "owner":  "Octaviano",
+        "colorIdentity":  "UR"
+    },
+    {
+        "name":  "Karduur Doomscourge",
+        "owner":  "Sabino",
+        "colorIdentity":  "BR"
+    },
+    {
+        "name":  "Rakdos",
+        "owner":  "Sabino",
+        "colorIdentity":  "BR"
+    },
+    {
+        "name":  "Alela, Cunning Conqueror (S)",
+        "owner":  "Sabino",
+        "colorIdentity":  "UB"
+    },
+    {
+        "name":  "Kilo",
+        "owner":  "Sabino",
+        "colorIdentity":  "WUR"
+    },
+    {
+        "name":  "Pantlaza",
+        "owner":  "Sabino",
+        "colorIdentity":  "WRG"
+    },
+    {
+        "name":  "Zurgo (S)",
+        "owner":  "Sabino",
+        "colorIdentity":  "WBR"
+    },
+    {
+        "name":  "Norman Osborn",
+        "owner":  "Sabino",
+        "colorIdentity":  "UBR"
+    },
+    {
+        "name":  "Gev",
+        "owner":  "Sabino",
+        "colorIdentity":  "BR"
+    },
+    {
+        "name":  "Inspirit",
+        "owner":  "Sabino",
+        "colorIdentity":  "WUR"
+    },
+    {
+        "name":  "Makima",
+        "owner":  "Sabino",
+        "colorIdentity":  "WB"
+    },
+    {
+        "name":  "Ghyrson",
+        "owner":  "Sabino",
+        "colorIdentity":  "UR"
+    },
+    {
+        "name":  "Omnath, Locus of Rage",
+        "owner":  "Sabino",
+        "colorIdentity":  "RG"
+    },
+    {
+        "name":  "Lumra",
+        "owner":  "Sabino",
+        "colorIdentity":  "G"
+    },
+    {
+        "name":  "Elenda",
+        "owner":  "Sabino",
+        "colorIdentity":  "WB"
+    },
+    {
+        "name":  "Maralen",
+        "owner":  "Sabino",
+        "colorIdentity":  "UBG"
+    },
+    {
+        "name":  "Eshki (S)",
+        "owner":  "Sabino",
+        "colorIdentity":  "URG"
+    },
+    {
+        "name":  "Zaxara",
+        "owner":  "Sabino",
+        "colorIdentity":  "UBG"
+    },
+    {
+        "name":  "Ureni (S)",
+        "owner":  "Sabino",
+        "colorIdentity":  "URG"
+    },
+    {
+        "name":  "Auntie Ool (S)",
+        "owner":  "Sabino",
+        "colorIdentity":  "BRG"
+    },
+    {
+        "name":  "Kona",
+        "owner":  "Sabino",
+        "colorIdentity":  "G"
+    },
+    {
+        "name":  "Shalai and Hallar",
+        "owner":  "Sabino",
+        "colorIdentity":  "WRG"
+    },
+    {
+        "name":  "Zinnia (W)",
+        "owner":  "Wainer",
+        "colorIdentity":  "WUR"
+    },
+    {
+        "name":  "Aminatou",
+        "owner":  "Wainer",
+        "colorIdentity":  "WUB"
+    },
+    {
+        "name":  "Terra (W)",
+        "owner":  "Wainer",
+        "colorIdentity":  "WBR"
+    },
+    {
+        "name":  "Hearthhull (W)",
+        "owner":  "Wainer",
+        "colorIdentity":  "BRG"
+    }
+]
