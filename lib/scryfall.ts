@@ -3,6 +3,7 @@ import { stripOwnerSuffix } from "./stats";
 const cache = new Map<string, string | null>();
 
 const OVERRIDES: Record<string, string> = {
+  // suffixed owner variants
   "Teval (N)": "Teval, the Balanced Scale",
   "Teval (J)": "Teval, the Balanced Scale",
   "Teval (M)": "Teval, the Balanced Scale",
@@ -68,16 +69,50 @@ const OVERRIDES: Record<string, string> = {
   "Malcom & Breeches": "Malcolm, Keen-Eyed Navigator",
   "The Second Doctor": "The Second Doctor",
   "Reaper, King No More (M)": "Reaper, King No More",
-  "Toph, First Metalbender": "Toph, Earthbending Master",
+  // bare names that need disambiguation or typo fixes
+  "Gary": "Gray Merchant of Asphodel",
+  "Asusa": "Azusa, Lost but Seeking",
+  "Ur Dragon": "The Ur-Dragon",
+  "Cloud": "Cloud, ex-SOLDIER",
+  "Falco": "Falco Spara, Pactweaver",
+  "Saheeli": "Saheeli, the Gifted",
+  "Kumena": "Kumena, Tyrant of Orazca",
+  "Azami": "Azami, Lady of Scrolls",
+  "Rionya": "Rionya, Fire Dancer",
+  "Wick": "Wick, the Whorled Mind",
+  "Smeagol": "Sméagol, Helpful Guide",
+  "Eowyn": "Éowyn, Fearless Knight",
+  "Cirdan": "Círdan the Shipwright",
+  // Final Fantasy Universes Beyond cards
+  "Kefka": "Kefka, the Laughing Mage",
+  "Terra": "Terra, Esper Mage",
+  "Tidus": "Tidus, Flamboyant Dreamer",
+  "Yuna": "Yuna, Resolute Summoner",
+  "Celes": "Celes, the Liberator",
 };
 
 const CUSTOM_CARDS = new Set([
-  "Iroh Grand Lotus", "Avatar Aang", "Fire Lord Azula (i)", "Fire Lord Azula (H)",
-  "Cristiano Ronaldo, The Goat", "Norman Osborn", "Makima", "Capitan America",
-  "Kotis", "Kumena", "Falco", "Rionya", "Saheeli", "Azami",
-  "Don Andrés", "Blech", "Ragost", "Kuja", "Kefka", "Wick",
-  "Witherbloom, The Balancer", "Beledros Witherbloom",
+  // truly custom / proxy cards with no Scryfall equivalent
+  "Iroh Grand Lotus", "Avatar Aang",
+  "Fire Lord Azula (i)", "Fire Lord Azula (H)", "Fire Lord Azula",
+  "Cristiano Ronaldo, The Goat",
+  "Norman Osborn",
+  "Makima",
+  "Capitan America", "Captain America, Team Leader",
+  "Kotis",
+  "Don Andrés",
+  "Blech",
+  "Ragost",
+  "Kuja",
+  "Witherbloom, The Balancer",
   "Jorge Kourie", "Arturo", "Samuel",
+  // ambiguous / nickname-only customs
+  "Gorma", "Aziza", "Aragorn, El Negro",
+  "Infinite Guideline Station",
+  "Inspirit", "Karduur Doomscourge",
+  "Kilo", "The Council", "The Lord of Pain",
+  "Plankton", "Zangief",
+  "Neriv", "Cels",
 ]);
 
 export async function fetchCardArt(deckName: string): Promise<string | null> {

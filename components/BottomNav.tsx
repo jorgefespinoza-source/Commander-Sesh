@@ -3,10 +3,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const TABS = [
-  { href: "/",        label: "Pod",    icon: "🏆" },
-  { href: "/decks",   label: "Decks",  icon: "🃏" },
-  { href: "/log",     label: "Log",    icon: "⚔" },
-  { href: "/players", label: "Players",icon: "👤" },
+  { href: "/",        label: "Pod",     icon: "🏆" },
+  { href: "/stats",   label: "Stats",   icon: "📊" },
+  { href: "/log",     label: "Log",     icon: "⚔" },
+  { href: "/decks",   label: "Decks",   icon: "🃏" },
+  { href: "/players", label: "Players", icon: "👤" },
 ];
 
 export default function BottomNav() {
@@ -20,15 +21,15 @@ export default function BottomNav() {
           const active = tab.href === "/" ? path === "/" : path.startsWith(tab.href);
           return (
             <Link key={tab.href} href={tab.href}
-              className="flex-1 flex flex-col items-center gap-0.5 py-3 transition-colors"
+              className="flex-1 flex flex-col items-center gap-0.5 py-2.5 relative transition-colors"
               style={{ color: active ? "#c8a951" : "#7a7898" }}>
-              <span className="text-xl leading-none">{tab.icon}</span>
-              <span className="text-[10px] font-semibold tracking-wide uppercase font-cinzel"
+              <span className="text-lg leading-none">{tab.icon}</span>
+              <span className="text-[9px] font-semibold tracking-wide uppercase font-cinzel"
                 style={{ color: active ? "#c8a951" : "#7a7898" }}>
                 {tab.label}
               </span>
               {active && (
-                <span className="absolute bottom-0 w-8 h-0.5 rounded-full"
+                <span className="absolute bottom-0 w-6 h-0.5 rounded-full"
                   style={{ background: "#c8a951", boxShadow: "0 0 8px #c8a951" }} />
               )}
             </Link>

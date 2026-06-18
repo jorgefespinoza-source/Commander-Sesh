@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState, useMemo } from "react";
 import { useParams } from "next/navigation";
-import { getGames, getDecks } from "@/lib/data";
-import { getPlayerStats, getDeckStats, fmt, ciToLabel } from "@/lib/stats";
-import type { GameEntry, DeckInfo } from "@/lib/types";
+import { getGames, getDecks, getElo, getStreaks, getMonthlyWr } from "@/lib/data";
+import { getPlayerStats, getDeckStats, fmt, fmtScore, ciToLabel } from "@/lib/stats";
+import type { GameEntry, DeckInfo, EloEntry, StreakEntry, MonthlyEntry } from "@/lib/types";
 import ManaSymbols from "@/components/ManaSymbols";
 import ScryfallArt from "@/components/ScryfallArt";
 import Link from "next/link";
@@ -17,30 +17,38 @@ export default function PlayerProfilePage() {
   const { name } = useParams<{ name: string }>();
   const playerName = decodeURIComponent(name);
 
-  const [games, setGames] = useState<GameEntry[]>([]);
-  const [decks, setDecks] = useState<DeckInfo[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [games, setGames]       = useState<GameEntry[]>([]);
+  const [decks, setDecks]       = useState<DeckInfo[]>([]);
+  const [eloList, setEloList]   = useState<EloEntry[]>([]);
+  const [streakList, setStreaks] = useState<StreakEntry[]>([]);
+  const [monthlyWr, setMonthly] = useState<MonthlyEntry[]>([]);
+  const [loading, setLoading]   = useState(true);
 
   useEffect(() => {
-    Promise.all([getGames(), getDecks()]).then(([g, d]) => {
-      setGames(g); setDecks(d); setLoading(false);
-    });
+    Promise.all([getGames(), getDecks(), getElo(), getStreaks(), getMonthlyWr()]).then(
+      ([g, d, e, s, m]) => { setGames(g); setDecks(d); setEloList(e); setStreaks(s); setMonthly(m); setLoading(false); }
+    );
   }, []);
 
-  const p = useMemo(() => {
-    if (!games.length) return null;
-    return getPlayerStats(playerName, games);
-  }, [games, playerName]);
+  const p = useMemo(() => games.length ? getPlayerStats(playerName, games) : null, [games, playerName]);
 
   const topDeckStats = useMemo(() => {
     if (!p || !games.length) return null;
-    const info = decks.find(d => d.name === p.favDeck);
-    return getDeckStats(p.favDeck, games, info);
+    return getDeckStats(p.favDeck, games, decks.find(d => d.name === p.favDeck));
   }, [p, games, decks]);
+
+  const eloData    = useMemo(() => eloList.find(e => e.player === playerName), [eloList, playerName]);
+  const streakData = useMemo(() => streakList.find(s => s.player === playerName), [streakList, playerName]);
+  const monthlyData = useMemo(() =>
+    monthlyWr
+      .filter(m => m.player === playerName)
+      .sort((a, b) => a.year_month!.localeCompare(b.year_month!))
+  , [monthlyWr, playerName]);
 
   if (loading || !p) return <LoadingSkeleton />;
 
   const totalPlacementCount = Object.values(p.placementBreakdown).reduce((a, b) => a + b, 0);
+  const league = eloData?.player_league ?? "";
 
   return (
     <div className="max-w-lg mx-auto">
@@ -49,27 +57,69 @@ export default function PlayerProfilePage() {
         <ScryfallArt deckName={p.favDeck} className="absolute inset-0 w-full h-full" />
         <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/50 to-transparent" />
         <div className="absolute bottom-4 left-4 right-4">
-          <h1 className="font-cinzel text-3xl font-bold text-parchment mb-1">{p.name}</h1>
-          <div className="flex items-center gap-2">
-            <ManaSymbols identity={p.favColorIdentity} size="md" />
-            <span className="text-gold text-sm">{ciToLabel(p.favColorIdentity)}</span>
+          <div className="flex items-end justify-between">
+            <div>
+              <h1 className="font-cinzel text-3xl font-bold text-parchment mb-1">{p.name}</h1>
+              <div className="flex items-center gap-2">
+                <ManaSymbols identity={p.top3Colors} size="md" />
+                <span className="text-gold text-sm">{p.top3Colors || ciToLabel(p.favColorIdentity)}</span>
+                {league && (
+                  <span className="text-xs px-2 py-0.5 rounded-full font-cinzel"
+                    style={{ background: league === "RD" ? "#C0392B22" : "#2980B922",
+                             color: league === "RD" ? "#e74c3c" : "#3498db",
+                             border: `1px solid ${league === "RD" ? "#C0392B66" : "#2980B966"}` }}>
+                    {league}
+                  </span>
+                )}
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <div className="px-4 pb-6 space-y-4 mt-2">
-        {/* Core stats */}
+        {/* Core stats row 1 */}
         <div className="grid grid-cols-3 gap-2">
-          <StatBox label="Win Rate" value={fmt(p.winRate)} gold />
+          <StatBox label="Score/G" value={fmtScore(p.cmdScore)} gold />
+          <StatBox label="Win Rate" value={fmt(p.winRate)} />
           <StatBox label="Games" value={String(p.games)} />
-          <StatBox label="Avg Place" value={`#${p.avgPlacement.toFixed(1)}`} />
         </div>
 
-        {/* Wins detail */}
-        <div className="grid grid-cols-2 gap-2">
+        {/* ELO + Streak row */}
+        <div className="grid grid-cols-3 gap-2">
+          {eloData ? (
+            <StatBox
+              label={`Elo (#${eloData.elo_rank})`}
+              value={Math.round(eloData.elo).toString()}
+              accent="#8E44AD"
+            />
+          ) : <div />}
           <StatBox label="Total Wins" value={String(p.wins)} />
-          <StatBox label="Best Deck Wins" value={`${p.mostWinsCount} as ${p.mostWinsAsDeck.replace(/ \(\w\)$/, "")}`} />
+          {streakData ? (
+            <StatBox
+              label="Best streak"
+              value={`${streakData.max_victorias}W / ${streakData.max_derrotas}L`}
+            />
+          ) : <StatBox label="Decks Used" value={String(p.decksPlayed.length)} />}
         </div>
+
+        {/* Monthly trend */}
+        {monthlyData.length >= 2 && (
+          <Section title="Monthly Win Rate">
+            <div className="space-y-1.5">
+              {monthlyData.slice(-8).map(m => (
+                <div key={m.year_month} className="flex items-center gap-2">
+                  <span className="text-[10px] text-muted w-16 flex-shrink-0">{m.year_month}</span>
+                  <div className="flex-1 wr-bar">
+                    <div className="wr-bar-fill" style={{ width: `${Math.min(m.win_rate * 100, 100)}%` }} />
+                  </div>
+                  <span className="text-xs text-gold font-bold w-12 text-right">{fmt(m.win_rate)}</span>
+                  <span className="text-[10px] text-muted w-8 text-right">{m.juegos}G</span>
+                </div>
+              ))}
+            </div>
+          </Section>
+        )}
 
         {/* Placement breakdown */}
         <Section title="Placement Breakdown">
@@ -115,10 +165,12 @@ export default function PlayerProfilePage() {
   );
 }
 
-function StatBox({ label, value, gold }: { label: string; value: string; gold?: boolean }) {
+function StatBox({ label, value, gold, accent }: { label: string; value: string; gold?: boolean; accent?: string }) {
+  const color = accent ?? (gold ? "#c8a951" : undefined);
   return (
     <div className="card-arcane p-3 text-center">
-      <div className={`text-lg font-bold font-cinzel leading-tight ${gold ? "text-gold" : "text-parchment"}`}>{value}</div>
+      <div className="text-lg font-bold font-cinzel leading-tight"
+        style={{ color: color ?? "var(--parchment)" }}>{value}</div>
       <div className="text-[10px] text-muted uppercase tracking-wide mt-0.5">{label}</div>
     </div>
   );

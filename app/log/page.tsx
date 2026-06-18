@@ -2,12 +2,9 @@
 import { useEffect, useState, useMemo } from "react";
 import { getGames, getDecks } from "@/lib/data";
 import type { GameEntry, DeckInfo } from "@/lib/types";
+import DeckSearch from "@/components/DeckSearch";
 
-const PLAYERS = [
-  "Blanca","Carlos","Caballol","Diame","Eddy","Gonzalo","Halvin","Ianfi",
-  "Jorge Espinoza","Jorge Kourie","Jose","Konstantinos","Lasa","Mak",
-  "Migue","Mike","Nicolas","Octaviano","Sabino","Wainer"
-];
+const STORAGE_KEY_PLAYERS = "cdr_custom_players";
 
 interface PlayerEntry {
   player: string;
@@ -18,19 +15,61 @@ interface PlayerEntry {
 const DEFAULT_ENTRY = (): PlayerEntry => ({ player: "", deck: "", placement: 0 });
 
 export default function LogPage() {
-  const [decks, setDecks] = useState<DeckInfo[]>([]);
-  const [entries, setEntries] = useState<PlayerEntry[]>([DEFAULT_ENTRY(), DEFAULT_ENTRY(), DEFAULT_ENTRY()]);
-  const [submitted, setSubmitted] = useState(false);
-  const [copied, setCopied] = useState(false);
+  const [games, setGames]           = useState<GameEntry[]>([]);
+  const [allDecks, setAllDecks]     = useState<{ name: string; games: number }[]>([]);
+  const [knownPlayers, setKnownPlayers] = useState<string[]>([]);
+  const [customPlayers, setCustomPlayers] = useState<string[]>([]);
+  const [entries, setEntries]       = useState<PlayerEntry[]>([DEFAULT_ENTRY(), DEFAULT_ENTRY(), DEFAULT_ENTRY()]);
+  const [submitted, setSubmitted]   = useState(false);
+  const [copied, setCopied]         = useState(false);
+  const [addingPlayer, setAddingPlayer] = useState(false);
+  const [newPlayerName, setNewPlayerName] = useState("");
 
   useEffect(() => {
-    getDecks().then(setDecks);
+    // load custom players from localStorage
+    try {
+      const stored = JSON.parse(localStorage.getItem(STORAGE_KEY_PLAYERS) ?? "[]");
+      if (Array.isArray(stored)) setCustomPlayers(stored);
+    } catch { /* ignore */ }
+
+    Promise.all([getGames(), getDecks()]).then(([g, d]: [GameEntry[], DeckInfo[]]) => {
+      setGames(g);
+
+      // derive known players sorted by game count
+      const counts: Record<string, number> = {};
+      for (const game of g) counts[game.player] = (counts[game.player] ?? 0) + 1;
+      const sorted = Object.entries(counts)
+        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+        .map(([p]) => p);
+      setKnownPlayers(sorted);
+
+      // build deck list with popularity
+      const deckCounts: Record<string, number> = {};
+      for (const game of g) deckCounts[game.deck] = (deckCounts[game.deck] ?? 0) + 1;
+      // add any decks from decks.json not in game log
+      for (const deck of d) {
+        if (!deckCounts[deck.name]) deckCounts[deck.name] = 0;
+      }
+      const deckList = Object.entries(deckCounts)
+        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+        .map(([name, cnt]) => ({ name, games: cnt }));
+      setAllDecks(deckList);
+    });
   }, []);
 
-  const deckNames = useMemo(() => {
-    const sorted = [...decks].sort((a, b) => a.name.localeCompare(b.name));
-    return sorted.map(d => d.name);
-  }, [decks]);
+  const allPlayers = useMemo(() => {
+    const known = new Set(knownPlayers);
+    const extras = customPlayers.filter(p => !known.has(p));
+    return [...knownPlayers, ...extras];
+  }, [knownPlayers, customPlayers]);
+
+  function saveCustomPlayer(name: string) {
+    const trimmed = name.trim();
+    if (!trimmed) return;
+    const updated = [...customPlayers.filter(p => p !== trimmed), trimmed];
+    setCustomPlayers(updated);
+    localStorage.setItem(STORAGE_KEY_PLAYERS, JSON.stringify(updated));
+  }
 
   function updateEntry(i: number, field: keyof PlayerEntry, value: string | number) {
     setEntries(prev => prev.map((e, idx) => idx === i ? { ...e, [field]: value } : e));
@@ -44,11 +83,20 @@ export default function LogPage() {
     if (entries.length > 2) setEntries(prev => prev.filter((_, idx) => idx !== i));
   }
 
+  // per-player previous decks (derived from game log for the selected player)
+  function prevDecksFor(playerName: string): string[] {
+    if (!playerName) return [];
+    const counts: Record<string, number> = {};
+    for (const g of games) {
+      if (g.player === playerName) counts[g.deck] = (counts[g.deck] ?? 0) + 1;
+    }
+    return Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([d]) => d);
+  }
+
   const isValid = entries.every(e => e.player && e.deck && e.placement > 0) &&
     new Set(entries.map(e => e.placement)).size === entries.length;
 
-  const sorted = useMemo(() =>
-    [...entries].sort((a, b) => a.placement - b.placement), [entries]);
+  const sorted = useMemo(() => [...entries].sort((a, b) => a.placement - b.placement), [entries]);
 
   const whatsAppText = useMemo(() => {
     if (!isValid) return "";
@@ -62,11 +110,6 @@ export default function LogPage() {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     });
-  }
-
-  function handleSubmit() {
-    // In the future this will POST to an API. For now just show the WhatsApp text.
-    setSubmitted(true);
   }
 
   if (submitted) {
@@ -101,37 +144,91 @@ export default function LogPage() {
             <div className="flex items-center justify-between mb-2">
               <span className="font-cinzel text-xs text-gold uppercase tracking-widest">Player {i + 1}</span>
               {entries.length > 2 && (
-                <button onClick={() => removePlayer(i)} className="text-muted hover:text-red-400 text-xs transition-colors">
-                  Remove
-                </button>
+                <button onClick={() => removePlayer(i)} className="text-muted hover:text-red-400 text-xs">Remove</button>
               )}
             </div>
-            <div className="grid grid-cols-2 gap-2 mb-2">
+
+            {/* Player + Placement */}
+            <div className="grid grid-cols-2 gap-2 mb-3">
               <select
                 value={entry.player}
-                onChange={e => updateEntry(i, "player", e.target.value)}
+                onChange={e => {
+                  if (e.target.value === "__new__") {
+                    setAddingPlayer(true);
+                  } else {
+                    updateEntry(i, "player", e.target.value);
+                  }
+                }}
                 className="bg-surface2 border border-border rounded-lg px-3 py-2 text-sm text-parchment outline-none focus:border-gold/50">
                 <option value="">Player…</option>
-                {PLAYERS.map(p => <option key={p} value={p}>{p}</option>)}
+                {allPlayers.map(p => <option key={p} value={p}>{p}</option>)}
+                <option value="__new__">+ New player…</option>
               </select>
               <select
                 value={entry.placement}
                 onChange={e => updateEntry(i, "placement", Number(e.target.value))}
                 className="bg-surface2 border border-border rounded-lg px-3 py-2 text-sm text-parchment outline-none focus:border-gold/50">
                 <option value={0}>Place…</option>
-                {entries.map((_, j) => <option key={j + 1} value={j + 1}>{j + 1}{["st","nd","rd"][j] || "th"}</option>)}
+                {entries.map((_, j) => {
+                  const ord = ["st","nd","rd"][j] ?? "th";
+                  return <option key={j+1} value={j+1}>{j+1}{ord}</option>;
+                })}
               </select>
             </div>
-            <select
+
+            {/* Deck search */}
+            <DeckSearch
               value={entry.deck}
-              onChange={e => updateEntry(i, "deck", e.target.value)}
-              className="w-full bg-surface2 border border-border rounded-lg px-3 py-2 text-sm text-parchment outline-none focus:border-gold/50">
-              <option value="">Deck…</option>
-              {deckNames.map(d => <option key={d} value={d}>{d}</option>)}
-            </select>
+              onChange={v => updateEntry(i, "deck", v)}
+              allDecks={allDecks}
+              prevDecks={prevDecksFor(entry.player)}
+            />
           </div>
         ))}
       </div>
+
+      {/* Add new player modal */}
+      {addingPlayer && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-6">
+          <div className="card-arcane p-5 w-full max-w-sm">
+            <h3 className="font-cinzel text-gold text-base mb-3">New Player</h3>
+            <input
+              type="text"
+              value={newPlayerName}
+              onChange={e => setNewPlayerName(e.target.value)}
+              onKeyDown={e => {
+                if (e.key === "Enter" && newPlayerName.trim()) {
+                  saveCustomPlayer(newPlayerName);
+                  setAddingPlayer(false);
+                  setNewPlayerName("");
+                }
+              }}
+              placeholder="Player name…"
+              autoFocus
+              className="w-full bg-surface2 border border-border rounded-lg px-3 py-2 text-sm text-parchment outline-none focus:border-gold/50 mb-3"
+            />
+            <div className="grid grid-cols-2 gap-2">
+              <button
+                onClick={() => { setAddingPlayer(false); setNewPlayerName(""); }}
+                className="py-2 rounded-lg text-sm text-muted border border-border">
+                Cancel
+              </button>
+              <button
+                onClick={() => {
+                  if (newPlayerName.trim()) {
+                    saveCustomPlayer(newPlayerName);
+                    setAddingPlayer(false);
+                    setNewPlayerName("");
+                  }
+                }}
+                className="py-2 rounded-lg text-sm font-bold font-cinzel"
+                style={{ background: "linear-gradient(135deg,#c8a951,#8a6f35)", color: "#08080f" }}>
+                Add Player
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {entries.length < 6 && (
         <button onClick={addPlayer}
@@ -141,17 +238,15 @@ export default function LogPage() {
       )}
 
       {!isValid && entries.some(e => e.player && e.deck && e.placement > 0) && (
-        <p className="text-xs text-red-400/70 mt-2 text-center">
-          Make sure all players have unique placements.
-        </p>
+        <p className="text-xs text-red-400/70 mt-2 text-center">All players need unique placements.</p>
       )}
 
       <button
-        onClick={handleSubmit}
+        onClick={() => setSubmitted(true)}
         disabled={!isValid}
         className="w-full mt-5 py-4 rounded-lg font-cinzel font-bold text-base transition-all"
         style={{
-          background: isValid ? "linear-gradient(135deg, #c8a951, #8a6f35)" : "#1e1e38",
+          background: isValid ? "linear-gradient(135deg,#c8a951,#8a6f35)" : "#1e1e38",
           color: isValid ? "#08080f" : "#4a4a6a",
           cursor: isValid ? "pointer" : "not-allowed",
         }}>
