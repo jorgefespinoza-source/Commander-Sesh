@@ -3,3 +3,10 @@ node_modules/
 .vercel/
 *.env
 *.env.local
+
+# Private WhatsApp chat exports — never commit (contains members' messages)
+WhatsApp Chat*/
+WhatsApp Chat*.zip
+WhatsApp Chat*.txt
+*_chat.txt
+parsed_new_games*.csv

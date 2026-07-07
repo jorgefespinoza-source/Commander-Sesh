@@ -1,0 +1,46 @@
+name: Build data from Google Sheet
+
+# Regenerates public/data/*.json from the live Google Sheet and commits any
+# changes, which triggers Vercel to redeploy. No credentials needed — the sheet
+# is public ("anyone with the link").
+#
+#   • Manual:    Actions tab -> "Build data from Google Sheet" -> Run workflow
+#   • Scheduled: runs automatically once a week (see cron below)
+
+on:
+  workflow_dispatch: {}        # manual "Run workflow" button
+  schedule:
+    - cron: "0 12 * * 1"       # every Monday at 12:00 UTC
+
+permissions:
+  contents: write              # allow the action to commit regenerated data
+
+concurrency:
+  group: build-data
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Regenerate data from the sheet
+        run: node scripts/build-data.mjs
+
+      - name: Commit & push if data changed
+        run: |
+          git config user.name  "commander-sesh-bot"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain public/data)" ]; then
+            git add public/data
+            git commit -m "chore(data): refresh from Google Sheet [skip ci]"
+            git push
+            echo "Data changed — committed and pushed."
+          else
+            echo "No data changes."
+          fi

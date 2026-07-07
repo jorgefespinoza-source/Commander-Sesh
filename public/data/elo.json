@@ -1,1 +1,154 @@
-[{"player":"Sabino","elo":1906.2,"player_league":"RD","juegos":129,"win_rate":0.659,"elo_rank":1},{"player":"Nicolas","elo":1788.9,"player_league":"RD","juegos":143,"win_rate":0.483,"elo_rank":2},{"player":"Eddy","elo":1682.5,"player_league":"RD","juegos":59,"win_rate":0.102,"elo_rank":3},{"player":"Ianfi","elo":1662.9,"player_league":"MX","juegos":68,"win_rate":0.338,"elo_rank":4},{"player":"Halvin","elo":1657.5,"player_league":"RD","juegos":90,"win_rate":0.3,"elo_rank":5},{"player":"Mak","elo":1649.8,"player_league":"RD","juegos":115,"win_rate":0.061,"elo_rank":6},{"player":"Octaviano","elo":1647.6,"player_league":"RD","juegos":96,"win_rate":0.188,"elo_rank":7},{"player":"Jose","elo":1644.5,"player_league":"MX","juegos":56,"win_rate":0.339,"elo_rank":8},{"player":"Jorge Kourie","elo":1643.4,"player_league":"RD","juegos":63,"win_rate":0.238,"elo_rank":9},{"player":"Migue","elo":1615.2,"player_league":"MX","juegos":34,"win_rate":0.147,"elo_rank":10},{"player":"Jorge Espinoza","elo":1607.5,"player_league":"MX","juegos":31,"win_rate":0.29,"elo_rank":11},{"player":"Konstantinos","elo":1586.4,"player_league":"RD","juegos":18,"win_rate":0.111,"elo_rank":12},{"player":"Gonzalo","elo":1585.8,"player_league":"RD","juegos":38,"win_rate":0.0,"elo_rank":13},{"player":"Mike","elo":1584.5,"player_league":"MX","juegos":32,"win_rate":0.219,"elo_rank":14},{"player":"Wainer","elo":1573.7,"player_league":"RD","juegos":95,"win_rate":0.168,"elo_rank":15},{"player":"Lasa","elo":1572.1,"player_league":"MX","juegos":25,"win_rate":0.24,"elo_rank":16},{"player":"Caballol","elo":1539.0,"player_league":"RD","juegos":24,"win_rate":0.083,"elo_rank":17},{"player":"Blanca","elo":1520.2,"player_league":"MX","juegos":8,"win_rate":0.0,"elo_rank":18},{"player":"Diame","elo":1478.7,"player_league":"RD","juegos":33,"win_rate":0.061,"elo_rank":19}]
+[
+  {
+    "player": "Sabino",
+    "elo": 1774,
+    "player_league": "RD",
+    "juegos": 129,
+    "win_rate": 0.659,
+    "elo_rank": 1
+  },
+  {
+    "player": "Nicolas",
+    "elo": 1651.1,
+    "player_league": "RD",
+    "juegos": 143,
+    "win_rate": 0.483,
+    "elo_rank": 2
+  },
+  {
+    "player": "Ianfi",
+    "elo": 1537.4,
+    "player_league": "MX",
+    "juegos": 68,
+    "win_rate": 0.338,
+    "elo_rank": 3
+  },
+  {
+    "player": "Halvin",
+    "elo": 1529.1,
+    "player_league": "RD",
+    "juegos": 90,
+    "win_rate": 0.3,
+    "elo_rank": 4
+  },
+  {
+    "player": "Jose",
+    "elo": 1521.1,
+    "player_league": "MX",
+    "juegos": 56,
+    "win_rate": 0.339,
+    "elo_rank": 5
+  },
+  {
+    "player": "Jorge Kourie",
+    "elo": 1515.2,
+    "player_league": "RD",
+    "juegos": 63,
+    "win_rate": 0.238,
+    "elo_rank": 6
+  },
+  {
+    "player": "Octaviano",
+    "elo": 1507.6,
+    "player_league": "RD",
+    "juegos": 96,
+    "win_rate": 0.188,
+    "elo_rank": 7
+  },
+  {
+    "player": "Lasa",
+    "elo": 1491.7,
+    "player_league": "MX",
+    "juegos": 25,
+    "win_rate": 0.24,
+    "elo_rank": 8
+  },
+  {
+    "player": "Jorge Espinoza",
+    "elo": 1487.4,
+    "player_league": "MX",
+    "juegos": 31,
+    "win_rate": 0.29,
+    "elo_rank": 9
+  },
+  {
+    "player": "Mike",
+    "elo": 1486.9,
+    "player_league": "MX",
+    "juegos": 32,
+    "win_rate": 0.219,
+    "elo_rank": 10
+  },
+  {
+    "player": "Konstantinos",
+    "elo": 1484.5,
+    "player_league": "RD",
+    "juegos": 18,
+    "win_rate": 0.111,
+    "elo_rank": 11
+  },
+  {
+    "player": "Eddy",
+    "elo": 1482.2,
+    "player_league": "RD",
+    "juegos": 59,
+    "win_rate": 0.102,
+    "elo_rank": 12
+  },
+  {
+    "player": "Mak",
+    "elo": 1471.7,
+    "player_league": "RD",
+    "juegos": 120,
+    "win_rate": 0.067,
+    "elo_rank": 13
+  },
+  {
+    "player": "Blanca",
+    "elo": 1470.1,
+    "player_league": "MX",
+    "juegos": 8,
+    "win_rate": 0,
+    "elo_rank": 14
+  },
+  {
+    "player": "Migue",
+    "elo": 1461.2,
+    "player_league": "MX",
+    "juegos": 37,
+    "win_rate": 0.135,
+    "elo_rank": 15
+  },
+  {
+    "player": "Caballol",
+    "elo": 1435.3,
+    "player_league": "RD",
+    "juegos": 24,
+    "win_rate": 0.042,
+    "elo_rank": 16
+  },
+  {
+    "player": "Diame",
+    "elo": 1428.8,
+    "player_league": "RD",
+    "juegos": 33,
+    "win_rate": 0.061,
+    "elo_rank": 17
+  },
+  {
+    "player": "Gonzalo",
+    "elo": 1423.5,
+    "player_league": "RD",
+    "juegos": 38,
+    "win_rate": 0,
+    "elo_rank": 18
+  },
+  {
+    "player": "Wainer",
+    "elo": 1418.4,
+    "player_league": "RD",
+    "juegos": 95,
+    "win_rate": 0.168,
+    "elo_rank": 19
+  }
+]

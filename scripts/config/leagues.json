@@ -1,0 +1,25 @@
+{
+  "_comment": "Player -> league (RD or MX). This is an assigned attribute that does NOT live in the Google Sheet; it only survived in the old elo.json output and is preserved here as the source of truth. When a new player appears in the Game Log who is not listed here, the build script assigns them `defaultLeague` and prints a warning so you can classify them.",
+  "defaultLeague": "RD",
+  "leagues": {
+    "Sabino": "RD",
+    "Nicolas": "RD",
+    "Eddy": "RD",
+    "Ianfi": "MX",
+    "Halvin": "RD",
+    "Mak": "RD",
+    "Octaviano": "RD",
+    "Jose": "MX",
+    "Jorge Kourie": "RD",
+    "Migue": "MX",
+    "Jorge Espinoza": "MX",
+    "Konstantinos": "RD",
+    "Gonzalo": "RD",
+    "Mike": "MX",
+    "Wainer": "RD",
+    "Lasa": "MX",
+    "Caballol": "RD",
+    "Blanca": "MX",
+    "Diame": "RD"
+  }
+}

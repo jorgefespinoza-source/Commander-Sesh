@@ -1,0 +1,9 @@
+{
+  "_comment": "Normalizes player-name variants/typos coming from the WhatsApp intake or manual sheet edits, so stats don't split one person across spellings. Key = variant as it might appear in the Game Log, value = canonical name. Extend as new typos show up. Matching is case-insensitive on the key.",
+  "players": {
+    "harly": "Harley",
+    "miguel": "Migue",
+    "miguel h": "Migue",
+    "mart": "Mak"
+  }
+}

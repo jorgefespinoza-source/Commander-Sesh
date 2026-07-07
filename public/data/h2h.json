@@ -1,1 +1,458 @@
-[{"p1":"Blanca","p2":"Ianfi","games":7,"p1_wins":2,"p2_wins":5,"p1_wr":0.286},{"p1":"Blanca","p2":"Migue","games":5,"p1_wins":2,"p2_wins":3,"p1_wr":0.4},{"p1":"Blanca","p2":"Octaviano","games":3,"p1_wins":0,"p2_wins":3,"p1_wr":0.0},{"p1":"Caballol","p2":"Eddy","games":4,"p1_wins":2,"p2_wins":2,"p1_wr":0.5},{"p1":"Caballol","p2":"Gonzalo","games":3,"p1_wins":2,"p2_wins":1,"p1_wr":0.667},{"p1":"Caballol","p2":"Halvin","games":3,"p1_wins":0,"p2_wins":3,"p1_wr":0.0},{"p1":"Caballol","p2":"Jorge Kourie","games":6,"p1_wins":1,"p2_wins":5,"p1_wr":0.167},{"p1":"Caballol","p2":"Mak","games":8,"p1_wins":4,"p2_wins":4,"p1_wr":0.5},{"p1":"Caballol","p2":"Nicolas","games":15,"p1_wins":2,"p2_wins":13,"p1_wr":0.133},{"p1":"Caballol","p2":"Octaviano","games":4,"p1_wins":0,"p2_wins":4,"p1_wr":0.0},{"p1":"Caballol","p2":"Sabino","games":15,"p1_wins":2,"p2_wins":13,"p1_wr":0.133},{"p1":"Caballol","p2":"Wainer","games":6,"p1_wins":2,"p2_wins":4,"p1_wr":0.333},{"p1":"Diame","p2":"Eddy","games":3,"p1_wins":3,"p2_wins":0,"p1_wr":1.0},{"p1":"Diame","p2":"Halvin","games":13,"p1_wins":2,"p2_wins":11,"p1_wr":0.154},{"p1":"Diame","p2":"Jorge Kourie","games":5,"p1_wins":0,"p2_wins":5,"p1_wr":0.0},{"p1":"Diame","p2":"Mak","games":13,"p1_wins":5,"p2_wins":8,"p1_wr":0.385},{"p1":"Diame","p2":"Nicolas","games":9,"p1_wins":3,"p2_wins":6,"p1_wr":0.333},{"p1":"Diame","p2":"Octaviano","games":6,"p1_wins":3,"p2_wins":3,"p1_wr":0.5},{"p1":"Diame","p2":"Sabino","games":15,"p1_wins":2,"p2_wins":13,"p1_wr":0.133},{"p1":"Diame","p2":"Wainer","games":19,"p1_wins":5,"p2_wins":14,"p1_wr":0.263},{"p1":"Eddy","p2":"Gonzalo","games":14,"p1_wins":6,"p2_wins":8,"p1_wr":0.429},{"p1":"Eddy","p2":"Halvin","games":21,"p1_wins":8,"p2_wins":13,"p1_wr":0.381},{"p1":"Eddy","p2":"Jorge Kourie","games":23,"p1_wins":7,"p2_wins":16,"p1_wr":0.304},{"p1":"Eddy","p2":"Konstantinos","games":6,"p1_wins":2,"p2_wins":4,"p1_wr":0.333},{"p1":"Eddy","p2":"Mak","games":14,"p1_wins":5,"p2_wins":9,"p1_wr":0.357},{"p1":"Eddy","p2":"Nicolas","games":25,"p1_wins":7,"p2_wins":18,"p1_wr":0.28},{"p1":"Eddy","p2":"Octaviano","games":20,"p1_wins":3,"p2_wins":17,"p1_wr":0.15},{"p1":"Eddy","p2":"Sabino","games":26,"p1_wins":5,"p2_wins":21,"p1_wr":0.192},{"p1":"Eddy","p2":"Wainer","games":12,"p1_wins":5,"p2_wins":7,"p1_wr":0.417},{"p1":"Gonzalo","p2":"Halvin","games":11,"p1_wins":4,"p2_wins":7,"p1_wr":0.364},{"p1":"Gonzalo","p2":"Jorge Kourie","games":9,"p1_wins":5,"p2_wins":4,"p1_wr":0.556},{"p1":"Gonzalo","p2":"Konstantinos","games":7,"p1_wins":1,"p2_wins":6,"p1_wr":0.143},{"p1":"Gonzalo","p2":"Mak","games":15,"p1_wins":1,"p2_wins":14,"p1_wr":0.067},{"p1":"Gonzalo","p2":"Nicolas","games":14,"p1_wins":4,"p2_wins":10,"p1_wr":0.286},{"p1":"Gonzalo","p2":"Octaviano","games":8,"p1_wins":1,"p2_wins":7,"p1_wr":0.125},{"p1":"Gonzalo","p2":"Sabino","games":22,"p1_wins":1,"p2_wins":21,"p1_wr":0.045},{"p1":"Halvin","p2":"Ianfi","games":5,"p1_wins":3,"p2_wins":2,"p1_wr":0.6},{"p1":"Halvin","p2":"Jorge Kourie","games":29,"p1_wins":17,"p2_wins":12,"p1_wr":0.586},{"p1":"Halvin","p2":"Konstantinos","games":8,"p1_wins":5,"p2_wins":3,"p1_wr":0.625},{"p1":"Halvin","p2":"Mak","games":29,"p1_wins":14,"p2_wins":15,"p1_wr":0.483},{"p1":"Halvin","p2":"Nicolas","games":45,"p1_wins":15,"p2_wins":30,"p1_wr":0.333},{"p1":"Halvin","p2":"Octaviano","games":35,"p1_wins":18,"p2_wins":17,"p1_wr":0.514},{"p1":"Halvin","p2":"Sabino","games":27,"p1_wins":5,"p2_wins":22,"p1_wr":0.185},{"p1":"Halvin","p2":"Wainer","games":21,"p1_wins":11,"p2_wins":10,"p1_wr":0.524},{"p1":"Ianfi","p2":"Jorge Espinoza","games":30,"p1_wins":16,"p2_wins":14,"p1_wr":0.533},{"p1":"Ianfi","p2":"Jose","games":49,"p1_wins":22,"p2_wins":27,"p1_wr":0.449},{"p1":"Ianfi","p2":"Lasa","games":18,"p1_wins":8,"p2_wins":10,"p1_wr":0.444},{"p1":"Ianfi","p2":"Migue","games":33,"p1_wins":20,"p2_wins":13,"p1_wr":0.606},{"p1":"Ianfi","p2":"Mike","games":24,"p1_wins":12,"p2_wins":12,"p1_wr":0.5},{"p1":"Ianfi","p2":"Nicolas","games":5,"p1_wins":2,"p2_wins":3,"p1_wr":0.4},{"p1":"Ianfi","p2":"Octaviano","games":4,"p1_wins":2,"p2_wins":2,"p1_wr":0.5},{"p1":"Jorge Espinoza","p2":"Jose","games":25,"p1_wins":12,"p2_wins":13,"p1_wr":0.48},{"p1":"Jorge Espinoza","p2":"Migue","games":22,"p1_wins":10,"p2_wins":12,"p1_wr":0.455},{"p1":"Jorge Kourie","p2":"Konstantinos","games":10,"p1_wins":6,"p2_wins":4,"p1_wr":0.6},{"p1":"Jorge Kourie","p2":"Mak","games":15,"p1_wins":11,"p2_wins":4,"p1_wr":0.733},{"p1":"Jorge Kourie","p2":"Nicolas","games":30,"p1_wins":11,"p2_wins":19,"p1_wr":0.367},{"p1":"Jorge Kourie","p2":"Octaviano","games":19,"p1_wins":10,"p2_wins":9,"p1_wr":0.526},{"p1":"Jorge Kourie","p2":"Sabino","games":14,"p1_wins":1,"p2_wins":13,"p1_wr":0.071},{"p1":"Jorge Kourie","p2":"Wainer","games":15,"p1_wins":8,"p2_wins":7,"p1_wr":0.533},{"p1":"Jose","p2":"Lasa","games":19,"p1_wins":9,"p2_wins":10,"p1_wr":0.474},{"p1":"Jose","p2":"Migue","games":22,"p1_wins":11,"p2_wins":11,"p1_wr":0.5},{"p1":"Jose","p2":"Mike","games":27,"p1_wins":10,"p2_wins":17,"p1_wr":0.37},{"p1":"Konstantinos","p2":"Mak","games":5,"p1_wins":2,"p2_wins":3,"p1_wr":0.4},{"p1":"Konstantinos","p2":"Octaviano","games":4,"p1_wins":2,"p2_wins":2,"p1_wr":0.5},{"p1":"Konstantinos","p2":"Sabino","games":7,"p1_wins":1,"p2_wins":6,"p1_wr":0.143},{"p1":"Konstantinos","p2":"Wainer","games":6,"p1_wins":3,"p2_wins":3,"p1_wr":0.5},{"p1":"Lasa","p2":"Migue","games":5,"p1_wins":2,"p2_wins":3,"p1_wr":0.4},{"p1":"Lasa","p2":"Mike","games":21,"p1_wins":8,"p2_wins":13,"p1_wr":0.381},{"p1":"Mak","p2":"Nicolas","games":74,"p1_wins":14,"p2_wins":60,"p1_wr":0.189},{"p1":"Mak","p2":"Octaviano","games":38,"p1_wins":10,"p2_wins":28,"p1_wr":0.263},{"p1":"Mak","p2":"Sabino","games":56,"p1_wins":8,"p2_wins":48,"p1_wr":0.143},{"p1":"Mak","p2":"Wainer","games":42,"p1_wins":17,"p2_wins":25,"p1_wr":0.405},{"p1":"Migue","p2":"Mike","games":6,"p1_wins":3,"p2_wins":3,"p1_wr":0.5},{"p1":"Mike","p2":"Nicolas","games":4,"p1_wins":1,"p2_wins":3,"p1_wr":0.25},{"p1":"Nicolas","p2":"Octaviano","games":44,"p1_wins":26,"p2_wins":18,"p1_wr":0.591},{"p1":"Nicolas","p2":"Sabino","games":67,"p1_wins":23,"p2_wins":44,"p1_wr":0.343},{"p1":"Nicolas","p2":"Wainer","games":48,"p1_wins":32,"p2_wins":16,"p1_wr":0.667},{"p1":"Octaviano","p2":"Sabino","games":46,"p1_wins":6,"p2_wins":40,"p1_wr":0.13},{"p1":"Octaviano","p2":"Wainer","games":30,"p1_wins":16,"p2_wins":14,"p1_wr":0.533},{"p1":"Sabino","p2":"Wainer","games":46,"p1_wins":38,"p2_wins":8,"p1_wr":0.826}]
+[
+  {
+    "p1": "Mak",
+    "p2": "Nicolas",
+    "games": 74,
+    "p1_wins": 14,
+    "p2_wins": 56,
+    "p1_wr": 0.189
+  },
+  {
+    "p1": "Nicolas",
+    "p2": "Sabino",
+    "games": 67,
+    "p1_wins": 23,
+    "p2_wins": 44,
+    "p1_wr": 0.343
+  },
+  {
+    "p1": "Mak",
+    "p2": "Sabino",
+    "games": 56,
+    "p1_wins": 8,
+    "p2_wins": 43,
+    "p1_wr": 0.143
+  },
+  {
+    "p1": "Ianfi",
+    "p2": "Jose",
+    "games": 49,
+    "p1_wins": 22,
+    "p2_wins": 23,
+    "p1_wr": 0.449
+  },
+  {
+    "p1": "Nicolas",
+    "p2": "Wainer",
+    "games": 48,
+    "p1_wins": 32,
+    "p2_wins": 10,
+    "p1_wr": 0.667
+  },
+  {
+    "p1": "Sabino",
+    "p2": "Wainer",
+    "games": 46,
+    "p1_wins": 38,
+    "p2_wins": 8,
+    "p1_wr": 0.826
+  },
+  {
+    "p1": "Octaviano",
+    "p2": "Sabino",
+    "games": 46,
+    "p1_wins": 6,
+    "p2_wins": 37,
+    "p1_wr": 0.13
+  },
+  {
+    "p1": "Halvin",
+    "p2": "Nicolas",
+    "games": 45,
+    "p1_wins": 15,
+    "p2_wins": 29,
+    "p1_wr": 0.333
+  },
+  {
+    "p1": "Nicolas",
+    "p2": "Octaviano",
+    "games": 44,
+    "p1_wins": 26,
+    "p2_wins": 13,
+    "p1_wr": 0.591
+  },
+  {
+    "p1": "Mak",
+    "p2": "Wainer",
+    "games": 42,
+    "p1_wins": 17,
+    "p2_wins": 19,
+    "p1_wr": 0.405
+  },
+  {
+    "p1": "Mak",
+    "p2": "Octaviano",
+    "games": 38,
+    "p1_wins": 10,
+    "p2_wins": 21,
+    "p1_wr": 0.263
+  },
+  {
+    "p1": "Halvin",
+    "p2": "Octaviano",
+    "games": 35,
+    "p1_wins": 18,
+    "p2_wins": 15,
+    "p1_wr": 0.514
+  },
+  {
+    "p1": "Ianfi",
+    "p2": "Migue",
+    "games": 33,
+    "p1_wins": 20,
+    "p2_wins": 9,
+    "p1_wr": 0.606
+  },
+  {
+    "p1": "Octaviano",
+    "p2": "Wainer",
+    "games": 30,
+    "p1_wins": 16,
+    "p2_wins": 10,
+    "p1_wr": 0.533
+  },
+  {
+    "p1": "Jorge Kourie",
+    "p2": "Nicolas",
+    "games": 30,
+    "p1_wins": 11,
+    "p2_wins": 19,
+    "p1_wr": 0.367
+  },
+  {
+    "p1": "Ianfi",
+    "p2": "Jorge Espinoza",
+    "games": 30,
+    "p1_wins": 16,
+    "p2_wins": 11,
+    "p1_wr": 0.533
+  },
+  {
+    "p1": "Halvin",
+    "p2": "Mak",
+    "games": 29,
+    "p1_wins": 14,
+    "p2_wins": 10,
+    "p1_wr": 0.483
+  },
+  {
+    "p1": "Halvin",
+    "p2": "Jorge Kourie",
+    "games": 29,
+    "p1_wins": 17,
+    "p2_wins": 11,
+    "p1_wr": 0.586
+  },
+  {
+    "p1": "Jose",
+    "p2": "Mike",
+    "games": 27,
+    "p1_wins": 10,
+    "p2_wins": 10,
+    "p1_wr": 0.37
+  },
+  {
+    "p1": "Halvin",
+    "p2": "Sabino",
+    "games": 27,
+    "p1_wins": 5,
+    "p2_wins": 22,
+    "p1_wr": 0.185
+  },
+  {
+    "p1": "Eddy",
+    "p2": "Sabino",
+    "games": 26,
+    "p1_wins": 5,
+    "p2_wins": 19,
+    "p1_wr": 0.192
+  },
+  {
+    "p1": "Eddy",
+    "p2": "Nicolas",
+    "games": 25,
+    "p1_wins": 7,
+    "p2_wins": 16,
+    "p1_wr": 0.28
+  },
+  {
+    "p1": "Jorge Espinoza",
+    "p2": "Jose",
+    "games": 25,
+    "p1_wins": 12,
+    "p2_wins": 10,
+    "p1_wr": 0.48
+  },
+  {
+    "p1": "Ianfi",
+    "p2": "Mike",
+    "games": 24,
+    "p1_wins": 12,
+    "p2_wins": 7,
+    "p1_wr": 0.5
+  },
+  {
+    "p1": "Eddy",
+    "p2": "Jorge Kourie",
+    "games": 23,
+    "p1_wins": 7,
+    "p2_wins": 13,
+    "p1_wr": 0.304
+  },
+  {
+    "p1": "Jose",
+    "p2": "Migue",
+    "games": 22,
+    "p1_wins": 11,
+    "p2_wins": 5,
+    "p1_wr": 0.5
+  },
+  {
+    "p1": "Gonzalo",
+    "p2": "Sabino",
+    "games": 22,
+    "p1_wins": 1,
+    "p2_wins": 18,
+    "p1_wr": 0.045
+  },
+  {
+    "p1": "Jorge Espinoza",
+    "p2": "Migue",
+    "games": 22,
+    "p1_wins": 10,
+    "p2_wins": 7,
+    "p1_wr": 0.455
+  },
+  {
+    "p1": "Lasa",
+    "p2": "Mike",
+    "games": 21,
+    "p1_wins": 8,
+    "p2_wins": 10,
+    "p1_wr": 0.381
+  },
+  {
+    "p1": "Halvin",
+    "p2": "Wainer",
+    "games": 21,
+    "p1_wins": 11,
+    "p2_wins": 8,
+    "p1_wr": 0.524
+  },
+  {
+    "p1": "Eddy",
+    "p2": "Halvin",
+    "games": 21,
+    "p1_wins": 8,
+    "p2_wins": 11,
+    "p1_wr": 0.381
+  },
+  {
+    "p1": "Eddy",
+    "p2": "Octaviano",
+    "games": 20,
+    "p1_wins": 3,
+    "p2_wins": 12,
+    "p1_wr": 0.15
+  },
+  {
+    "p1": "Jose",
+    "p2": "Lasa",
+    "games": 19,
+    "p1_wins": 9,
+    "p2_wins": 10,
+    "p1_wr": 0.474
+  },
+  {
+    "p1": "Diame",
+    "p2": "Wainer",
+    "games": 19,
+    "p1_wins": 5,
+    "p2_wins": 10,
+    "p1_wr": 0.263
+  },
+  {
+    "p1": "Jorge Kourie",
+    "p2": "Octaviano",
+    "games": 19,
+    "p1_wins": 10,
+    "p2_wins": 9,
+    "p1_wr": 0.526
+  },
+  {
+    "p1": "Ianfi",
+    "p2": "Lasa",
+    "games": 18,
+    "p1_wins": 8,
+    "p2_wins": 8,
+    "p1_wr": 0.444
+  },
+  {
+    "p1": "Diame",
+    "p2": "Sabino",
+    "games": 15,
+    "p1_wins": 2,
+    "p2_wins": 12,
+    "p1_wr": 0.133
+  },
+  {
+    "p1": "Caballol",
+    "p2": "Nicolas",
+    "games": 15,
+    "p1_wins": 1,
+    "p2_wins": 12,
+    "p1_wr": 0.067
+  },
+  {
+    "p1": "Jorge Kourie",
+    "p2": "Mak",
+    "games": 15,
+    "p1_wins": 11,
+    "p2_wins": 4,
+    "p1_wr": 0.733
+  },
+  {
+    "p1": "Jorge Kourie",
+    "p2": "Wainer",
+    "games": 15,
+    "p1_wins": 8,
+    "p2_wins": 6,
+    "p1_wr": 0.533
+  },
+  {
+    "p1": "Gonzalo",
+    "p2": "Mak",
+    "games": 15,
+    "p1_wins": 1,
+    "p2_wins": 12,
+    "p1_wr": 0.067
+  },
+  {
+    "p1": "Caballol",
+    "p2": "Sabino",
+    "games": 14,
+    "p1_wins": 2,
+    "p2_wins": 11,
+    "p1_wr": 0.143
+  },
+  {
+    "p1": "Jorge Kourie",
+    "p2": "Sabino",
+    "games": 14,
+    "p1_wins": 1,
+    "p2_wins": 12,
+    "p1_wr": 0.071
+  },
+  {
+    "p1": "Eddy",
+    "p2": "Mak",
+    "games": 14,
+    "p1_wins": 5,
+    "p2_wins": 7,
+    "p1_wr": 0.357
+  },
+  {
+    "p1": "Eddy",
+    "p2": "Gonzalo",
+    "games": 14,
+    "p1_wins": 6,
+    "p2_wins": 1,
+    "p1_wr": 0.429
+  },
+  {
+    "p1": "Gonzalo",
+    "p2": "Nicolas",
+    "games": 14,
+    "p1_wins": 4,
+    "p2_wins": 9,
+    "p1_wr": 0.286
+  },
+  {
+    "p1": "Diame",
+    "p2": "Mak",
+    "games": 13,
+    "p1_wins": 5,
+    "p2_wins": 7,
+    "p1_wr": 0.385
+  },
+  {
+    "p1": "Diame",
+    "p2": "Halvin",
+    "games": 13,
+    "p1_wins": 2,
+    "p2_wins": 10,
+    "p1_wr": 0.154
+  },
+  {
+    "p1": "Eddy",
+    "p2": "Wainer",
+    "games": 12,
+    "p1_wins": 5,
+    "p2_wins": 4,
+    "p1_wr": 0.417
+  },
+  {
+    "p1": "Gonzalo",
+    "p2": "Halvin",
+    "games": 11,
+    "p1_wins": 4,
+    "p2_wins": 6,
+    "p1_wr": 0.364
+  },
+  {
+    "p1": "Jorge Kourie",
+    "p2": "Konstantinos",
+    "games": 10,
+    "p1_wins": 6,
+    "p2_wins": 3,
+    "p1_wr": 0.6
+  },
+  {
+    "p1": "Diame",
+    "p2": "Nicolas",
+    "games": 9,
+    "p1_wins": 3,
+    "p2_wins": 6,
+    "p1_wr": 0.333
+  },
+  {
+    "p1": "Gonzalo",
+    "p2": "Jorge Kourie",
+    "games": 9,
+    "p1_wins": 5,
+    "p2_wins": 3,
+    "p1_wr": 0.556
+  },
+  {
+    "p1": "Caballol",
+    "p2": "Jorge Kourie",
+    "games": 8,
+    "p1_wins": 1,
+    "p2_wins": 5,
+    "p1_wr": 0.125
+  },
+  {
+    "p1": "Caballol",
+    "p2": "Mak",
+    "games": 8,
+    "p1_wins": 3,
+    "p2_wins": 2,
+    "p1_wr": 0.375
+  },
+  {
+    "p1": "Halvin",
+    "p2": "Konstantinos",
+    "games": 8,
+    "p1_wins": 5,
+    "p2_wins": 3,
+    "p1_wr": 0.625
+  },
+  {
+    "p1": "Gonzalo",
+    "p2": "Octaviano",
+    "games": 8,
+    "p1_wins": 1,
+    "p2_wins": 5,
+    "p1_wr": 0.125
+  }
+]

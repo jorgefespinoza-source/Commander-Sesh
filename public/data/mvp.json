@@ -1,1 +1,114 @@
-[{"year_month":"2025-04","player":"Lasa","player_league":"MX","juegos":3,"victorias":2,"win_rate":0.667},{"year_month":"2025-04","player":"Nicolas","player_league":"RD","juegos":7,"victorias":5,"win_rate":0.714},{"year_month":"2025-05","player":"Lasa","player_league":"MX","juegos":3,"victorias":2,"win_rate":0.667},{"year_month":"2025-05","player":"Sabino","player_league":"RD","juegos":16,"victorias":10,"win_rate":0.625},{"year_month":"2025-06","player":"Jose","player_league":"MX","juegos":6,"victorias":3,"win_rate":0.5},{"year_month":"2025-06","player":"Nicolas","player_league":"RD","juegos":18,"victorias":10,"win_rate":0.556},{"year_month":"2025-07","player":"Nicolas","player_league":"RD","juegos":3,"victorias":3,"win_rate":1.0},{"year_month":"2025-08","player":"Ianfi","player_league":"MX","juegos":3,"victorias":1,"win_rate":0.333},{"year_month":"2025-08","player":"Halvin","player_league":"RD","juegos":7,"victorias":4,"win_rate":0.571},{"year_month":"2025-09","player":"Sabino","player_league":"RD","juegos":7,"victorias":6,"win_rate":0.857},{"year_month":"2025-10","player":"Jose","player_league":"MX","juegos":9,"victorias":3,"win_rate":0.333},{"year_month":"2025-10","player":"Sabino","player_league":"RD","juegos":13,"victorias":10,"win_rate":0.769},{"year_month":"2025-11","player":"Ianfi","player_league":"MX","juegos":3,"victorias":2,"win_rate":0.667},{"year_month":"2025-11","player":"Sabino","player_league":"RD","juegos":14,"victorias":10,"win_rate":0.714},{"year_month":"2025-12","player":"Sabino","player_league":"RD","juegos":6,"victorias":5,"win_rate":0.833},{"year_month":"2026-01","player":"Jose","player_league":"MX","juegos":3,"victorias":2,"win_rate":0.667},{"year_month":"2026-01","player":"Sabino","player_league":"RD","juegos":15,"victorias":10,"win_rate":0.667},{"year_month":"2026-02","player":"Ianfi","player_league":"MX","juegos":6,"victorias":1,"win_rate":0.167},{"year_month":"2026-02","player":"Mak","player_league":"RD","juegos":8,"victorias":5,"win_rate":0.625},{"year_month":"2026-03","player":"Jorge Espinoza","player_league":"MX","juegos":7,"victorias":3,"win_rate":0.429},{"year_month":"2026-03","player":"Sabino","player_league":"RD","juegos":5,"victorias":3,"win_rate":0.6},{"year_month":"2026-04","player":"Ianfi","player_league":"MX","juegos":16,"victorias":7,"win_rate":0.438},{"year_month":"2026-04","player":"Sabino","player_league":"RD","juegos":5,"victorias":4,"win_rate":0.8},{"year_month":"2026-05","player":"Migue","player_league":"MX","juegos":6,"victorias":3,"win_rate":0.5},{"year_month":"2026-05","player":"Sabino","player_league":"RD","juegos":6,"victorias":5,"win_rate":0.833}]
+[
+  {
+    "year_month": "2025-04",
+    "player": "Nicolas",
+    "player_league": "RD",
+    "juegos": 7,
+    "victorias": 5,
+    "win_rate": 0.714
+  },
+  {
+    "year_month": "2025-05",
+    "player": "Sabino",
+    "player_league": "RD",
+    "juegos": 16,
+    "victorias": 10,
+    "win_rate": 0.625
+  },
+  {
+    "year_month": "2025-06",
+    "player": "Nicolas",
+    "player_league": "RD",
+    "juegos": 18,
+    "victorias": 10,
+    "win_rate": 0.556
+  },
+  {
+    "year_month": "2025-07",
+    "player": "Nicolas",
+    "player_league": "RD",
+    "juegos": 3,
+    "victorias": 3,
+    "win_rate": 1
+  },
+  {
+    "year_month": "2025-08",
+    "player": "Sabino",
+    "player_league": "RD",
+    "juegos": 14,
+    "victorias": 8,
+    "win_rate": 0.571
+  },
+  {
+    "year_month": "2025-09",
+    "player": "Sabino",
+    "player_league": "RD",
+    "juegos": 7,
+    "victorias": 6,
+    "win_rate": 0.857
+  },
+  {
+    "year_month": "2025-10",
+    "player": "Sabino",
+    "player_league": "RD",
+    "juegos": 13,
+    "victorias": 10,
+    "win_rate": 0.769
+  },
+  {
+    "year_month": "2025-11",
+    "player": "Sabino",
+    "player_league": "RD",
+    "juegos": 14,
+    "victorias": 10,
+    "win_rate": 0.714
+  },
+  {
+    "year_month": "2025-12",
+    "player": "Sabino",
+    "player_league": "RD",
+    "juegos": 6,
+    "victorias": 5,
+    "win_rate": 0.833
+  },
+  {
+    "year_month": "2026-01",
+    "player": "Sabino",
+    "player_league": "RD",
+    "juegos": 15,
+    "victorias": 10,
+    "win_rate": 0.667
+  },
+  {
+    "year_month": "2026-02",
+    "player": "Mak",
+    "player_league": "RD",
+    "juegos": 8,
+    "victorias": 5,
+    "win_rate": 0.625
+  },
+  {
+    "year_month": "2026-03",
+    "player": "Sabino",
+    "player_league": "RD",
+    "juegos": 5,
+    "victorias": 3,
+    "win_rate": 0.6
+  },
+  {
+    "year_month": "2026-04",
+    "player": "Ianfi",
+    "player_league": "MX",
+    "juegos": 16,
+    "victorias": 7,
+    "win_rate": 0.438
+  },
+  {
+    "year_month": "2026-05",
+    "player": "Sabino",
+    "player_league": "RD",
+    "juegos": 6,
+    "victorias": 5,
+    "win_rate": 0.833
+  }
+]

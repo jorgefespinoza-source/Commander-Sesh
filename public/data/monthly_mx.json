@@ -1,1 +1,310 @@
-[{"year_month":"2026-01","player":"Blanca","juegos":3,"victorias":0,"win_rate":0.0},{"year_month":"2025-08","player":"Ianfi","juegos":3,"victorias":1,"win_rate":0.333},{"year_month":"2025-10","player":"Ianfi","juegos":5,"victorias":1,"win_rate":0.2},{"year_month":"2026-01","player":"Ianfi","juegos":4,"victorias":2,"win_rate":0.5},{"year_month":"2026-03","player":"Ianfi","juegos":7,"victorias":2,"win_rate":0.286},{"year_month":"2026-04","player":"Ianfi","juegos":11,"victorias":5,"win_rate":0.455},{"year_month":"2026-05","player":"Ianfi","juegos":5,"victorias":1,"win_rate":0.2},{"year_month":"2026-03","player":"Jorge Espinoza","juegos":7,"victorias":3,"win_rate":0.429},{"year_month":"2026-04","player":"Jorge Espinoza","juegos":12,"victorias":2,"win_rate":0.167},{"year_month":"2026-05","player":"Jorge Espinoza","juegos":5,"victorias":1,"win_rate":0.2},{"year_month":"2025-05","player":"Jose","juegos":3,"victorias":0,"win_rate":0.0},{"year_month":"2025-08","player":"Jose","juegos":3,"victorias":1,"win_rate":0.333},{"year_month":"2025-10","player":"Jose","juegos":5,"victorias":2,"win_rate":0.4},{"year_month":"2026-01","player":"Jose","juegos":2,"victorias":1,"win_rate":0.5},{"year_month":"2026-03","player":"Jose","juegos":7,"victorias":2,"win_rate":0.286},{"year_month":"2026-04","player":"Jose","juegos":12,"victorias":5,"win_rate":0.417},{"year_month":"2026-05","player":"Jose","juegos":2,"victorias":0,"win_rate":0.0},{"year_month":"2025-05","player":"Lasa","juegos":3,"victorias":2,"win_rate":0.667},{"year_month":"2025-10","player":"Lasa","juegos":4,"victorias":1,"win_rate":0.25},{"year_month":"2026-01","player":"Migue","juegos":4,"victorias":1,"win_rate":0.25},{"year_month":"2026-03","player":"Migue","juegos":6,"victorias":0,"win_rate":0.0},{"year_month":"2026-04","player":"Migue","juegos":6,"victorias":0,"win_rate":0.0},{"year_month":"2026-05","player":"Migue","juegos":5,"victorias":3,"win_rate":0.6},{"year_month":"2025-05","player":"Mike","juegos":3,"victorias":1,"win_rate":0.333},{"year_month":"2025-08","player":"Mike","juegos":3,"victorias":1,"win_rate":0.333},{"year_month":"2025-10","player":"Mike","juegos":5,"victorias":1,"win_rate":0.2}]
+[
+  {
+    "year_month": "2025-04",
+    "player": "Lasa",
+    "juegos": 3,
+    "victorias": 2,
+    "win_rate": 0.667
+  },
+  {
+    "year_month": "2025-04",
+    "player": "Ianfi",
+    "juegos": 4,
+    "victorias": 2,
+    "win_rate": 0.5
+  },
+  {
+    "year_month": "2025-04",
+    "player": "Mike",
+    "juegos": 6,
+    "victorias": 1,
+    "win_rate": 0.167
+  },
+  {
+    "year_month": "2025-04",
+    "player": "Jose",
+    "juegos": 4,
+    "victorias": 0,
+    "win_rate": 0
+  },
+  {
+    "year_month": "2025-05",
+    "player": "Lasa",
+    "juegos": 3,
+    "victorias": 2,
+    "win_rate": 0.667
+  },
+  {
+    "year_month": "2025-05",
+    "player": "Mike",
+    "juegos": 3,
+    "victorias": 1,
+    "win_rate": 0.333
+  },
+  {
+    "year_month": "2025-05",
+    "player": "Jose",
+    "juegos": 3,
+    "victorias": 0,
+    "win_rate": 0
+  },
+  {
+    "year_month": "2025-05",
+    "player": "Ianfi",
+    "juegos": 1,
+    "victorias": 0,
+    "win_rate": 0
+  },
+  {
+    "year_month": "2025-06",
+    "player": "Jose",
+    "juegos": 6,
+    "victorias": 3,
+    "win_rate": 0.5
+  },
+  {
+    "year_month": "2025-06",
+    "player": "Mike",
+    "juegos": 5,
+    "victorias": 1,
+    "win_rate": 0.2
+  },
+  {
+    "year_month": "2025-06",
+    "player": "Ianfi",
+    "juegos": 6,
+    "victorias": 1,
+    "win_rate": 0.167
+  },
+  {
+    "year_month": "2025-06",
+    "player": "Lasa",
+    "juegos": 7,
+    "victorias": 0,
+    "win_rate": 0
+  },
+  {
+    "year_month": "2025-08",
+    "player": "Ianfi",
+    "juegos": 3,
+    "victorias": 1,
+    "win_rate": 0.333
+  },
+  {
+    "year_month": "2025-08",
+    "player": "Mike",
+    "juegos": 3,
+    "victorias": 1,
+    "win_rate": 0.333
+  },
+  {
+    "year_month": "2025-08",
+    "player": "Jose",
+    "juegos": 3,
+    "victorias": 1,
+    "win_rate": 0.333
+  },
+  {
+    "year_month": "2025-10",
+    "player": "Jose",
+    "juegos": 9,
+    "victorias": 3,
+    "win_rate": 0.333
+  },
+  {
+    "year_month": "2025-10",
+    "player": "Migue",
+    "juegos": 3,
+    "victorias": 1,
+    "win_rate": 0.333
+  },
+  {
+    "year_month": "2025-10",
+    "player": "Ianfi",
+    "juegos": 9,
+    "victorias": 2,
+    "win_rate": 0.222
+  },
+  {
+    "year_month": "2025-10",
+    "player": "Mike",
+    "juegos": 9,
+    "victorias": 2,
+    "win_rate": 0.222
+  },
+  {
+    "year_month": "2025-10",
+    "player": "Lasa",
+    "juegos": 6,
+    "victorias": 1,
+    "win_rate": 0.167
+  },
+  {
+    "year_month": "2025-11",
+    "player": "Ianfi",
+    "juegos": 3,
+    "victorias": 2,
+    "win_rate": 0.667
+  },
+  {
+    "year_month": "2025-11",
+    "player": "Jose",
+    "juegos": 3,
+    "victorias": 2,
+    "win_rate": 0.667
+  },
+  {
+    "year_month": "2025-11",
+    "player": "Mike",
+    "juegos": 6,
+    "victorias": 1,
+    "win_rate": 0.167
+  },
+  {
+    "year_month": "2025-11",
+    "player": "Lasa",
+    "juegos": 6,
+    "victorias": 1,
+    "win_rate": 0.167
+  },
+  {
+    "year_month": "2025-11",
+    "player": "Migue",
+    "juegos": 3,
+    "victorias": 0,
+    "win_rate": 0
+  },
+  {
+    "year_month": "2025-12",
+    "player": "Migue",
+    "juegos": 2,
+    "victorias": 0,
+    "win_rate": 0
+  },
+  {
+    "year_month": "2026-01",
+    "player": "Jose",
+    "juegos": 3,
+    "victorias": 2,
+    "win_rate": 0.667
+  },
+  {
+    "year_month": "2026-01",
+    "player": "Ianfi",
+    "juegos": 6,
+    "victorias": 3,
+    "win_rate": 0.5
+  },
+  {
+    "year_month": "2026-01",
+    "player": "Migue",
+    "juegos": 7,
+    "victorias": 1,
+    "win_rate": 0.143
+  },
+  {
+    "year_month": "2026-01",
+    "player": "Blanca",
+    "juegos": 5,
+    "victorias": 0,
+    "win_rate": 0
+  },
+  {
+    "year_month": "2026-02",
+    "player": "Ianfi",
+    "juegos": 6,
+    "victorias": 1,
+    "win_rate": 0.167
+  },
+  {
+    "year_month": "2026-02",
+    "player": "Blanca",
+    "juegos": 3,
+    "victorias": 0,
+    "win_rate": 0
+  },
+  {
+    "year_month": "2026-03",
+    "player": "Jorge Espinoza",
+    "juegos": 7,
+    "victorias": 3,
+    "win_rate": 0.429
+  },
+  {
+    "year_month": "2026-03",
+    "player": "Ianfi",
+    "juegos": 7,
+    "victorias": 2,
+    "win_rate": 0.286
+  },
+  {
+    "year_month": "2026-03",
+    "player": "Jose",
+    "juegos": 7,
+    "victorias": 2,
+    "win_rate": 0.286
+  },
+  {
+    "year_month": "2026-03",
+    "player": "Migue",
+    "juegos": 6,
+    "victorias": 0,
+    "win_rate": 0
+  },
+  {
+    "year_month": "2026-04",
+    "player": "Ianfi",
+    "juegos": 16,
+    "victorias": 7,
+    "win_rate": 0.438
+  },
+  {
+    "year_month": "2026-04",
+    "player": "Jose",
+    "juegos": 14,
+    "victorias": 6,
+    "win_rate": 0.429
+  },
+  {
+    "year_month": "2026-04",
+    "player": "Jorge Espinoza",
+    "juegos": 17,
+    "victorias": 4,
+    "win_rate": 0.235
+  },
+  {
+    "year_month": "2026-04",
+    "player": "Migue",
+    "juegos": 10,
+    "victorias": 0,
+    "win_rate": 0
+  },
+  {
+    "year_month": "2026-05",
+    "player": "Migue",
+    "juegos": 6,
+    "victorias": 3,
+    "win_rate": 0.5
+  },
+  {
+    "year_month": "2026-05",
+    "player": "Ianfi",
+    "juegos": 7,
+    "victorias": 2,
+    "win_rate": 0.286
+  },
+  {
+    "year_month": "2026-05",
+    "player": "Jorge Espinoza",
+    "juegos": 7,
+    "victorias": 2,
+    "win_rate": 0.286
+  },
+  {
+    "year_month": "2026-05",
+    "player": "Jose",
+    "juegos": 4,
+    "victorias": 0,
+    "win_rate": 0
+  }
+]

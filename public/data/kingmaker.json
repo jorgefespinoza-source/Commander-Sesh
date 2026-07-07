@@ -1,1 +1,182 @@
-[{"player":"Mike","player_league":"MX","juegos":32,"victorias":7,"segundo":18,"tercero":6,"win_rate":0.219,"seg_rate":0.562},{"player":"Konstantinos","player_league":"RD","juegos":18,"victorias":2,"segundo":10,"tercero":2,"win_rate":0.111,"seg_rate":0.556},{"player":"Mak","player_league":"RD","juegos":115,"victorias":7,"segundo":58,"tercero":31,"win_rate":0.061,"seg_rate":0.504},{"player":"Octaviano","player_league":"RD","juegos":96,"victorias":18,"segundo":48,"tercero":18,"win_rate":0.188,"seg_rate":0.5},{"player":"Eddy","player_league":"RD","juegos":59,"victorias":6,"segundo":29,"tercero":15,"win_rate":0.102,"seg_rate":0.492},{"player":"Migue","player_league":"MX","juegos":34,"victorias":5,"segundo":15,"tercero":10,"win_rate":0.147,"seg_rate":0.441},{"player":"Lasa","player_league":"MX","juegos":25,"victorias":6,"segundo":11,"tercero":5,"win_rate":0.24,"seg_rate":0.44},{"player":"Jorge Espinoza","player_league":"MX","juegos":31,"victorias":9,"segundo":13,"tercero":8,"win_rate":0.29,"seg_rate":0.419},{"player":"Gonzalo","player_league":"RD","juegos":38,"victorias":0,"segundo":15,"tercero":19,"win_rate":0.0,"seg_rate":0.395},{"player":"Diame","player_league":"RD","juegos":33,"victorias":2,"segundo":13,"tercero":11,"win_rate":0.061,"seg_rate":0.394},{"player":"Wainer","player_league":"RD","juegos":95,"victorias":16,"segundo":34,"tercero":30,"win_rate":0.168,"seg_rate":0.358},{"player":"Ianfi","player_league":"MX","juegos":68,"victorias":23,"segundo":24,"tercero":16,"win_rate":0.338,"seg_rate":0.353},{"player":"Jorge Kourie","player_league":"RD","juegos":63,"victorias":15,"segundo":22,"tercero":19,"win_rate":0.238,"seg_rate":0.349},{"player":"Jose","player_league":"MX","juegos":56,"victorias":19,"segundo":19,"tercero":13,"win_rate":0.339,"seg_rate":0.339},{"player":"Caballol","player_league":"RD","juegos":24,"victorias":2,"segundo":8,"tercero":7,"win_rate":0.083,"seg_rate":0.333},{"player":"Nicolas","player_league":"RD","juegos":143,"victorias":69,"segundo":36,"tercero":26,"win_rate":0.483,"seg_rate":0.252},{"player":"Sabino","player_league":"RD","juegos":129,"victorias":85,"segundo":30,"tercero":11,"win_rate":0.659,"seg_rate":0.233},{"player":"Halvin","player_league":"RD","juegos":90,"victorias":27,"segundo":20,"tercero":34,"win_rate":0.3,"seg_rate":0.222}]
+[
+  {
+    "player": "Sabino",
+    "player_league": "RD",
+    "juegos": 129,
+    "victorias": 85,
+    "segundo": 30,
+    "tercero": 11,
+    "win_rate": 0.659,
+    "seg_rate": 0.233
+  },
+  {
+    "player": "Nicolas",
+    "player_league": "RD",
+    "juegos": 143,
+    "victorias": 69,
+    "segundo": 36,
+    "tercero": 26,
+    "win_rate": 0.483,
+    "seg_rate": 0.252
+  },
+  {
+    "player": "Jose",
+    "player_league": "MX",
+    "juegos": 56,
+    "victorias": 19,
+    "segundo": 19,
+    "tercero": 13,
+    "win_rate": 0.339,
+    "seg_rate": 0.339
+  },
+  {
+    "player": "Ianfi",
+    "player_league": "MX",
+    "juegos": 68,
+    "victorias": 23,
+    "segundo": 24,
+    "tercero": 16,
+    "win_rate": 0.338,
+    "seg_rate": 0.353
+  },
+  {
+    "player": "Halvin",
+    "player_league": "RD",
+    "juegos": 90,
+    "victorias": 27,
+    "segundo": 20,
+    "tercero": 34,
+    "win_rate": 0.3,
+    "seg_rate": 0.222
+  },
+  {
+    "player": "Jorge Espinoza",
+    "player_league": "MX",
+    "juegos": 31,
+    "victorias": 9,
+    "segundo": 13,
+    "tercero": 8,
+    "win_rate": 0.29,
+    "seg_rate": 0.419
+  },
+  {
+    "player": "Lasa",
+    "player_league": "MX",
+    "juegos": 25,
+    "victorias": 6,
+    "segundo": 11,
+    "tercero": 5,
+    "win_rate": 0.24,
+    "seg_rate": 0.44
+  },
+  {
+    "player": "Jorge Kourie",
+    "player_league": "RD",
+    "juegos": 63,
+    "victorias": 15,
+    "segundo": 22,
+    "tercero": 19,
+    "win_rate": 0.238,
+    "seg_rate": 0.349
+  },
+  {
+    "player": "Mike",
+    "player_league": "MX",
+    "juegos": 32,
+    "victorias": 7,
+    "segundo": 18,
+    "tercero": 6,
+    "win_rate": 0.219,
+    "seg_rate": 0.563
+  },
+  {
+    "player": "Octaviano",
+    "player_league": "RD",
+    "juegos": 96,
+    "victorias": 18,
+    "segundo": 48,
+    "tercero": 18,
+    "win_rate": 0.188,
+    "seg_rate": 0.5
+  },
+  {
+    "player": "Wainer",
+    "player_league": "RD",
+    "juegos": 95,
+    "victorias": 16,
+    "segundo": 34,
+    "tercero": 30,
+    "win_rate": 0.168,
+    "seg_rate": 0.358
+  },
+  {
+    "player": "Migue",
+    "player_league": "MX",
+    "juegos": 37,
+    "victorias": 5,
+    "segundo": 15,
+    "tercero": 12,
+    "win_rate": 0.135,
+    "seg_rate": 0.405
+  },
+  {
+    "player": "Konstantinos",
+    "player_league": "RD",
+    "juegos": 18,
+    "victorias": 2,
+    "segundo": 10,
+    "tercero": 2,
+    "win_rate": 0.111,
+    "seg_rate": 0.556
+  },
+  {
+    "player": "Eddy",
+    "player_league": "RD",
+    "juegos": 59,
+    "victorias": 6,
+    "segundo": 29,
+    "tercero": 15,
+    "win_rate": 0.102,
+    "seg_rate": 0.492
+  },
+  {
+    "player": "Mak",
+    "player_league": "RD",
+    "juegos": 120,
+    "victorias": 8,
+    "segundo": 59,
+    "tercero": 34,
+    "win_rate": 0.067,
+    "seg_rate": 0.492
+  },
+  {
+    "player": "Diame",
+    "player_league": "RD",
+    "juegos": 33,
+    "victorias": 2,
+    "segundo": 13,
+    "tercero": 11,
+    "win_rate": 0.061,
+    "seg_rate": 0.394
+  },
+  {
+    "player": "Caballol",
+    "player_league": "RD",
+    "juegos": 24,
+    "victorias": 1,
+    "segundo": 9,
+    "tercero": 8,
+    "win_rate": 0.042,
+    "seg_rate": 0.375
+  },
+  {
+    "player": "Gonzalo",
+    "player_league": "RD",
+    "juegos": 38,
+    "victorias": 0,
+    "segundo": 15,
+    "tercero": 19,
+    "win_rate": 0,
+    "seg_rate": 0.395
+  }
+]
