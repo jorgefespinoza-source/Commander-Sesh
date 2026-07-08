@@ -2,12 +2,12 @@
   {
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 148,
-    "victorias": 93,
+    "juegos": 149,
+    "victorias": 94,
     "segundo": 40,
     "tercero": 11,
-    "win_rate": 0.628,
-    "seg_rate": 0.27
+    "win_rate": 0.631,
+    "seg_rate": 0.268
   },
   {
     "player": "Nicolas",
@@ -22,12 +22,12 @@
   {
     "player": "Ianfi",
     "player_league": "MX",
-    "juegos": 88,
-    "victorias": 31,
+    "juegos": 92,
+    "victorias": 34,
     "segundo": 28,
-    "tercero": 22,
-    "win_rate": 0.352,
-    "seg_rate": 0.318
+    "tercero": 23,
+    "win_rate": 0.37,
+    "seg_rate": 0.304
   },
   {
     "player": "Jose",
@@ -52,12 +52,12 @@
   {
     "player": "Jorge Espinoza",
     "player_league": "MX",
-    "juegos": 52,
-    "victorias": 15,
-    "segundo": 22,
-    "tercero": 11,
-    "win_rate": 0.288,
-    "seg_rate": 0.423
+    "juegos": 56,
+    "victorias": 16,
+    "segundo": 24,
+    "tercero": 12,
+    "win_rate": 0.286,
+    "seg_rate": 0.429
   },
   {
     "player": "Lasa",
@@ -102,12 +102,12 @@
   {
     "player": "Konstantinos",
     "player_league": "RD",
-    "juegos": 31,
+    "juegos": 32,
     "victorias": 5,
-    "segundo": 14,
+    "segundo": 15,
     "tercero": 6,
-    "win_rate": 0.161,
-    "seg_rate": 0.452
+    "win_rate": 0.156,
+    "seg_rate": 0.469
   },
   {
     "player": "Wainer",
@@ -132,22 +132,22 @@
   {
     "player": "Migue",
     "player_league": "MX",
-    "juegos": 58,
+    "juegos": 62,
     "victorias": 8,
-    "segundo": 25,
+    "segundo": 29,
     "tercero": 18,
-    "win_rate": 0.138,
-    "seg_rate": 0.431
+    "win_rate": 0.129,
+    "seg_rate": 0.468
   },
   {
     "player": "Mak",
     "player_league": "RD",
-    "juegos": 143,
+    "juegos": 144,
     "victorias": 16,
-    "segundo": 70,
+    "segundo": 71,
     "tercero": 37,
-    "win_rate": 0.112,
-    "seg_rate": 0.49
+    "win_rate": 0.111,
+    "seg_rate": 0.493
   },
   {
     "player": "Diame",
@@ -172,31 +172,31 @@
   {
     "player": "Carlos",
     "player_league": "RD",
-    "juegos": 23,
+    "juegos": 24,
     "victorias": 1,
     "segundo": 9,
-    "tercero": 5,
-    "win_rate": 0.043,
-    "seg_rate": 0.391
+    "tercero": 6,
+    "win_rate": 0.042,
+    "seg_rate": 0.375
   },
   {
     "player": "Caballol",
     "player_league": "RD",
-    "juegos": 26,
+    "juegos": 25,
     "victorias": 1,
     "segundo": 12,
-    "tercero": 9,
-    "win_rate": 0.038,
-    "seg_rate": 0.462
+    "tercero": 8,
+    "win_rate": 0.04,
+    "seg_rate": 0.48
   },
   {
     "player": "Gonzalo",
     "player_league": "RD",
-    "juegos": 54,
+    "juegos": 55,
     "victorias": 2,
-    "segundo": 23,
+    "segundo": 24,
     "tercero": 24,
-    "win_rate": 0.037,
-    "seg_rate": 0.426
+    "win_rate": 0.036,
+    "seg_rate": 0.436
   }
 ]

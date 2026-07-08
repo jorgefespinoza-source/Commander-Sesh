@@ -3,12 +3,12 @@
     "rank": 1,
     "player": "Ianfi",
     "player_league": "MX",
-    "juegos": 88,
-    "victorias": 31,
-    "win_rate": 0.352,
-    "avg_placement": 2.07,
-    "avg_place_norm": 0.611,
-    "mazos_distintos": 18
+    "juegos": 92,
+    "victorias": 34,
+    "win_rate": 0.37,
+    "avg_placement": 2.04,
+    "avg_place_norm": 0.617,
+    "mazos_distintos": 19
   },
   {
     "rank": 2,
@@ -25,12 +25,12 @@
     "rank": 3,
     "player": "Jorge Espinoza",
     "player_league": "MX",
-    "juegos": 52,
-    "victorias": 15,
-    "win_rate": 0.288,
-    "avg_placement": 2.08,
-    "avg_place_norm": 0.574,
-    "mazos_distintos": 16
+    "juegos": 56,
+    "victorias": 16,
+    "win_rate": 0.286,
+    "avg_placement": 2.07,
+    "avg_place_norm": 0.568,
+    "mazos_distintos": 17
   },
   {
     "rank": 4,
@@ -58,11 +58,11 @@
     "rank": 6,
     "player": "Migue",
     "player_league": "MX",
-    "juegos": 58,
+    "juegos": 62,
     "victorias": 8,
-    "win_rate": 0.138,
-    "avg_placement": 2.43,
-    "avg_place_norm": 0.47,
-    "mazos_distintos": 17
+    "win_rate": 0.129,
+    "avg_placement": 2.4,
+    "avg_place_norm": 0.472,
+    "mazos_distintos": 18
   }
 ]

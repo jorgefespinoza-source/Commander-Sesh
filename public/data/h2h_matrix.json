@@ -20,20 +20,14 @@
   {
     "from": "Caballol",
     "to": "Nicolas",
-    "wr": 0.158,
-    "games": 19
+    "wr": 0.167,
+    "games": 18
   },
   {
     "from": "Caballol",
     "to": "Octaviano",
     "wr": 0.1,
     "games": 10
-  },
-  {
-    "from": "Caballol",
-    "to": "Sabino",
-    "wr": 0.25,
-    "games": 8
   },
   {
     "from": "Carlos",
@@ -44,14 +38,14 @@
   {
     "from": "Carlos",
     "to": "Nicolas",
-    "wr": 0.182,
-    "games": 11
+    "wr": 0.167,
+    "games": 12
   },
   {
     "from": "Carlos",
     "to": "Sabino",
-    "wr": 0.125,
-    "games": 16
+    "wr": 0.118,
+    "games": 17
   },
   {
     "from": "Diame",
@@ -164,14 +158,14 @@
   {
     "from": "Gonzalo",
     "to": "Konstantinos",
-    "wr": 0.3,
-    "games": 10
+    "wr": 0.273,
+    "games": 11
   },
   {
     "from": "Gonzalo",
     "to": "Mak",
-    "wr": 0.15,
-    "games": 20
+    "wr": 0.143,
+    "games": 21
   },
   {
     "from": "Gonzalo",
@@ -188,8 +182,8 @@
   {
     "from": "Gonzalo",
     "to": "Sabino",
-    "wr": 0.083,
-    "games": 24
+    "wr": 0.08,
+    "games": 25
   },
   {
     "from": "Halvin",
@@ -260,8 +254,8 @@
   {
     "from": "Ianfi",
     "to": "Jorge Espinoza",
-    "wr": 0.549,
-    "games": 51
+    "wr": 0.564,
+    "games": 55
   },
   {
     "from": "Ianfi",
@@ -278,8 +272,8 @@
   {
     "from": "Ianfi",
     "to": "Migue",
-    "wr": 0.574,
-    "games": 54
+    "wr": 0.586,
+    "games": 58
   },
   {
     "from": "Ianfi",
@@ -290,8 +284,8 @@
   {
     "from": "Jorge Espinoza",
     "to": "Ianfi",
-    "wr": 0.373,
-    "games": 51
+    "wr": 0.364,
+    "games": 55
   },
   {
     "from": "Jorge Espinoza",
@@ -302,8 +296,8 @@
   {
     "from": "Jorge Espinoza",
     "to": "Migue",
-    "wr": 0.465,
-    "games": 43
+    "wr": 0.447,
+    "games": 47
   },
   {
     "from": "Jorge Kourie",
@@ -398,8 +392,8 @@
   {
     "from": "Konstantinos",
     "to": "Gonzalo",
-    "wr": 0.5,
-    "games": 10
+    "wr": 0.455,
+    "games": 11
   },
   {
     "from": "Konstantinos",
@@ -415,9 +409,15 @@
   },
   {
     "from": "Konstantinos",
+    "to": "Mak",
+    "wr": 0.25,
+    "games": 8
+  },
+  {
+    "from": "Konstantinos",
     "to": "Sabino",
-    "wr": 0.182,
-    "games": 11
+    "wr": 0.167,
+    "games": 12
   },
   {
     "from": "Lasa",
@@ -464,8 +464,8 @@
   {
     "from": "Mak",
     "to": "Gonzalo",
-    "wr": 0.65,
-    "games": 20
+    "wr": 0.619,
+    "games": 21
   },
   {
     "from": "Mak",
@@ -478,6 +478,12 @@
     "to": "Jorge Kourie",
     "wr": 0.318,
     "games": 22
+  },
+  {
+    "from": "Mak",
+    "to": "Konstantinos",
+    "wr": 0.5,
+    "games": 8
   },
   {
     "from": "Mak",
@@ -494,8 +500,8 @@
   {
     "from": "Mak",
     "to": "Sabino",
-    "wr": 0.203,
-    "games": 64
+    "wr": 0.2,
+    "games": 65
   },
   {
     "from": "Mak",
@@ -512,14 +518,14 @@
   {
     "from": "Migue",
     "to": "Ianfi",
-    "wr": 0.315,
-    "games": 54
+    "wr": 0.31,
+    "games": 58
   },
   {
     "from": "Migue",
     "to": "Jorge Espinoza",
-    "wr": 0.302,
-    "games": 43
+    "wr": 0.298,
+    "games": 47
   },
   {
     "from": "Migue",
@@ -560,14 +566,14 @@
   {
     "from": "Nicolas",
     "to": "Caballol",
-    "wr": 0.684,
-    "games": 19
+    "wr": 0.667,
+    "games": 18
   },
   {
     "from": "Nicolas",
     "to": "Carlos",
-    "wr": 0.727,
-    "games": 11
+    "wr": 0.75,
+    "games": 12
   },
   {
     "from": "Nicolas",
@@ -685,15 +691,9 @@
   },
   {
     "from": "Sabino",
-    "to": "Caballol",
-    "wr": 0.625,
-    "games": 8
-  },
-  {
-    "from": "Sabino",
     "to": "Carlos",
-    "wr": 0.813,
-    "games": 16
+    "wr": 0.824,
+    "games": 17
   },
   {
     "from": "Sabino",
@@ -710,8 +710,8 @@
   {
     "from": "Sabino",
     "to": "Gonzalo",
-    "wr": 0.792,
-    "games": 24
+    "wr": 0.8,
+    "games": 25
   },
   {
     "from": "Sabino",
@@ -728,14 +728,14 @@
   {
     "from": "Sabino",
     "to": "Konstantinos",
-    "wr": 0.818,
-    "games": 11
+    "wr": 0.833,
+    "games": 12
   },
   {
     "from": "Sabino",
     "to": "Mak",
-    "wr": 0.703,
-    "games": 64
+    "wr": 0.708,
+    "games": 65
   },
   {
     "from": "Sabino",

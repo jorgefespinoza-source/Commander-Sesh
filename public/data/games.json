@@ -8670,7 +8670,7 @@
     "date": "2026-02-07",
     "gameNum": 261,
     "placement": 3,
-    "player": "Caballol",
+    "player": "Carlos",
     "deck": "Hakbal",
     "colorIdentity": "UG",
     "podSize": 5
@@ -13353,6 +13353,150 @@
     "player": "Panadero",
     "deck": "Invisible Woman",
     "colorIdentity": "WURG",
+    "podSize": 4
+  },
+  {
+    "date": "2026-06-05",
+    "gameNum": 395,
+    "placement": 1,
+    "player": "Ianfi",
+    "deck": "Ashling",
+    "colorIdentity": "",
+    "podSize": 3
+  },
+  {
+    "date": "2026-06-05",
+    "gameNum": 395,
+    "placement": 2,
+    "player": "Migue",
+    "deck": "Valgavoth (M)",
+    "colorIdentity": "BR",
+    "podSize": 3
+  },
+  {
+    "date": "2026-06-05",
+    "gameNum": 395,
+    "placement": 3,
+    "player": "Jorge Espinoza",
+    "deck": "Urza Chief Artificer (J)",
+    "colorIdentity": "",
+    "podSize": 3
+  },
+  {
+    "date": "2026-06-05",
+    "gameNum": 396,
+    "placement": 1,
+    "player": "Ianfi",
+    "deck": "Iroh Grand Lotus",
+    "colorIdentity": "URG",
+    "podSize": 3
+  },
+  {
+    "date": "2026-06-05",
+    "gameNum": 396,
+    "placement": 2,
+    "player": "Migue",
+    "deck": "Toph, First Metalbender (M)",
+    "colorIdentity": "WRG",
+    "podSize": 3
+  },
+  {
+    "date": "2026-06-05",
+    "gameNum": 396,
+    "placement": 2,
+    "player": "Jorge Espinoza",
+    "deck": "Aziza",
+    "colorIdentity": "WR",
+    "podSize": 3
+  },
+  {
+    "date": "2026-06-05",
+    "gameNum": 397,
+    "placement": 1,
+    "player": "Jorge Espinoza",
+    "deck": "Quintorious",
+    "colorIdentity": "WR",
+    "podSize": 3
+  },
+  {
+    "date": "2026-06-05",
+    "gameNum": 397,
+    "placement": 2,
+    "player": "Migue",
+    "deck": "Auntie Ool",
+    "colorIdentity": "",
+    "podSize": 3
+  },
+  {
+    "date": "2026-06-05",
+    "gameNum": 397,
+    "placement": 3,
+    "player": "Ianfi",
+    "deck": "Avatar Aang",
+    "colorIdentity": "WUBRG",
+    "podSize": 3
+  },
+  {
+    "date": "2026-06-06",
+    "gameNum": 398,
+    "placement": 1,
+    "player": "Ianfi",
+    "deck": "Sokka, Tenacious Tactician (i)",
+    "colorIdentity": "WUR",
+    "podSize": 3
+  },
+  {
+    "date": "2026-06-06",
+    "gameNum": 398,
+    "placement": 2,
+    "player": "Migue",
+    "deck": "Teval (M)",
+    "colorIdentity": "UBG",
+    "podSize": 3
+  },
+  {
+    "date": "2026-06-06",
+    "gameNum": 398,
+    "placement": 2,
+    "player": "Jorge Espinoza",
+    "deck": "Urza Chief Artificer (J)",
+    "colorIdentity": "",
+    "podSize": 3
+  },
+  {
+    "date": "2026-06-27",
+    "gameNum": 399,
+    "placement": 1,
+    "player": "Sabino",
+    "deck": "Norman Osborn",
+    "colorIdentity": "UBR",
+    "podSize": 4
+  },
+  {
+    "date": "2026-06-27",
+    "gameNum": 399,
+    "placement": 2,
+    "player": "Konstantinos",
+    "deck": "Jared Carthalion",
+    "colorIdentity": "WUBRG",
+    "podSize": 4
+  },
+  {
+    "date": "2026-06-27",
+    "gameNum": 399,
+    "placement": 2,
+    "player": "Mak",
+    "deck": "Kastral, The Wingcrested",
+    "colorIdentity": "WU",
+    "podSize": 4
+  },
+  {
+    "date": "2026-06-27",
+    "gameNum": 399,
+    "placement": 2,
+    "player": "Gonzalo",
+    "deck": "Zinnia (G)",
+    "colorIdentity": "WUR",
     "podSize": 4
   }
 ]

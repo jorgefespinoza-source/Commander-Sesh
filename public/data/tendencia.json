@@ -12,7 +12,7 @@
     "player": "Konstantinos",
     "player_league": "RD",
     "meses": 9,
-    "slope": 0.0405,
+    "slope": 0.0387,
     "wr_inicial": 0,
     "wr_final": 0.25,
     "tendencia": "subiendo"
@@ -39,9 +39,18 @@
     "player": "Sabino",
     "player_league": "RD",
     "meses": 16,
-    "slope": 0.012,
+    "slope": 0.0139,
     "wr_inicial": 0.5,
     "wr_final": 1,
+    "tendencia": "subiendo"
+  },
+  {
+    "player": "Ianfi",
+    "player_league": "MX",
+    "meses": 13,
+    "slope": 0.0123,
+    "wr_inicial": 0.5,
+    "wr_final": 0.4,
     "tendencia": "subiendo"
   },
   {
@@ -52,15 +61,6 @@
     "wr_inicial": 0,
     "wr_final": 0,
     "tendencia": "subiendo"
-  },
-  {
-    "player": "Ianfi",
-    "player_league": "MX",
-    "meses": 13,
-    "slope": 0.0089,
-    "wr_inicial": 0.5,
-    "wr_final": 0.4,
-    "tendencia": "estable"
   },
   {
     "player": "Octaviano",
@@ -75,7 +75,7 @@
     "player": "Mak",
     "player_league": "RD",
     "meses": 16,
-    "slope": 0.0087,
+    "slope": 0.0084,
     "wr_inicial": 0.143,
     "wr_final": 0,
     "tendencia": "estable"
@@ -102,7 +102,7 @@
     "player": "Migue",
     "player_league": "MX",
     "meses": 9,
-    "slope": 0.0071,
+    "slope": 0.005,
     "wr_inicial": 0.333,
     "wr_final": 0.2,
     "tendencia": "estable"
@@ -119,8 +119,8 @@
   {
     "player": "Caballol",
     "player_league": "RD",
-    "meses": 10,
-    "slope": -0.002,
+    "meses": 9,
+    "slope": 0,
     "wr_inicial": 0,
     "wr_final": 0,
     "tendencia": "estable"

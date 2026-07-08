@@ -18,10 +18,18 @@
   {
     "p1": "Mak",
     "p2": "Sabino",
-    "games": 64,
+    "games": 65,
     "p1_wins": 13,
-    "p2_wins": 45,
-    "p1_wr": 0.203
+    "p2_wins": 46,
+    "p1_wr": 0.2
+  },
+  {
+    "p1": "Ianfi",
+    "p2": "Migue",
+    "games": 58,
+    "p1_wins": 34,
+    "p2_wins": 18,
+    "p1_wr": 0.586
   },
   {
     "p1": "Nicolas",
@@ -32,20 +40,20 @@
     "p1_wr": 0.5
   },
   {
+    "p1": "Ianfi",
+    "p2": "Jorge Espinoza",
+    "games": 55,
+    "p1_wins": 31,
+    "p2_wins": 20,
+    "p1_wr": 0.564
+  },
+  {
     "p1": "Nicolas",
     "p2": "Wainer",
     "games": 54,
     "p1_wins": 34,
     "p2_wins": 12,
     "p1_wr": 0.63
-  },
-  {
-    "p1": "Ianfi",
-    "p2": "Migue",
-    "games": 54,
-    "p1_wins": 31,
-    "p2_wins": 17,
-    "p1_wr": 0.574
   },
   {
     "p1": "Halvin",
@@ -80,14 +88,6 @@
     "p1_wr": 0.255
   },
   {
-    "p1": "Ianfi",
-    "p2": "Jorge Espinoza",
-    "games": 51,
-    "p1_wins": 28,
-    "p2_wins": 19,
-    "p1_wr": 0.549
-  },
-  {
     "p1": "Octaviano",
     "p2": "Sabino",
     "games": 50,
@@ -106,10 +106,10 @@
   {
     "p1": "Jorge Espinoza",
     "p2": "Migue",
-    "games": 43,
-    "p1_wins": 20,
-    "p2_wins": 13,
-    "p1_wr": 0.465
+    "games": 47,
+    "p1_wins": 21,
+    "p2_wins": 14,
+    "p1_wr": 0.447
   },
   {
     "p1": "Halvin",
@@ -232,20 +232,20 @@
     "p1_wr": 0.2
   },
   {
+    "p1": "Gonzalo",
+    "p2": "Sabino",
+    "games": 25,
+    "p1_wins": 2,
+    "p2_wins": 20,
+    "p1_wr": 0.08
+  },
+  {
     "p1": "Jorge Kourie",
     "p2": "Octaviano",
     "games": 24,
     "p1_wins": 13,
     "p2_wins": 11,
     "p1_wr": 0.542
-  },
-  {
-    "p1": "Gonzalo",
-    "p2": "Sabino",
-    "games": 24,
-    "p1_wins": 2,
-    "p2_wins": 19,
-    "p1_wr": 0.083
   },
   {
     "p1": "Jorge Kourie",
@@ -280,28 +280,20 @@
     "p1_wr": 0.619
   },
   {
+    "p1": "Gonzalo",
+    "p2": "Mak",
+    "games": 21,
+    "p1_wins": 3,
+    "p2_wins": 13,
+    "p1_wr": 0.143
+  },
+  {
     "p1": "Jorge Kourie",
     "p2": "Sabino",
     "games": 20,
     "p1_wins": 2,
     "p2_wins": 16,
     "p1_wr": 0.1
-  },
-  {
-    "p1": "Gonzalo",
-    "p2": "Mak",
-    "games": 20,
-    "p1_wins": 3,
-    "p2_wins": 13,
-    "p1_wr": 0.15
-  },
-  {
-    "p1": "Caballol",
-    "p2": "Nicolas",
-    "games": 19,
-    "p1_wins": 3,
-    "p2_wins": 13,
-    "p1_wr": 0.158
   },
   {
     "p1": "Gonzalo",
@@ -326,6 +318,14 @@
     "p1_wins": 6,
     "p2_wins": 9,
     "p1_wr": 0.333
+  },
+  {
+    "p1": "Caballol",
+    "p2": "Nicolas",
+    "games": 18,
+    "p1_wins": 3,
+    "p2_wins": 12,
+    "p1_wr": 0.167
   },
   {
     "p1": "Eddy",
@@ -360,20 +360,20 @@
     "p1_wr": 0.529
   },
   {
+    "p1": "Carlos",
+    "p2": "Sabino",
+    "games": 17,
+    "p1_wins": 2,
+    "p2_wins": 14,
+    "p1_wr": 0.118
+  },
+  {
     "p1": "Eddy",
     "p2": "Wainer",
     "games": 16,
     "p1_wins": 6,
     "p2_wins": 6,
     "p1_wr": 0.375
-  },
-  {
-    "p1": "Carlos",
-    "p2": "Sabino",
-    "games": 16,
-    "p1_wins": 2,
-    "p2_wins": 13,
-    "p1_wr": 0.125
   },
   {
     "p1": "Gonzalo",
@@ -424,6 +424,22 @@
     "p1_wr": 0.154
   },
   {
+    "p1": "Carlos",
+    "p2": "Nicolas",
+    "games": 12,
+    "p1_wins": 2,
+    "p2_wins": 9,
+    "p1_wr": 0.167
+  },
+  {
+    "p1": "Konstantinos",
+    "p2": "Sabino",
+    "games": 12,
+    "p1_wins": 2,
+    "p2_wins": 10,
+    "p1_wr": 0.167
+  },
+  {
     "p1": "Blanca",
     "p2": "Ianfi",
     "games": 12,
@@ -448,14 +464,6 @@
     "p1_wr": 0.364
   },
   {
-    "p1": "Carlos",
-    "p2": "Nicolas",
-    "games": 11,
-    "p1_wins": 2,
-    "p2_wins": 8,
-    "p1_wr": 0.182
-  },
-  {
     "p1": "Caballol",
     "p2": "Mak",
     "games": 11,
@@ -464,12 +472,12 @@
     "p1_wr": 0.182
   },
   {
-    "p1": "Konstantinos",
-    "p2": "Sabino",
+    "p1": "Gonzalo",
+    "p2": "Konstantinos",
     "games": 11,
-    "p1_wins": 2,
-    "p2_wins": 9,
-    "p1_wr": 0.182
+    "p1_wins": 3,
+    "p2_wins": 5,
+    "p1_wr": 0.273
   },
   {
     "p1": "Halvin",
@@ -496,14 +504,6 @@
     "p1_wr": 0.4
   },
   {
-    "p1": "Gonzalo",
-    "p2": "Konstantinos",
-    "games": 10,
-    "p1_wins": 3,
-    "p2_wins": 5,
-    "p1_wr": 0.3
-  },
-  {
     "p1": "Diame",
     "p2": "Octaviano",
     "games": 9,
@@ -520,19 +520,19 @@
     "p1_wr": 0.375
   },
   {
-    "p1": "Caballol",
-    "p2": "Sabino",
-    "games": 8,
-    "p1_wins": 2,
-    "p2_wins": 5,
-    "p1_wr": 0.25
-  },
-  {
     "p1": "Migue",
     "p2": "Mike",
     "games": 8,
     "p1_wins": 3,
     "p2_wins": 5,
     "p1_wr": 0.375
+  },
+  {
+    "p1": "Konstantinos",
+    "p2": "Mak",
+    "games": 8,
+    "p1_wins": 2,
+    "p2_wins": 4,
+    "p1_wr": 0.25
   }
 ]
