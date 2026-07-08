@@ -9,8 +9,9 @@ Google Sheet (source of truth)  ->  build-data.mjs  ->  public/data/*.json  ->  
 
 ## Source of truth
 
-The **Google Sheet** is canonical:
-`https://docs.google.com/spreadsheets/d/1wrlHIJ6O6Z4kHnGcD2DhbUutuwIBLwN4/`
+The **Google Sheet** is canonical (native sheet, converted from the original
+uploaded .xlsx in July 2026):
+`https://docs.google.com/spreadsheets/d/1iHjEijCrgXprn8gHXZqqUHHGjcqKH1r-y1zGlsH5g8I/`
 
 It's shared "anyone with the link," so the pipeline reads it as CSV with **zero credentials**.
 Two tabs matter:
