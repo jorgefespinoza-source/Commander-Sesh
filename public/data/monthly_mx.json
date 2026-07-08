@@ -330,24 +330,24 @@
   },
   {
     "year_month": "2026-06",
-    "player": "Ianfi",
-    "juegos": 16,
-    "victorias": 6,
-    "win_rate": 0.375
+    "player": "Jorge Espinoza",
+    "juegos": 12,
+    "victorias": 3,
+    "win_rate": 0.25
   },
   {
     "year_month": "2026-06",
-    "player": "Jorge Espinoza",
-    "juegos": 16,
-    "victorias": 4,
+    "player": "Ianfi",
+    "juegos": 12,
+    "victorias": 3,
     "win_rate": 0.25
   },
   {
     "year_month": "2026-06",
     "player": "Migue",
-    "juegos": 16,
+    "juegos": 12,
     "victorias": 2,
-    "win_rate": 0.125
+    "win_rate": 0.167
   },
   {
     "year_month": "2026-07",

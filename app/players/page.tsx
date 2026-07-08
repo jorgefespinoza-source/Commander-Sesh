@@ -1,9 +1,8 @@
 "use client";
 import { useEffect, useState, useMemo } from "react";
-import { getGames } from "@/lib/data";
+import { getGames, getElo } from "@/lib/data";
 import { getAllPlayerStats, filterBySeason, getSeasons, fmt } from "@/lib/stats";
 import type { GameEntry } from "@/lib/types";
-import ManaSymbols from "@/components/ManaSymbols";
 import ScryfallArt from "@/components/ScryfallArt";
 import SeasonFilter from "@/components/SeasonFilter";
 import Link from "next/link";
@@ -13,13 +12,19 @@ export default function PlayersPage() {
   const [season, setSeason] = useState<number | null>(null);
   const [loading, setLoading] = useState(true);
 
+  const [roster, setRoster] = useState<Set<string>>(new Set());
+
   useEffect(() => {
-    getGames().then(g => { setGames(g); setLoading(false); });
+    Promise.all([getGames(), getElo()]).then(([g, e]) => {
+      setGames(g);
+      setRoster(new Set(e.map(x => x.player)));
+      setLoading(false);
+    });
   }, []);
 
   const seasons = useMemo(() => getSeasons(games), [games]);
   const filtered = useMemo(() => filterBySeason(games, season), [games, season]);
-  const stats = useMemo(() => getAllPlayerStats(filtered), [filtered]);
+  const stats = useMemo(() => getAllPlayerStats(filtered).filter(p => roster.size === 0 || roster.has(p.name)), [filtered, roster]);
 
   if (loading) return (
     <div className="max-w-lg mx-auto px-4 pt-6 space-y-3">
@@ -48,7 +53,6 @@ export default function PlayersPage() {
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 mb-1">
                   <span className="text-parchment font-semibold text-sm truncate">{p.name}</span>
-                  <ManaSymbols identity={p.favColorIdentity} size="sm" />
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="wr-bar flex-1">

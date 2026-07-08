@@ -3,11 +3,11 @@
     "rank": 1,
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 149,
-    "victorias": 94,
-    "win_rate": 0.631,
-    "avg_placement": 1.5,
-    "avg_place_norm": 0.822,
+    "juegos": 148,
+    "victorias": 93,
+    "win_rate": 0.628,
+    "avg_placement": 1.51,
+    "avg_place_norm": 0.82,
     "mazos_distintos": 30
   },
   {
@@ -58,11 +58,11 @@
     "rank": 6,
     "player": "Konstantinos",
     "player_league": "RD",
-    "juegos": 32,
+    "juegos": 31,
     "victorias": 5,
-    "win_rate": 0.156,
-    "avg_placement": 2.44,
-    "avg_place_norm": 0.526,
+    "win_rate": 0.161,
+    "avg_placement": 2.45,
+    "avg_place_norm": 0.522,
     "mazos_distintos": 11
   },
   {
@@ -91,11 +91,11 @@
     "rank": 9,
     "player": "Mak",
     "player_league": "RD",
-    "juegos": 144,
+    "juegos": 143,
     "victorias": 16,
-    "win_rate": 0.111,
+    "win_rate": 0.112,
     "avg_placement": 2.46,
-    "avg_place_norm": 0.483,
+    "avg_place_norm": 0.482,
     "mazos_distintos": 34
   },
   {
@@ -107,7 +107,7 @@
     "win_rate": 0.086,
     "avg_placement": 2.66,
     "avg_place_norm": 0.398,
-    "mazos_distintos": 7
+    "mazos_distintos": 6
   },
   {
     "rank": 11,
@@ -135,11 +135,11 @@
     "rank": 13,
     "player": "Gonzalo",
     "player_league": "RD",
-    "juegos": 55,
+    "juegos": 54,
     "victorias": 2,
-    "win_rate": 0.036,
-    "avg_placement": 2.62,
-    "avg_place_norm": 0.467,
+    "win_rate": 0.037,
+    "avg_placement": 2.63,
+    "avg_place_norm": 0.463,
     "mazos_distintos": 12
   }
 ]

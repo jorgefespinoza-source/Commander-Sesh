@@ -1,7 +1,9 @@
 "use client";
 import { useState, useRef, useEffect, useMemo } from "react";
 import ScryfallArt from "@/components/ScryfallArt";
+import ManaSymbols from "@/components/ManaSymbols";
 import { stripOwnerSuffix } from "@/lib/stats";
+import { searchCommanders, type ScryfallHit } from "@/lib/scryfall";
 
 interface Props {
   value: string;
@@ -11,12 +13,20 @@ interface Props {
   placeholder?: string;
 }
 
-export default function DeckSearch({ value, onChange, allDecks, prevDecks, placeholder = "Type commander name…" }: Props) {
+/**
+ * Commander search bar: matches the pod's existing decks first; when the text
+ * doesn't match anything, it live-searches Scryfall so a NEW deck can be created
+ * with the official card name (and therefore art + colors) from day one.
+ */
+export default function DeckSearch({ value, onChange, allDecks, prevDecks, placeholder = "Search commander…" }: Props) {
   const [query, setQuery]     = useState("");
   const [open, setOpen]       = useState(false);
   const [focused, setFocused] = useState<string | null>(null);
+  const [scryfall, setScryfall] = useState<ScryfallHit[]>([]);
+  const [searching, setSearching] = useState(false);
   const containerRef          = useRef<HTMLDivElement>(null);
   const inputRef              = useRef<HTMLInputElement>(null);
+  const debounceRef           = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     function onOutside(e: MouseEvent) {
@@ -30,8 +40,6 @@ export default function DeckSearch({ value, onChange, allDecks, prevDecks, place
 
   const suggestions = useMemo(() => {
     const q = query.trim().toLowerCase();
-
-    // match function: check deck name and base commander name
     const matches = (name: string) =>
       !q ||
       name.toLowerCase().includes(q) ||
@@ -39,31 +47,41 @@ export default function DeckSearch({ value, onChange, allDecks, prevDecks, place
 
     const prevSet = new Set(prevDecks);
     const prevMatched = prevDecks.filter(matches);
-
-    // remaining decks not in player's history, sorted by popularity
     const restMatched = allDecks
       .filter(d => !prevSet.has(d.name) && matches(d.name))
       .sort((a, b) => b.games - a.games)
       .map(d => d.name);
 
-    // if typing something that doesn't match any existing deck, offer free-text option
-    const hasExactMatch = [...prevMatched, ...restMatched].some(
-      n => n.toLowerCase() === q
-    );
-    const freeText = q && !hasExactMatch ? [`+ Use "${query}" (new deck)`] : [];
-
-    return { prev: prevMatched.slice(0, 15), rest: restMatched.slice(0, 30), freeText };
+    return { prev: prevMatched.slice(0, 15), rest: restMatched.slice(0, 20) };
   }, [query, allDecks, prevDecks]);
+
+  // Live Scryfall search when local matches are thin and query is meaningful.
+  useEffect(() => {
+    const q = query.trim();
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    if (q.length < 3) { setScryfall([]); return; }
+    setSearching(true);
+    debounceRef.current = setTimeout(() => {
+      searchCommanders(q).then(hits => {
+        // hide cards that are already pod decks under the same official name
+        const known = new Set([...suggestions.prev, ...suggestions.rest]
+          .map(n => stripOwnerSuffix(n).toLowerCase()));
+        setScryfall(hits.filter(h => !known.has(h.name.toLowerCase())));
+        setSearching(false);
+      });
+    }, 350);
+    return () => { if (debounceRef.current) clearTimeout(debounceRef.current); };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [query]);
 
   const allSuggestions = [
     ...suggestions.prev,
     ...suggestions.rest,
-    ...suggestions.freeText,
+    ...scryfall.map(h => `scry:${h.name}`),
   ];
 
   function select(raw: string) {
-    const deck = raw.startsWith('+ Use "') ? query : raw;
-    onChange(deck);
+    onChange(raw.startsWith("scry:") ? raw.slice(5) : raw);
     setQuery("");
     setOpen(false);
     inputRef.current?.blur();
@@ -120,10 +138,10 @@ export default function DeckSearch({ value, onChange, allDecks, prevDecks, place
       )}
 
       {/* Dropdown */}
-      {open && allSuggestions.length > 0 && (
+      {open && (allSuggestions.length > 0 || searching) && (
         <div
           className="absolute z-50 left-0 right-0 top-full mt-1 rounded-xl overflow-y-auto"
-          style={{ background: "#0f0f1c", border: "1px solid #1e1e38", maxHeight: "260px", boxShadow: "0 8px 32px #00000080" }}>
+          style={{ background: "#0f0f1c", border: "1px solid #1e1e38", maxHeight: "300px", boxShadow: "0 8px 32px #00000080" }}>
 
           {/* Player's previous decks */}
           {suggestions.prev.length > 0 && (
@@ -138,11 +156,11 @@ export default function DeckSearch({ value, onChange, allDecks, prevDecks, place
             </>
           )}
 
-          {/* Rest of decks */}
+          {/* Rest of pod decks */}
           {suggestions.rest.length > 0 && (
             <>
               <div className="px-3 pt-2 pb-1">
-                <span className="text-[9px] uppercase tracking-widest font-cinzel text-muted/60">All Commanders</span>
+                <span className="text-[9px] uppercase tracking-widest font-cinzel text-muted/60">Pod Decks</span>
               </div>
               {suggestions.rest.map(deck => (
                 <DeckRow key={deck} deck={deck} style={rowStyle(deck)}
@@ -151,16 +169,41 @@ export default function DeckSearch({ value, onChange, allDecks, prevDecks, place
             </>
           )}
 
-          {/* Free text option */}
-          {suggestions.freeText.map(item => (
-            <button key={item} type="button"
-              onMouseDown={e => { e.preventDefault(); select(item); }}
-              onMouseEnter={() => setFocused(item)}
-              className="w-full flex items-center gap-3 px-3 py-2.5 text-left text-sm italic"
-              style={{ ...rowStyle(item), color: "#c8a951" }}>
-              {item}
-            </button>
-          ))}
+          {/* Scryfall results: create a new deck with the official card name */}
+          {(scryfall.length > 0 || searching) && (
+            <>
+              <div className="px-3 pt-2 pb-1 flex items-center gap-2">
+                <span className="text-[9px] uppercase tracking-widest font-cinzel" style={{ color: "#7a5cc4" }}>
+                  New from Scryfall
+                </span>
+                {searching && <span className="text-[9px] text-muted animate-pulse">searching…</span>}
+              </div>
+              {scryfall.map(hit => {
+                const key = `scry:${hit.name}`;
+                return (
+                  <button key={key} type="button"
+                    onMouseDown={e => { e.preventDefault(); select(key); }}
+                    onMouseEnter={() => setFocused(key)}
+                    className="w-full flex items-center gap-3 px-3 py-2 text-left transition-colors"
+                    style={rowStyle(key)}>
+                    <div className="w-8 h-8 rounded overflow-hidden flex-shrink-0 bg-surface2">
+                      {hit.art
+                        ? /* eslint-disable-next-line @next/next/no-img-element */
+                          <img src={hit.art} alt={hit.name} className="w-full h-full object-cover" loading="lazy" />
+                        : <div className="w-full h-full flex items-center justify-center text-lg opacity-30">✦</div>}
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="text-sm text-parchment truncate">{hit.name}</div>
+                      <div className="flex items-center gap-1 mt-0.5">
+                        <ManaSymbols identity={hit.colors} size="sm" />
+                        <span className="text-[9px]" style={{ color: "#7a5cc4" }}>official card · new deck</span>
+                      </div>
+                    </div>
+                  </button>
+                );
+              })}
+            </>
+          )}
         </div>
       )}
     </div>

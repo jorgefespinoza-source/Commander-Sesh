@@ -23,6 +23,7 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import { resolveCards } from "./resolve-cards.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -97,14 +98,13 @@ function toISO(raw) {
 const leaguesCfg = JSON.parse(await readFile(join(__dirname, "config", "leagues.json"), "utf8"));
 const aliasesCfg = JSON.parse(await readFile(join(__dirname, "config", "aliases.json"), "utf8"));
 const unknownPlayers = new Set();
-const canonPlayer = (name) => {
-  // Strip zero-width / word-joiner / control chars that sneak in from WhatsApp
-  // and phone keyboards (e.g. U+2060 prefixing "Lasa"), collapse whitespace.
-  const t = Array.from(String(name || ""))
+/** Strip control / zero-width / bidi / word-joiner chars that sneak in from
+ *  WhatsApp and phone keyboards (e.g. U+2060 prefixing "Lasa" or "Pantlaza"),
+ *  and collapse whitespace. Applied to player AND deck names. */
+const cleanText = (s) =>
+  Array.from(String(s || ""))
     .filter((ch) => {
       const c = ch.codePointAt(0);
-      // Drop control chars and zero-width / bidi / word-joiner marks that sneak
-      // in from WhatsApp and phone keyboards (e.g. U+2060 prefixing "Lasa").
       if (c < 0x20 || c === 0x7f) return false;
       if (c >= 0x200b && c <= 0x200f) return false;
       if (c >= 0x202a && c <= 0x202e) return false;
@@ -115,6 +115,9 @@ const canonPlayer = (name) => {
     .join("")
     .replace(/\s+/g, " ")
     .trim();
+
+const canonPlayer = (name) => {
+  const t = cleanText(name);
   const a = aliasesCfg.players[t.toLowerCase()];
   return a || t;
 };
@@ -138,8 +141,8 @@ function parseDeckList(rows) {
   for (let r = 1; r < rows.length; r++) {
     const cells = rows[r];
     if (!cells || cells.every((c) => !String(c).trim())) continue;
-    if (String(cells[0]).trim()) owner = String(cells[0]).trim();
-    const name = String(cells[1] || "").trim();
+    if (String(cells[0]).trim()) owner = cleanText(cells[0]);
+    const name = cleanText(cells[1]);
     if (!name) continue; // owner-only header row (player with no decks yet)
     // Columns 2..6 are the positional W U B R G slots; any non-empty = present.
     let ci = "";
@@ -190,7 +193,7 @@ function parseGameLog(rows, colorByDeck) {
     const g = col(cells, "game");
     if (g) curDayGame = g;
     const player = canonPlayer(col(cells, "player"));
-    const deck = col(cells, "deck");
+    const deck = cleanText(col(cells, "deck"));
     const placement = parseInt(col(cells, "placement"), 10);
     if (!player && !deck) continue;
     raw.push({
@@ -572,12 +575,42 @@ async function main() {
   const games = parseGameLog(gameRows, colorByDeck);
   console.log(`  parsed ${games.length} game rows, ${decks.length} decks`);
 
+  // ---- resolve every deck name to its real card (official name, art, colors)
+  const allDeckNames = [...new Set([
+    ...decks.map((d) => d.name),
+    ...games.map((g) => g.deck).filter(Boolean),
+  ])].sort();
+  const sheetColors = new Map(decks.map((d) => [d.name, d.colorIdentity]));
+  console.log(`  resolving ${allDeckNames.length} deck names via Scryfall …`);
+  const cards = await resolveCards(allDeckNames, sheetColors);
+  const resolvedCount = [...cards.values()].filter(Boolean).length;
+  console.log(`  resolved ${resolvedCount}/${allDeckNames.length} to real cards`);
+
+  // Enrich decks with card data; card colors override sheet colors when found.
+  for (const d of decks) {
+    const c = cards.get(d.name);
+    d.cardName = c?.card ?? null;
+    d.art = c?.art ?? null;
+    d.image = c?.image ?? null;
+    if (c?.colors) d.colorIdentity = c.colors;
+  }
+  // Game rows inherit resolved colors too.
+  for (const g of games) {
+    const c = cards.get(g.deck);
+    if (c?.colors) g.colorIdentity = c.colors;
+  }
+
   const outputs = build(games, decks);
+
+  // cards.json: deckName -> card lookup for the whole app (art, official name).
+  outputs["cards.json"] = Object.fromEntries(
+    [...cards.entries()].map(([name, c]) => [name, c ?? null]));
 
   await mkdir(DATA_DIR, { recursive: true });
   for (const [file, data] of Object.entries(outputs)) {
     await writeFile(join(DATA_DIR, file), JSON.stringify(data, null, 2) + "\n", "utf8");
-    console.log(`  wrote ${file.padEnd(20)} (${data.length} rows)`);
+    const n = Array.isArray(data) ? data.length : Object.keys(data).length;
+    console.log(`  wrote ${file.padEnd(20)} (${n} rows)`);
   }
 
   if (unknownPlayers.size) {

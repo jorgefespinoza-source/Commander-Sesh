@@ -70,6 +70,9 @@ function DeckCard({ deck }: { deck: DeckStats }) {
           <div className="commander-art-overlay absolute inset-0" />
           <div className="absolute bottom-0 left-0 right-0 p-2">
             <div className="text-xs font-cinzel text-parchment truncate leading-tight">{deck.name}</div>
+            {deck.cardName && deck.cardName !== deck.name && (
+              <div className="text-[9px] text-gold/60 truncate italic">{deck.cardName}</div>
+            )}
             <div className="text-[10px] text-muted">{deck.owner}</div>
           </div>
         </div>

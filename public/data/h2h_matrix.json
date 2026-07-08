@@ -158,14 +158,14 @@
   {
     "from": "Gonzalo",
     "to": "Konstantinos",
-    "wr": 0.273,
-    "games": 11
+    "wr": 0.3,
+    "games": 10
   },
   {
     "from": "Gonzalo",
     "to": "Mak",
-    "wr": 0.143,
-    "games": 21
+    "wr": 0.15,
+    "games": 20
   },
   {
     "from": "Gonzalo",
@@ -182,8 +182,8 @@
   {
     "from": "Gonzalo",
     "to": "Sabino",
-    "wr": 0.08,
-    "games": 25
+    "wr": 0.083,
+    "games": 24
   },
   {
     "from": "Halvin",
@@ -254,8 +254,8 @@
   {
     "from": "Ianfi",
     "to": "Jorge Espinoza",
-    "wr": 0.564,
-    "games": 55
+    "wr": 0.549,
+    "games": 51
   },
   {
     "from": "Ianfi",
@@ -272,8 +272,8 @@
   {
     "from": "Ianfi",
     "to": "Migue",
-    "wr": 0.586,
-    "games": 58
+    "wr": 0.574,
+    "games": 54
   },
   {
     "from": "Ianfi",
@@ -284,8 +284,8 @@
   {
     "from": "Jorge Espinoza",
     "to": "Ianfi",
-    "wr": 0.364,
-    "games": 55
+    "wr": 0.373,
+    "games": 51
   },
   {
     "from": "Jorge Espinoza",
@@ -296,8 +296,8 @@
   {
     "from": "Jorge Espinoza",
     "to": "Migue",
-    "wr": 0.447,
-    "games": 47
+    "wr": 0.465,
+    "games": 43
   },
   {
     "from": "Jorge Kourie",
@@ -392,8 +392,8 @@
   {
     "from": "Konstantinos",
     "to": "Gonzalo",
-    "wr": 0.455,
-    "games": 11
+    "wr": 0.5,
+    "games": 10
   },
   {
     "from": "Konstantinos",
@@ -409,15 +409,9 @@
   },
   {
     "from": "Konstantinos",
-    "to": "Mak",
-    "wr": 0.25,
-    "games": 8
-  },
-  {
-    "from": "Konstantinos",
     "to": "Sabino",
-    "wr": 0.167,
-    "games": 12
+    "wr": 0.182,
+    "games": 11
   },
   {
     "from": "Lasa",
@@ -464,8 +458,8 @@
   {
     "from": "Mak",
     "to": "Gonzalo",
-    "wr": 0.619,
-    "games": 21
+    "wr": 0.65,
+    "games": 20
   },
   {
     "from": "Mak",
@@ -478,12 +472,6 @@
     "to": "Jorge Kourie",
     "wr": 0.318,
     "games": 22
-  },
-  {
-    "from": "Mak",
-    "to": "Konstantinos",
-    "wr": 0.5,
-    "games": 8
   },
   {
     "from": "Mak",
@@ -500,8 +488,8 @@
   {
     "from": "Mak",
     "to": "Sabino",
-    "wr": 0.2,
-    "games": 65
+    "wr": 0.203,
+    "games": 64
   },
   {
     "from": "Mak",
@@ -518,14 +506,14 @@
   {
     "from": "Migue",
     "to": "Ianfi",
-    "wr": 0.31,
-    "games": 58
+    "wr": 0.315,
+    "games": 54
   },
   {
     "from": "Migue",
     "to": "Jorge Espinoza",
-    "wr": 0.298,
-    "games": 47
+    "wr": 0.302,
+    "games": 43
   },
   {
     "from": "Migue",
@@ -710,8 +698,8 @@
   {
     "from": "Sabino",
     "to": "Gonzalo",
-    "wr": 0.8,
-    "games": 25
+    "wr": 0.792,
+    "games": 24
   },
   {
     "from": "Sabino",
@@ -728,14 +716,14 @@
   {
     "from": "Sabino",
     "to": "Konstantinos",
-    "wr": 0.833,
-    "games": 12
+    "wr": 0.818,
+    "games": 11
   },
   {
     "from": "Sabino",
     "to": "Mak",
-    "wr": 0.708,
-    "games": 65
+    "wr": 0.703,
+    "games": 64
   },
   {
     "from": "Sabino",

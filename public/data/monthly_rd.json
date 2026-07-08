@@ -1051,13 +1051,6 @@
   },
   {
     "year_month": "2026-06",
-    "player": "Sabino",
-    "juegos": 5,
-    "victorias": 3,
-    "win_rate": 0.6
-  },
-  {
-    "year_month": "2026-06",
     "player": "Halvin",
     "juegos": 7,
     "victorias": 4,
@@ -1068,6 +1061,13 @@
     "player": "Octaviano",
     "juegos": 12,
     "victorias": 6,
+    "win_rate": 0.5
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Sabino",
+    "juegos": 4,
+    "victorias": 2,
     "win_rate": 0.5
   },
   {
@@ -1094,16 +1094,16 @@
   {
     "year_month": "2026-06",
     "player": "Konstantinos",
-    "juegos": 8,
+    "juegos": 7,
     "victorias": 2,
-    "win_rate": 0.25
+    "win_rate": 0.286
   },
   {
     "year_month": "2026-06",
     "player": "Mak",
-    "juegos": 12,
+    "juegos": 11,
     "victorias": 2,
-    "win_rate": 0.167
+    "win_rate": 0.182
   },
   {
     "year_month": "2026-06",
@@ -1136,7 +1136,7 @@
   {
     "year_month": "2026-06",
     "player": "Gonzalo",
-    "juegos": 6,
+    "juegos": 5,
     "victorias": 0,
     "win_rate": 0
   },

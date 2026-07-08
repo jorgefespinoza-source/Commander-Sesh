@@ -26,11 +26,44 @@ html, body {
   overscroll-behavior: none;
 }
 
+/* Arcane plane background: mana-colored aurora at pentagon points, gold dust,
+   deep vignette. Fixed so it doesn't scroll away. */
 body {
   background-image:
-    radial-gradient(ellipse at 50% -10%, rgba(80, 40, 160, 0.12) 0%, transparent 60%),
-    radial-gradient(ellipse at 100% 80%, rgba(200, 169, 81, 0.04) 0%, transparent 50%);
+    radial-gradient(ellipse 60% 40% at 50% -10%, rgba(94, 44, 165, 0.22) 0%, transparent 60%),
+    radial-gradient(ellipse 45% 30% at -10% 35%, rgba(26, 111, 186, 0.10) 0%, transparent 60%),
+    radial-gradient(ellipse 45% 30% at 110% 35%, rgba(211, 47, 47, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 35% at 20% 110%, rgba(46, 125, 50, 0.10) 0%, transparent 55%),
+    radial-gradient(ellipse 50% 35% at 85% 105%, rgba(200, 169, 81, 0.10) 0%, transparent 55%),
+    radial-gradient(ellipse 120% 90% at 50% 50%, transparent 55%, rgba(0, 0, 0, 0.55) 100%);
+  background-attachment: fixed;
   min-height: 100dvh;
+}
+
+/* Faint arcane sigil behind everything */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='700' height='700' viewBox='0 0 700 700'%3E%3Cg fill='none' stroke='%23c8a951' stroke-opacity='0.05'%3E%3Ccircle cx='350' cy='350' r='300'/%3E%3Ccircle cx='350' cy='350' r='260'/%3E%3Ccircle cx='350' cy='350' r='180'/%3E%3Cpath d='M350 90 L597 260 L503 545 L197 545 L103 260 Z'/%3E%3Cpath d='M350 170 L521 288 L456 485 L244 485 L179 288 Z'/%3E%3Cpath d='M350 90 L503 545 L103 260 L597 260 L197 545 Z'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center 12vh;
+  background-size: min(140vw, 820px);
+}
+
+/* Blurred commander-art backdrop (set per page via ArcaneBackdrop) */
+.arcane-backdrop {
+  position: fixed;
+  inset: -40px;
+  z-index: -2;
+  background-size: cover;
+  background-position: center 20%;
+  filter: blur(28px) saturate(0.85) brightness(0.35);
+  opacity: 0.55;
+  transition: background-image 0.8s ease, opacity 0.8s ease;
+  pointer-events: none;
 }
 
 /* Scrollbar */
@@ -47,9 +80,10 @@ body {
   background-clip: text;
 }
 
-/* Arcane card base */
+/* Arcane card base — slightly translucent so the backdrop glows through */
 .card-arcane {
-  background: var(--surface);
+  background: rgba(15, 15, 28, 0.82);
+  backdrop-filter: blur(6px);
   border: 1px solid var(--border);
   border-radius: 12px;
   transition: border-color 0.2s, box-shadow 0.2s;

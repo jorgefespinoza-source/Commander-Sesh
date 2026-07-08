@@ -42,6 +42,9 @@ export default function DeckDetailPage() {
           <div className="flex items-end justify-between">
             <div>
               <h1 className="font-cinzel text-2xl font-bold text-parchment leading-tight">{deck.name}</h1>
+              {deck.cardName && deck.cardName !== deck.name && (
+                <div className="text-xs text-gold/70 italic mt-0.5">{deck.cardName}</div>
+              )}
               <Link href={`/players/${encodeURIComponent(deck.owner)}`}
                 className="text-gold text-sm hover:text-gold-bright transition-colors">
                 {deck.owner}

@@ -2,966 +2,1545 @@
   {
     "name": "Ms. Bumbleflower (C)",
     "owner": "Caballol",
-    "colorIdentity": "WU"
+    "colorIdentity": "GUW",
+    "cardName": "Ms. Bumbleflower",
+    "art": "https://cards.scryfall.io/art_crop/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1782690299",
+    "image": "https://cards.scryfall.io/normal/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1782690299"
   },
   {
     "name": "Rin and Seri (C)",
     "owner": "Caballol",
-    "colorIdentity": "WRG"
+    "colorIdentity": "GRW",
+    "cardName": "Rin and Seri, Inseparable",
+    "art": "https://cards.scryfall.io/art_crop/front/4/9/496583cb-e77b-4bed-83c0-146ecd82e82b.jpg?1782723240",
+    "image": "https://cards.scryfall.io/normal/front/4/9/496583cb-e77b-4bed-83c0-146ecd82e82b.jpg?1782723240"
   },
   {
     "name": "Killian, Decisive Mentor",
     "owner": "Caballol",
-    "colorIdentity": "WB"
+    "colorIdentity": "BW",
+    "cardName": "Killian, Ink Duelist",
+    "art": "https://cards.scryfall.io/art_crop/front/9/f/9f51c115-dc9b-40a4-849d-3fc0c26e5a39.jpg?1782683141",
+    "image": "https://cards.scryfall.io/normal/front/9/f/9f51c115-dc9b-40a4-849d-3fc0c26e5a39.jpg?1782683141"
   },
   {
     "name": "Rin and Seri (D)",
     "owner": "Diame",
-    "colorIdentity": "WRG"
+    "colorIdentity": "GRW",
+    "cardName": "Rin and Seri, Inseparable",
+    "art": "https://cards.scryfall.io/art_crop/front/4/9/496583cb-e77b-4bed-83c0-146ecd82e82b.jpg?1782723240",
+    "image": "https://cards.scryfall.io/normal/front/4/9/496583cb-e77b-4bed-83c0-146ecd82e82b.jpg?1782723240"
   },
   {
     "name": "Strefan, Maurer Progenitor",
     "owner": "Eddy",
-    "colorIdentity": "BR"
+    "colorIdentity": "BR",
+    "cardName": "Strefan, Maurer Progenitor",
+    "art": "https://cards.scryfall.io/art_crop/front/8/f/8f54c6ce-fde4-47ef-a106-5c68b4397f99.jpg?1782703331",
+    "image": "https://cards.scryfall.io/normal/front/8/f/8f54c6ce-fde4-47ef-a106-5c68b4397f99.jpg?1782703331"
   },
   {
     "name": "Jared Carthalion",
     "owner": "Eddy",
-    "colorIdentity": "WUBRG"
+    "colorIdentity": "BGRUW",
+    "cardName": "Jared Carthalion",
+    "art": "https://cards.scryfall.io/art_crop/front/5/a/5acffa48-9e3f-4ba3-a55f-d459307f46df.jpg?1782700701",
+    "image": "https://cards.scryfall.io/normal/front/5/a/5acffa48-9e3f-4ba3-a55f-d459307f46df.jpg?1782700701"
   },
   {
     "name": "Captain America, Team Leader (E)",
     "owner": "Eddy",
-    "colorIdentity": "WUR"
+    "colorIdentity": "RUW",
+    "cardName": "Captain America, Team Leader",
+    "art": "https://cards.scryfall.io/art_crop/front/6/1/61a51b67-d941-4e07-9c12-ffe583cb65d4.jpg?1782682664",
+    "image": "https://cards.scryfall.io/normal/front/6/1/61a51b67-d941-4e07-9c12-ffe583cb65d4.jpg?1782682664"
   },
   {
     "name": "Firkraag",
     "owner": "Eddy",
-    "colorIdentity": "UR"
+    "colorIdentity": "RU",
+    "cardName": "Firkraag, Cunning Instigator",
+    "art": "https://cards.scryfall.io/art_crop/front/b/5/b55e624b-6f6a-42ae-89aa-0cc62ee55a31.jpg?1782700935",
+    "image": "https://cards.scryfall.io/normal/front/b/5/b55e624b-6f6a-42ae-89aa-0cc62ee55a31.jpg?1782700935"
   },
   {
     "name": "Invisible Woman",
     "owner": "Eddy",
-    "colorIdentity": "WURG"
+    "colorIdentity": "GRUW",
+    "cardName": "Invisible Woman",
+    "art": "https://cards.scryfall.io/art_crop/front/d/8/d8e13ecb-98be-4d9b-86a2-24eaa98f7f0d.jpg?1782682669",
+    "image": "https://cards.scryfall.io/normal/front/d/8/d8e13ecb-98be-4d9b-86a2-24eaa98f7f0d.jpg?1782682669"
   },
   {
     "name": "Magus Lucea Kane",
     "owner": "Eddy",
-    "colorIdentity": "URG"
+    "colorIdentity": "GRU",
+    "cardName": "Magus Lucea Kane",
+    "art": "https://cards.scryfall.io/art_crop/front/4/f/4f86e7cc-2b6e-49d0-964e-bba0c51cc11d.jpg?1782700245",
+    "image": "https://cards.scryfall.io/normal/front/4/f/4f86e7cc-2b6e-49d0-964e-bba0c51cc11d.jpg?1782700245"
   },
   {
     "name": "Leonardo & Raphael TMNT",
     "owner": "Eddy",
-    "colorIdentity": "WUBRG"
+    "colorIdentity": "WUBRG",
+    "cardName": null,
+    "art": null,
+    "image": null
   },
   {
     "name": "Rona",
     "owner": "Eddy",
-    "colorIdentity": "UB"
+    "colorIdentity": "BU",
+    "cardName": "Rona, Herald of Invasion // Rona, Tolarian Obliterator",
+    "art": "https://cards.scryfall.io/art_crop/front/f/4/f487b582-e73f-4325-939f-95fc5a9aba49.jpg?1782697775",
+    "image": "https://cards.scryfall.io/normal/front/f/4/f487b582-e73f-4325-939f-95fc5a9aba49.jpg?1782697775"
   },
   {
     "name": "Dr. Doom, King of Latveria (E)",
     "owner": "Eddy",
-    "colorIdentity": "UBR"
+    "colorIdentity": "BRU",
+    "cardName": "Doctor Doom, King of Latveria",
+    "art": "https://cards.scryfall.io/art_crop/front/0/9/099ed408-9178-4403-8b2d-479ca3cbda9b.jpg?1782682664",
+    "image": "https://cards.scryfall.io/normal/front/0/9/099ed408-9178-4403-8b2d-479ca3cbda9b.jpg?1782682664"
   },
   {
     "name": "TMNT",
     "owner": "Eddy",
-    "colorIdentity": "WUBRG"
+    "colorIdentity": "WUBRG",
+    "cardName": null,
+    "art": null,
+    "image": null
   },
   {
     "name": "The Swarmlord",
     "owner": "Eddy",
-    "colorIdentity": "URG"
+    "colorIdentity": "GRU",
+    "cardName": "The Swarmlord",
+    "art": "https://cards.scryfall.io/art_crop/front/d/5/d5c4077c-604e-4e8a-b448-0807849040ca.jpg?1782700245",
+    "image": "https://cards.scryfall.io/normal/front/d/5/d5c4077c-604e-4e8a-b448-0807849040ca.jpg?1782700245"
   },
   {
     "name": "Eladamri",
     "owner": "Eddy",
-    "colorIdentity": "G"
+    "colorIdentity": "G",
+    "cardName": "Eladamri",
+    "art": "https://cards.scryfall.io/art_crop/front/a/b/ab25accd-93d8-4ba4-8254-e5eb26ebce4c.jpg?1782755494",
+    "image": "https://cards.scryfall.io/normal/front/a/b/ab25accd-93d8-4ba4-8254-e5eb26ebce4c.jpg?1782755494"
   },
   {
     "name": "Tidus, Yuna's Guardian (E)",
     "owner": "Eddy",
-    "colorIdentity": "WUG"
+    "colorIdentity": "GUW",
+    "cardName": "Tidus, Yuna's Guardian",
+    "art": "https://cards.scryfall.io/art_crop/front/2/c/2cfd4494-346c-4cbc-8072-e267254cefcc.jpg?1782686051",
+    "image": "https://cards.scryfall.io/normal/front/2/c/2cfd4494-346c-4cbc-8072-e267254cefcc.jpg?1782686051"
   },
   {
     "name": "Cloud",
     "owner": "Gonzalo",
-    "colorIdentity": "WRG"
+    "colorIdentity": "W",
+    "cardName": "Cloud, Midgar Mercenary",
+    "art": "https://cards.scryfall.io/art_crop/front/2/c/2cf7e8a3-fad7-413d-b17c-7519a9cf5fb5.jpg?1782686592",
+    "image": "https://cards.scryfall.io/normal/front/2/c/2cf7e8a3-fad7-413d-b17c-7519a9cf5fb5.jpg?1782686592"
   },
   {
     "name": "Hazel (G)",
     "owner": "Gonzalo",
-    "colorIdentity": "BG"
+    "colorIdentity": "BG",
+    "cardName": "Hazel of the Rootbloom",
+    "art": "https://cards.scryfall.io/art_crop/front/1/2/1269ca79-907e-4932-9e77-a9a5d2929060.jpg?1782690301",
+    "image": "https://cards.scryfall.io/normal/front/1/2/1269ca79-907e-4932-9e77-a9a5d2929060.jpg?1782690301"
   },
   {
     "name": "Kykar",
     "owner": "Gonzalo",
-    "colorIdentity": "WUR"
+    "colorIdentity": "RUW",
+    "cardName": "Kykar, Wind's Fury",
+    "art": "https://cards.scryfall.io/art_crop/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1782733071",
+    "image": "https://cards.scryfall.io/normal/front/f/d/fdb034c8-bae0-4f66-98f1-1b3cdc072f17.jpg?1782733071"
   },
   {
     "name": "Bello, Bard of the Brambles (G)",
     "owner": "Gonzalo",
-    "colorIdentity": "RG"
+    "colorIdentity": "GR",
+    "cardName": "Bello, Bard of the Brambles",
+    "art": "https://cards.scryfall.io/art_crop/front/3/1/31e4b7a1-b377-49d2-a92e-4bcb0db35f16.jpg?1782690303",
+    "image": "https://cards.scryfall.io/normal/front/3/1/31e4b7a1-b377-49d2-a92e-4bcb0db35f16.jpg?1782690303"
   },
   {
     "name": "Wick",
     "owner": "Gonzalo",
-    "colorIdentity": "B"
+    "colorIdentity": "BRU",
+    "cardName": "Wick, the Whorled Mind",
+    "art": "https://cards.scryfall.io/art_crop/front/2/9/29089810-d7fb-4abe-b729-bfabed6aed2b.jpg?1782690540",
+    "image": "https://cards.scryfall.io/normal/front/2/9/29089810-d7fb-4abe-b729-bfabed6aed2b.jpg?1782690540"
   },
   {
     "name": "Helga",
     "owner": "Gonzalo",
-    "colorIdentity": "WUG"
+    "colorIdentity": "GUW",
+    "cardName": "Helga, Skittish Seer",
+    "art": "https://cards.scryfall.io/art_crop/front/4/0/40339715-22d0-4f99-822b-a00d9824f27a.jpg?1782690459",
+    "image": "https://cards.scryfall.io/normal/front/4/0/40339715-22d0-4f99-822b-a00d9824f27a.jpg?1782690459"
   },
   {
     "name": "Zinnia (G)",
     "owner": "Gonzalo",
-    "colorIdentity": "WUR"
+    "colorIdentity": "RUW",
+    "cardName": "Zinnia, Valley's Voice",
+    "art": "https://cards.scryfall.io/art_crop/front/d/f/dfe36901-5841-4942-8b61-c273111f715e.jpg?1782690298",
+    "image": "https://cards.scryfall.io/normal/front/d/f/dfe36901-5841-4942-8b61-c273111f715e.jpg?1782690298"
   },
   {
     "name": "Ms. Bumbleflower (G)",
     "owner": "Gonzalo",
-    "colorIdentity": "WUG"
+    "colorIdentity": "GUW",
+    "cardName": "Ms. Bumbleflower",
+    "art": "https://cards.scryfall.io/art_crop/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1782690299",
+    "image": "https://cards.scryfall.io/normal/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1782690299"
   },
   {
     "name": "Ghalta",
     "owner": "Halvin",
-    "colorIdentity": "G"
+    "colorIdentity": "G",
+    "cardName": "Ghalta, Primal Hunger",
+    "art": "https://cards.scryfall.io/art_crop/front/6/a/6a9c39e4-a8cf-42dd-8d0e-45634b335546.jpg?1782689075",
+    "image": "https://cards.scryfall.io/normal/front/6/a/6a9c39e4-a8cf-42dd-8d0e-45634b335546.jpg?1782689075"
   },
   {
     "name": "The Council",
     "owner": "Halvin",
-    "colorIdentity": "WU"
+    "colorIdentity": "WU",
+    "cardName": null,
+    "art": null,
+    "image": null
   },
   {
     "name": "Elas-il Kor",
     "owner": "Halvin",
-    "colorIdentity": "WB"
+    "colorIdentity": "BW",
+    "cardName": "Elas il-Kor, Sadistic Pilgrim",
+    "art": "https://cards.scryfall.io/art_crop/front/1/c/1c3f0ffe-cf51-4c30-8cd5-9e3c7e92c019.jpg?1782700435",
+    "image": "https://cards.scryfall.io/normal/front/1/c/1c3f0ffe-cf51-4c30-8cd5-9e3c7e92c019.jpg?1782700435"
   },
   {
     "name": "Teysa",
     "owner": "Halvin",
-    "colorIdentity": "WB"
+    "colorIdentity": "BW",
+    "cardName": "Teysa Karlov",
+    "art": "https://cards.scryfall.io/art_crop/front/c/d/cd14f1ce-7fcd-485c-b7ca-01c5b45fdc01.jpg?1782733059",
+    "image": "https://cards.scryfall.io/normal/front/c/d/cd14f1ce-7fcd-485c-b7ca-01c5b45fdc01.jpg?1782733059"
   },
   {
     "name": "Abdel",
     "owner": "Halvin",
-    "colorIdentity": "W"
+    "colorIdentity": "W",
+    "cardName": "Abdel Adrian, Gorion's Ward",
+    "art": "https://cards.scryfall.io/art_crop/front/3/9/396f9198-67b6-45d8-91b4-dc853bff9623.jpg?1782701357",
+    "image": "https://cards.scryfall.io/normal/front/3/9/396f9198-67b6-45d8-91b4-dc853bff9623.jpg?1782701357"
   },
   {
     "name": "Giada",
     "owner": "Halvin",
-    "colorIdentity": "W"
+    "colorIdentity": "W",
+    "cardName": "Giada, Font of Hope",
+    "art": "https://cards.scryfall.io/art_crop/front/8/a/8ae6fc26-cfad-4da8-98d9-49c27c24d293.jpg?1782689144",
+    "image": "https://cards.scryfall.io/normal/front/8/a/8ae6fc26-cfad-4da8-98d9-49c27c24d293.jpg?1782689144"
   },
   {
     "name": "Baylen",
     "owner": "Halvin",
-    "colorIdentity": "WRG"
+    "colorIdentity": "GRW",
+    "cardName": "Baylen, the Haymaker",
+    "art": "https://cards.scryfall.io/art_crop/front/0/0/00e93be2-e06b-4774-8ba5-ccf82a6da1d8.jpg?1782690468",
+    "image": "https://cards.scryfall.io/normal/front/0/0/00e93be2-e06b-4774-8ba5-ccf82a6da1d8.jpg?1782690468"
   },
   {
     "name": "Infinite Guideline Station",
     "owner": "Halvin",
-    "colorIdentity": "WUBRG"
+    "colorIdentity": "BGRUW",
+    "cardName": "Infinite Guideline Station",
+    "art": "https://cards.scryfall.io/art_crop/front/5/6/5688894a-bbec-476b-ae2e-94000be258d0.jpg?1782685432",
+    "image": "https://cards.scryfall.io/normal/front/5/6/5688894a-bbec-476b-ae2e-94000be258d0.jpg?1782685432"
   },
   {
     "name": "Fire Lord Azula (H)",
     "owner": "Halvin",
-    "colorIdentity": "UBR"
+    "colorIdentity": "BRU",
+    "cardName": "Fire Lord Azula",
+    "art": "https://cards.scryfall.io/art_crop/front/b/c/bc6146bf-f0c6-4557-af6a-74c643d5fc01.jpg?1782684498",
+    "image": "https://cards.scryfall.io/normal/front/b/c/bc6146bf-f0c6-4557-af6a-74c643d5fc01.jpg?1782684498"
   },
   {
     "name": "Alela, Artful Provocateur",
     "owner": "Halvin",
-    "colorIdentity": "WUB"
+    "colorIdentity": "BUW",
+    "cardName": "Alela, Artful Provocateur",
+    "art": "https://cards.scryfall.io/art_crop/front/a/b/abc9e41e-fd03-4b6f-8f44-17ba94fa44f5.jpg?1782701742",
+    "image": "https://cards.scryfall.io/normal/front/a/b/abc9e41e-fd03-4b6f-8f44-17ba94fa44f5.jpg?1782701742"
   },
   {
     "name": "Satoru Umezaua",
     "owner": "Halvin",
-    "colorIdentity": "UB"
+    "colorIdentity": "BU",
+    "cardName": "Satoru Umezawa",
+    "art": "https://cards.scryfall.io/art_crop/front/8/8/8887f26d-b097-4fbc-9c48-bdc656409a32.jpg?1782702179",
+    "image": "https://cards.scryfall.io/normal/front/8/8/8887f26d-b097-4fbc-9c48-bdc656409a32.jpg?1782702179"
   },
   {
     "name": "Toshiro Umezaua",
     "owner": "Halvin",
-    "colorIdentity": "B"
+    "colorIdentity": "B",
+    "cardName": "Toshiro Umezawa",
+    "art": "https://cards.scryfall.io/art_crop/front/0/e/0e767e07-febd-4025-bf03-d4d816bc1d3d.jpg?1782718097",
+    "image": "https://cards.scryfall.io/normal/front/0/e/0e767e07-febd-4025-bf03-d4d816bc1d3d.jpg?1782718097"
   },
   {
     "name": "Shadowheart",
     "owner": "Halvin",
-    "colorIdentity": "B"
+    "colorIdentity": "B",
+    "cardName": "Shadowheart, Dark Justiciar",
+    "art": "https://cards.scryfall.io/art_crop/front/1/3/13a0913d-776b-4ef8-adef-8861349df2b5.jpg?1782701257",
+    "image": "https://cards.scryfall.io/normal/front/1/3/13a0913d-776b-4ef8-adef-8861349df2b5.jpg?1782701257"
   },
   {
     "name": "Breya (H)",
     "owner": "Halvin",
-    "colorIdentity": "WUBR"
+    "colorIdentity": "BRUW",
+    "cardName": "Breya, Etherium Shaper",
+    "art": "https://cards.scryfall.io/art_crop/front/8/b/8bf3929c-957f-4ea2-a27d-7d53979844af.jpg?1782691120",
+    "image": "https://cards.scryfall.io/normal/front/8/b/8bf3929c-957f-4ea2-a27d-7d53979844af.jpg?1782691120"
   },
   {
     "name": "Wilhelt",
     "owner": "Halvin",
-    "colorIdentity": "UB"
+    "colorIdentity": "BU",
+    "cardName": "Wilhelt, the Rotcleaver",
+    "art": "https://cards.scryfall.io/art_crop/front/2/5/2501a911-d072-436d-ae3b-a5164e3b30aa.jpg?1782703462",
+    "image": "https://cards.scryfall.io/normal/front/2/5/2501a911-d072-436d-ae3b-a5164e3b30aa.jpg?1782703462"
   },
   {
     "name": "Anikthea",
     "owner": "Halvin",
-    "colorIdentity": "WBG"
+    "colorIdentity": "BGW",
+    "cardName": "Anikthea, Hand of Erebos",
+    "art": "https://cards.scryfall.io/art_crop/front/8/b/8b796a56-1611-4835-ac5b-48b4e9263685.jpg?1782732822",
+    "image": "https://cards.scryfall.io/normal/front/8/b/8b796a56-1611-4835-ac5b-48b4e9263685.jpg?1782732822"
   },
   {
     "name": "Washitora",
     "owner": "Halvin",
-    "colorIdentity": "BRG"
+    "colorIdentity": "BGR",
+    "cardName": "Wasitora, Nekoru Queen",
+    "art": "https://cards.scryfall.io/art_crop/front/0/7/07790bd5-0d27-490e-b1ae-3b866882461e.jpg?1782737771",
+    "image": "https://cards.scryfall.io/normal/front/0/7/07790bd5-0d27-490e-b1ae-3b866882461e.jpg?1782737771"
   },
   {
     "name": "Ulalek (H)",
     "owner": "Halvin",
-    "colorIdentity": ""
+    "colorIdentity": "BGRUW",
+    "cardName": "Ulalek, Fused Atrocity",
+    "art": "https://cards.scryfall.io/art_crop/front/f/d/fdad1b0e-d3cc-4d76-ae7e-fee12558cf2c.jpg?1782691744",
+    "image": "https://cards.scryfall.io/normal/front/f/d/fdad1b0e-d3cc-4d76-ae7e-fee12558cf2c.jpg?1782691744"
   },
   {
     "name": "Light-Paws, Emperor's Voice",
     "owner": "Halvin",
-    "colorIdentity": "W"
+    "colorIdentity": "W",
+    "cardName": "Light-Paws, Emperor's Voice",
+    "art": "https://cards.scryfall.io/art_crop/front/3/9/39555a72-a57b-45ee-9222-ce3b9e8de126.jpg?1782702313",
+    "image": "https://cards.scryfall.io/normal/front/3/9/39555a72-a57b-45ee-9222-ce3b9e8de126.jpg?1782702313"
   },
   {
     "name": "Emmara (H)",
     "owner": "Halvin",
-    "colorIdentity": "WG"
+    "colorIdentity": "GW",
+    "cardName": "Emmara, Soul of the Accord",
+    "art": "https://cards.scryfall.io/art_crop/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.jpg?1782709071",
+    "image": "https://cards.scryfall.io/normal/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.jpg?1782709071"
   },
   {
     "name": "Gisa and Geralf",
     "owner": "Halvin",
-    "colorIdentity": "UB"
+    "colorIdentity": "BU",
+    "cardName": "Gisa and Geralf",
+    "art": "https://cards.scryfall.io/art_crop/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.jpg?1782726694",
+    "image": "https://cards.scryfall.io/normal/front/b/c/bce9bf8d-4d22-4967-bd9e-27fe444ef3f6.jpg?1782726694"
   },
   {
     "name": "Dihada (H)",
     "owner": "Halvin",
-    "colorIdentity": "WBR"
+    "colorIdentity": "BRW",
+    "cardName": "Dihada, Binder of Wills",
+    "art": "https://cards.scryfall.io/art_crop/front/d/d/ddeb54d6-a600-42b9-98df-20f8d58caed8.jpg?1782700703",
+    "image": "https://cards.scryfall.io/normal/front/d/d/ddeb54d6-a600-42b9-98df-20f8d58caed8.jpg?1782700703"
   },
   {
     "name": "Neriv",
     "owner": "Halvin",
-    "colorIdentity": "WBR"
+    "colorIdentity": "BRW",
+    "cardName": "Neriv, Heart of the Storm",
+    "art": "https://cards.scryfall.io/art_crop/front/b/5/b58112b0-a05c-4b98-b650-fd27ad97789f.jpg?1782687143",
+    "image": "https://cards.scryfall.io/normal/front/b/5/b58112b0-a05c-4b98-b650-fd27ad97789f.jpg?1782687143"
   },
   {
     "name": "Shiko and Narset, Unified",
     "owner": "Ianfi",
-    "colorIdentity": "WUR"
+    "colorIdentity": "RUW",
+    "cardName": "Shiko and Narset, Unified",
+    "art": "https://cards.scryfall.io/art_crop/front/5/a/5a42fc7d-52ac-4e95-9e04-8f8fa7f687c8.jpg?1782686943",
+    "image": "https://cards.scryfall.io/normal/front/5/a/5a42fc7d-52ac-4e95-9e04-8f8fa7f687c8.jpg?1782686943"
   },
   {
     "name": "Betor, Ancestor's Voice",
     "owner": "Ianfi",
-    "colorIdentity": "WBG"
+    "colorIdentity": "BGW",
+    "cardName": "Betor, Ancestor's Voice",
+    "art": "https://cards.scryfall.io/art_crop/front/2/e/2e261489-8dde-4594-8868-69f432f03d03.jpg?1782686947",
+    "image": "https://cards.scryfall.io/normal/front/2/e/2e261489-8dde-4594-8868-69f432f03d03.jpg?1782686947"
   },
   {
     "name": "Felothar (i)",
     "owner": "Ianfi",
-    "colorIdentity": "WBG"
+    "colorIdentity": "BGW",
+    "cardName": "Felothar the Steadfast",
+    "art": "https://cards.scryfall.io/art_crop/front/2/c/2c3549f6-25df-4ea7-84ad-922ccd4af6b2.jpg?1782686946",
+    "image": "https://cards.scryfall.io/normal/front/2/c/2c3549f6-25df-4ea7-84ad-922ccd4af6b2.jpg?1782686946"
   },
   {
     "name": "Hazel (i)",
     "owner": "Ianfi",
-    "colorIdentity": "BG"
+    "colorIdentity": "BG",
+    "cardName": "Hazel of the Rootbloom",
+    "art": "https://cards.scryfall.io/art_crop/front/1/2/1269ca79-907e-4932-9e77-a9a5d2929060.jpg?1782690301",
+    "image": "https://cards.scryfall.io/normal/front/1/2/1269ca79-907e-4932-9e77-a9a5d2929060.jpg?1782690301"
   },
   {
     "name": "Bello, Bard of the Brambles (i)",
     "owner": "Ianfi",
-    "colorIdentity": "RG"
+    "colorIdentity": "GR",
+    "cardName": "Bello, Bard of the Brambles",
+    "art": "https://cards.scryfall.io/art_crop/front/3/1/31e4b7a1-b377-49d2-a92e-4bcb0db35f16.jpg?1782690303",
+    "image": "https://cards.scryfall.io/normal/front/3/1/31e4b7a1-b377-49d2-a92e-4bcb0db35f16.jpg?1782690303"
   },
   {
     "name": "Alela, Cunning Conqueror (i)",
     "owner": "Ianfi",
-    "colorIdentity": "UB"
+    "colorIdentity": "BU",
+    "cardName": "Alela, Cunning Conqueror",
+    "art": "https://cards.scryfall.io/art_crop/front/7/9/79ba5c35-6e5c-406a-b95f-844d5ec296ab.jpg?1782696379",
+    "image": "https://cards.scryfall.io/normal/front/7/9/79ba5c35-6e5c-406a-b95f-844d5ec296ab.jpg?1782696379"
   },
   {
     "name": "Ashling, The Limitless (i)",
     "owner": "Ianfi",
-    "colorIdentity": "WUBRG"
+    "colorIdentity": "BGRUW",
+    "cardName": "Ashling, the Limitless",
+    "art": "https://cards.scryfall.io/art_crop/front/5/9/5924c01f-2815-4e37-b700-3ba6cc81e0e4.jpg?1782684299",
+    "image": "https://cards.scryfall.io/normal/front/5/9/5924c01f-2815-4e37-b700-3ba6cc81e0e4.jpg?1782684299"
   },
   {
     "name": "Avatar Aang",
     "owner": "Ianfi",
-    "colorIdentity": "WUBRG"
+    "colorIdentity": "BGRUW",
+    "cardName": "Avatar Aang // Aang, Master of Elements",
+    "art": "https://cards.scryfall.io/art_crop/front/f/e/fe29e909-50e9-4f04-b1a3-2cc5d7e3efe8.jpg?1782684508",
+    "image": "https://cards.scryfall.io/normal/front/f/e/fe29e909-50e9-4f04-b1a3-2cc5d7e3efe8.jpg?1782684508"
   },
   {
     "name": "Iroh Grand Lotus",
     "owner": "Ianfi",
-    "colorIdentity": "URG"
+    "colorIdentity": "GRU",
+    "cardName": "Iroh, Grand Lotus",
+    "art": "https://cards.scryfall.io/art_crop/front/8/7/879b73d3-4552-4fdc-baee-c4d097ae9a4f.jpg?1782684491",
+    "image": "https://cards.scryfall.io/normal/front/8/7/879b73d3-4552-4fdc-baee-c4d097ae9a4f.jpg?1782684491"
   },
   {
     "name": "Sokka, Tenacious Tactician (i)",
     "owner": "Ianfi",
-    "colorIdentity": "WUR"
+    "colorIdentity": "RUW",
+    "cardName": "Sokka, Tenacious Tactician",
+    "art": "https://cards.scryfall.io/art_crop/front/f/0/f0fa5897-1da7-488f-bb19-1632e969c050.jpg?1782684480",
+    "image": "https://cards.scryfall.io/normal/front/f/0/f0fa5897-1da7-488f-bb19-1632e969c050.jpg?1782684480"
   },
   {
     "name": "Fire Lord Azula (i)",
     "owner": "Ianfi",
-    "colorIdentity": "UBR"
+    "colorIdentity": "BRU",
+    "cardName": "Fire Lord Azula",
+    "art": "https://cards.scryfall.io/art_crop/front/b/c/bc6146bf-f0c6-4557-af6a-74c643d5fc01.jpg?1782684498",
+    "image": "https://cards.scryfall.io/normal/front/b/c/bc6146bf-f0c6-4557-af6a-74c643d5fc01.jpg?1782684498"
   },
   {
     "name": "Zimone, Infinite Analyst",
     "owner": "Ianfi",
-    "colorIdentity": "UG"
+    "colorIdentity": "GU",
+    "cardName": "Zimone, All-Questioning",
+    "art": "https://cards.scryfall.io/art_crop/front/c/a/ca09bb5f-feab-4754-ac6b-3f06327d3fe9.jpg?1782683122",
+    "image": "https://cards.scryfall.io/normal/front/c/a/ca09bb5f-feab-4754-ac6b-3f06327d3fe9.jpg?1782683122"
   },
   {
     "name": "Cristiano Ronaldo, The Goat",
     "owner": "Ianfi",
-    "colorIdentity": "RG"
+    "colorIdentity": "RG",
+    "cardName": null,
+    "art": null,
+    "image": null
   },
   {
     "name": "Hope Estheim",
     "owner": "Ianfi",
-    "colorIdentity": "WU"
+    "colorIdentity": "UW",
+    "cardName": "Hope Estheim",
+    "art": "https://cards.scryfall.io/art_crop/front/f/b/fbdb68cc-5516-481a-94c5-59f6c69b8a17.jpg?1782686423",
+    "image": "https://cards.scryfall.io/normal/front/f/b/fbdb68cc-5516-481a-94c5-59f6c69b8a17.jpg?1782686423"
   },
   {
     "name": "Witherbloom, The Balancer",
     "owner": "Ianfi",
-    "colorIdentity": "BG"
+    "colorIdentity": "BG",
+    "cardName": null,
+    "art": null,
+    "image": null
   },
   {
     "name": "Zimone, Infinite Analyst",
     "owner": "Ianfi",
-    "colorIdentity": "UG"
+    "colorIdentity": "GU",
+    "cardName": "Zimone, All-Questioning",
+    "art": "https://cards.scryfall.io/art_crop/front/c/a/ca09bb5f-feab-4754-ac6b-3f06327d3fe9.jpg?1782683122",
+    "image": "https://cards.scryfall.io/normal/front/c/a/ca09bb5f-feab-4754-ac6b-3f06327d3fe9.jpg?1782683122"
   },
   {
     "name": "Terra (J)",
     "owner": "Jorge Espinoza",
-    "colorIdentity": "WBR"
+    "colorIdentity": "BGRUW",
+    "cardName": "Terra, Magical Adept // Esper Terra",
+    "art": "https://cards.scryfall.io/art_crop/front/f/b/fbd447aa-588d-4c4d-925e-a7d3bdf6a65c.jpg?1782686407",
+    "image": "https://cards.scryfall.io/normal/front/f/b/fbd447aa-588d-4c4d-925e-a7d3bdf6a65c.jpg?1782686407"
   },
   {
     "name": "Celes",
     "owner": "Jorge Espinoza",
-    "colorIdentity": "WBR"
+    "colorIdentity": "BRW",
+    "cardName": "Celes, Rune Knight",
+    "art": "https://cards.scryfall.io/art_crop/front/3/0/30584c53-533b-4dc7-b07c-8600164a99b3.jpg?1782686055",
+    "image": "https://cards.scryfall.io/normal/front/3/0/30584c53-533b-4dc7-b07c-8600164a99b3.jpg?1782686055"
   },
   {
     "name": "Hearthhull (J)",
     "owner": "Jorge Espinoza",
-    "colorIdentity": "BRG"
+    "colorIdentity": "BGR",
+    "cardName": "Hearthhull, the Worldseed",
+    "art": "https://cards.scryfall.io/art_crop/front/6/b/6b913e79-a9f6-44d4-bb37-c4f6f66b8151.jpg?1782685717",
+    "image": "https://cards.scryfall.io/normal/front/6/b/6b913e79-a9f6-44d4-bb37-c4f6f66b8151.jpg?1782685717"
   },
   {
     "name": "Dina",
     "owner": "Jorge Espinoza",
-    "colorIdentity": "BG"
+    "colorIdentity": "BG",
+    "cardName": "Dina, Soul Steeper",
+    "art": "https://cards.scryfall.io/art_crop/front/6/a/6ae992b6-506b-4667-884f-4f7fc075b71e.jpg?1782683151",
+    "image": "https://cards.scryfall.io/normal/front/6/a/6ae992b6-506b-4667-884f-4f7fc075b71e.jpg?1782683151"
   },
   {
     "name": "Gorma",
     "owner": "Jorge Espinoza",
-    "colorIdentity": "BG"
+    "colorIdentity": "BG",
+    "cardName": "Gorma, the Gullet",
+    "art": "https://cards.scryfall.io/art_crop/front/8/6/86f97dd8-8647-4938-aee0-690bb715f88b.jpg?1782683383",
+    "image": "https://cards.scryfall.io/normal/front/8/6/86f97dd8-8647-4938-aee0-690bb715f88b.jpg?1782683383"
   },
   {
     "name": "Melek, Reforged Reasercher",
     "owner": "Jorge Espinoza",
-    "colorIdentity": "UR"
+    "colorIdentity": "RU",
+    "cardName": "Melek, Reforged Researcher",
+    "art": "https://cards.scryfall.io/art_crop/front/0/1/01c5ede0-a098-4f21-8b7e-795a83e75aae.jpg?1782693639",
+    "image": "https://cards.scryfall.io/normal/front/0/1/01c5ede0-a098-4f21-8b7e-795a83e75aae.jpg?1782693639"
   },
   {
     "name": "Sauron, The Dark Lord (JE)",
     "owner": "Jorge Espinoza",
-    "colorIdentity": ""
+    "colorIdentity": "BRU",
+    "cardName": "Sauron, the Dark Lord",
+    "art": "https://cards.scryfall.io/art_crop/front/0/3/034e0929-b2c7-4b5f-94f2-8eaf4fb1a2a1.jpg?1782697105",
+    "image": "https://cards.scryfall.io/normal/front/0/3/034e0929-b2c7-4b5f-94f2-8eaf4fb1a2a1.jpg?1782697105"
   },
   {
     "name": "Quintorious",
     "owner": "Jorge Espinoza",
-    "colorIdentity": "WR"
+    "colorIdentity": "RW",
+    "cardName": "Quintorius Kand",
+    "art": "https://cards.scryfall.io/art_crop/front/4/3/4382fa49-9e34-45b3-8495-4916dcd995ec.jpg?1782694421",
+    "image": "https://cards.scryfall.io/normal/front/4/3/4382fa49-9e34-45b3-8495-4916dcd995ec.jpg?1782694421"
   },
   {
     "name": "Urza, Chief Artificer (J)",
     "owner": "Jorge Espinoza",
-    "colorIdentity": "WUB"
+    "colorIdentity": "BUW",
+    "cardName": "Urza, Chief Artificer",
+    "art": "https://cards.scryfall.io/art_crop/front/e/a/ea409050-4296-4b76-a6cd-2896ce1b88e4.jpg?1782699490",
+    "image": "https://cards.scryfall.io/normal/front/e/a/ea409050-4296-4b76-a6cd-2896ce1b88e4.jpg?1782699490"
   },
   {
     "name": "Aziza",
     "owner": "Jorge Espinoza",
-    "colorIdentity": "WR"
+    "colorIdentity": "RW",
+    "cardName": "Aziza, Mage Tower Captain",
+    "art": "https://cards.scryfall.io/art_crop/front/6/2/6261e89a-dbf1-481a-823e-6bb00be57195.jpg?1782682886",
+    "image": "https://cards.scryfall.io/normal/front/6/2/6261e89a-dbf1-481a-823e-6bb00be57195.jpg?1782682886"
   },
   {
     "name": "Miirym",
     "owner": "Jorge Kourie",
-    "colorIdentity": "URG"
+    "colorIdentity": "GRU",
+    "cardName": "Miirym, Sentinel Wyrm",
+    "art": "https://cards.scryfall.io/art_crop/front/a/9/a934590b-5c70-4f07-af67-fbe817a99531.jpg?1782701174",
+    "image": "https://cards.scryfall.io/normal/front/a/9/a934590b-5c70-4f07-af67-fbe817a99531.jpg?1782701174"
   },
   {
     "name": "Sauron, The Dark Lord (JK)",
     "owner": "Jorge Kourie",
-    "colorIdentity": "WUBRG"
+    "colorIdentity": "BRU",
+    "cardName": "Sauron, the Dark Lord",
+    "art": "https://cards.scryfall.io/art_crop/front/0/3/034e0929-b2c7-4b5f-94f2-8eaf4fb1a2a1.jpg?1782697105",
+    "image": "https://cards.scryfall.io/normal/front/0/3/034e0929-b2c7-4b5f-94f2-8eaf4fb1a2a1.jpg?1782697105"
   },
   {
     "name": "Krenko",
     "owner": "Jorge Kourie",
-    "colorIdentity": "R"
+    "colorIdentity": "R",
+    "cardName": "Krenko, Mob Boss",
+    "art": "https://cards.scryfall.io/art_crop/front/8/2/824b2d73-2151-4e5e-9f05-8f63e2bdcaa9.jpg?1782689091",
+    "image": "https://cards.scryfall.io/normal/front/8/2/824b2d73-2151-4e5e-9f05-8f63e2bdcaa9.jpg?1782689091"
   },
   {
     "name": "Yuna",
     "owner": "Jorge Kourie",
-    "colorIdentity": "WUG"
+    "colorIdentity": "GUW",
+    "cardName": "Yuna, Grand Summoner",
+    "art": "https://cards.scryfall.io/art_crop/front/3/1/31572625-b4a8-4ac0-8f08-999d6a6636d7.jpg?1782724085",
+    "image": "https://cards.scryfall.io/normal/front/3/1/31572625-b4a8-4ac0-8f08-999d6a6636d7.jpg?1782724085"
   },
   {
     "name": "Wulfgar",
     "owner": "Jorge Kourie",
-    "colorIdentity": "RG"
+    "colorIdentity": "GR",
+    "cardName": "Wulfgar of Icewind Dale",
+    "art": "https://cards.scryfall.io/art_crop/front/8/0/80665af6-fd66-4684-94ec-1f04eb898c2a.jpg?1782704172",
+    "image": "https://cards.scryfall.io/normal/front/8/0/80665af6-fd66-4684-94ec-1f04eb898c2a.jpg?1782704172"
   },
   {
     "name": "Kaalia",
     "owner": "Jorge Kourie",
-    "colorIdentity": "WBR"
+    "colorIdentity": "BRW",
+    "cardName": "Kaalia of the Vast",
+    "art": "https://cards.scryfall.io/art_crop/front/e/7/e71c8c39-3fbb-4a42-9cf6-b3224f5a56fc.jpg?1782691119",
+    "image": "https://cards.scryfall.io/normal/front/e/7/e71c8c39-3fbb-4a42-9cf6-b3224f5a56fc.jpg?1782691119"
   },
   {
     "name": "Alania",
     "owner": "Jorge Kourie",
-    "colorIdentity": "UR"
+    "colorIdentity": "RU",
+    "cardName": "Alania, Divergent Storm",
+    "art": "https://cards.scryfall.io/art_crop/front/4/3/436d6a84-4cea-4ca7-94aa-9d08280652af.jpg?1782690469",
+    "image": "https://cards.scryfall.io/normal/front/4/3/436d6a84-4cea-4ca7-94aa-9d08280652af.jpg?1782690469"
   },
   {
     "name": "Tiamat",
     "owner": "Jorge Kourie",
-    "colorIdentity": "WUBRG"
+    "colorIdentity": "BGRUW",
+    "cardName": "Tiamat",
+    "art": "https://cards.scryfall.io/art_crop/front/6/d/6dd0b9b0-55f4-4ce7-a916-6f23687f3fe4.jpg?1782704303",
+    "image": "https://cards.scryfall.io/normal/front/6/d/6dd0b9b0-55f4-4ce7-a916-6f23687f3fe4.jpg?1782704303"
   },
   {
     "name": "Nahiri",
     "owner": "Jorge Kourie",
-    "colorIdentity": "WR"
+    "colorIdentity": "RW",
+    "cardName": "Nahiri, Forged in Fury",
+    "art": "https://cards.scryfall.io/art_crop/front/9/0/90eb0859-d24e-4703-8930-1cd4ac1fb3b6.jpg?1782697384",
+    "image": "https://cards.scryfall.io/normal/front/9/0/90eb0859-d24e-4703-8930-1cd4ac1fb3b6.jpg?1782697384"
   },
   {
     "name": "Eladamri",
     "owner": "Jorge Kourie",
-    "colorIdentity": "G"
+    "colorIdentity": "G",
+    "cardName": "Eladamri",
+    "art": "https://cards.scryfall.io/art_crop/front/a/b/ab25accd-93d8-4ba4-8254-e5eb26ebce4c.jpg?1782755494",
+    "image": "https://cards.scryfall.io/normal/front/a/b/ab25accd-93d8-4ba4-8254-e5eb26ebce4c.jpg?1782755494"
   },
   {
     "name": "Faldorn",
     "owner": "Jorge Kourie",
-    "colorIdentity": "RG"
+    "colorIdentity": "GR",
+    "cardName": "Faldorn, Dread Wolf Herald",
+    "art": "https://cards.scryfall.io/art_crop/front/2/1/213e530e-33a9-4358-b43b-4a276a7e7190.jpg?1782700935",
+    "image": "https://cards.scryfall.io/normal/front/2/1/213e530e-33a9-4358-b43b-4a276a7e7190.jpg?1782700935"
   },
   {
     "name": "Ulalek (J)",
     "owner": "Jorge Kourie",
-    "colorIdentity": "WUBRG"
+    "colorIdentity": "BGRUW",
+    "cardName": "Ulalek, Fused Atrocity",
+    "art": "https://cards.scryfall.io/art_crop/front/f/d/fdad1b0e-d3cc-4d76-ae7e-fee12558cf2c.jpg?1782691744",
+    "image": "https://cards.scryfall.io/normal/front/f/d/fdad1b0e-d3cc-4d76-ae7e-fee12558cf2c.jpg?1782691744"
   },
   {
     "name": "Ms. Bumbleflower (J)",
     "owner": "Jorge Kourie",
-    "colorIdentity": "WUG"
+    "colorIdentity": "GUW",
+    "cardName": "Ms. Bumbleflower",
+    "art": "https://cards.scryfall.io/art_crop/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1782690299",
+    "image": "https://cards.scryfall.io/normal/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1782690299"
   },
   {
     "name": "Valgavoth (J)",
     "owner": "Jorge Kourie",
-    "colorIdentity": "BR"
+    "colorIdentity": "B",
+    "cardName": "Valgavoth, Terror Eater",
+    "art": "https://cards.scryfall.io/art_crop/front/7/7/7740ff55-67bb-409e-90f7-2c2c8b8c770a.jpg?1782689545",
+    "image": "https://cards.scryfall.io/normal/front/7/7/7740ff55-67bb-409e-90f7-2c2c8b8c770a.jpg?1782689545"
   },
   {
     "name": "The Ur-Dragon",
     "owner": "Jorge Kourie",
-    "colorIdentity": "WUBRG"
+    "colorIdentity": "BGRUW",
+    "cardName": "The Ur-Dragon",
+    "art": "https://cards.scryfall.io/art_crop/front/1/0/10d42b35-844f-4a64-9981-c6118d45e826.jpg?1782733058",
+    "image": "https://cards.scryfall.io/normal/front/1/0/10d42b35-844f-4a64-9981-c6118d45e826.jpg?1782733058"
   },
   {
     "name": "Silk",
     "owner": "Jorge Kourie",
-    "colorIdentity": "WG"
+    "colorIdentity": "GW",
+    "cardName": "Silk, Web Weaver",
+    "art": "https://cards.scryfall.io/art_crop/front/5/8/588dc8d9-6ce0-4bd7-afbd-84bb251fdcb1.jpg?1782684806",
+    "image": "https://cards.scryfall.io/normal/front/5/8/588dc8d9-6ce0-4bd7-afbd-84bb251fdcb1.jpg?1782684806"
   },
   {
     "name": "Emmara (J)",
     "owner": "Jose",
-    "colorIdentity": "WG"
+    "colorIdentity": "GW",
+    "cardName": "Emmara, Soul of the Accord",
+    "art": "https://cards.scryfall.io/art_crop/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.jpg?1782709071",
+    "image": "https://cards.scryfall.io/normal/front/4/1/41b930ee-e16b-4612-87de-c03ecc6ff6db.jpg?1782709071"
   },
   {
     "name": "Teval (J)",
     "owner": "Jose",
-    "colorIdentity": "UBG"
+    "colorIdentity": "BGU",
+    "cardName": "Teval, the Balanced Scale",
+    "art": "https://cards.scryfall.io/art_crop/front/b/5/b5d1955a-9ff0-4f8b-9af8-341371957299.jpg?1782686942",
+    "image": "https://cards.scryfall.io/normal/front/b/5/b5d1955a-9ff0-4f8b-9af8-341371957299.jpg?1782686942"
   },
   {
     "name": "Bello, Bard of the Brambles (J)",
     "owner": "Jose",
-    "colorIdentity": "RG"
+    "colorIdentity": "GR",
+    "cardName": "Bello, Bard of the Brambles",
+    "art": "https://cards.scryfall.io/art_crop/front/3/1/31e4b7a1-b377-49d2-a92e-4bcb0db35f16.jpg?1782690303",
+    "image": "https://cards.scryfall.io/normal/front/3/1/31e4b7a1-b377-49d2-a92e-4bcb0db35f16.jpg?1782690303"
   },
   {
     "name": "Admiral Brass (J)",
     "owner": "Jose",
-    "colorIdentity": "UBR"
+    "colorIdentity": "BRU",
+    "cardName": "Admiral Brass, Unsinkable",
+    "art": "https://cards.scryfall.io/art_crop/front/b/d/bdc2d492-9d1e-4543-8b9c-c66ee67992ce.jpg?1782694882",
+    "image": "https://cards.scryfall.io/normal/front/b/d/bdc2d492-9d1e-4543-8b9c-c66ee67992ce.jpg?1782694882"
   },
   {
     "name": "Don Andrés",
     "owner": "Jose",
-    "colorIdentity": "UBR"
+    "colorIdentity": "UBR",
+    "cardName": null,
+    "art": null,
+    "image": null
   },
   {
     "name": "The Second Doctor",
     "owner": "Jose",
-    "colorIdentity": "U"
+    "colorIdentity": "UW",
+    "cardName": "The Second Doctor",
+    "art": "https://cards.scryfall.io/art_crop/front/5/6/568c2687-4381-4954-9cab-f669d1fe6306.jpg?1782696080",
+    "image": "https://cards.scryfall.io/normal/front/5/6/568c2687-4381-4954-9cab-f669d1fe6306.jpg?1782696080"
   },
   {
     "name": "Kangee Sky Warden",
     "owner": "Konstantinos",
-    "colorIdentity": "WU"
+    "colorIdentity": "UW",
+    "cardName": "Kangee, Sky Warden",
+    "art": "https://cards.scryfall.io/art_crop/front/9/9/99988f41-99b4-4423-be5f-9dc4ec7d813b.jpg?1782705920",
+    "image": "https://cards.scryfall.io/normal/front/9/9/99988f41-99b4-4423-be5f-9dc4ec7d813b.jpg?1782705920"
   },
   {
     "name": "Frodo and Sam (L)",
     "owner": "Lasa",
-    "colorIdentity": "WBG"
+    "colorIdentity": "W",
+    "cardName": "Frodo, Determined Hero",
+    "art": "https://cards.scryfall.io/art_crop/front/8/3/83d1b37c-a8c6-4690-8701-3395397711e7.jpg?1782697062",
+    "image": "https://cards.scryfall.io/normal/front/8/3/83d1b37c-a8c6-4690-8701-3395397711e7.jpg?1782697062"
   },
   {
     "name": "Zurgo (L)",
     "owner": "Lasa",
-    "colorIdentity": "WBR"
+    "colorIdentity": "BRW",
+    "cardName": "Zurgo Helmsmasher",
+    "art": "https://cards.scryfall.io/art_crop/front/1/3/13f4bafe-0d21-47ba-8f16-0274107d618c.jpg?1782713044",
+    "image": "https://cards.scryfall.io/normal/front/1/3/13f4bafe-0d21-47ba-8f16-0274107d618c.jpg?1782713044"
   },
   {
     "name": "Ms. Bumbleflower (L)",
     "owner": "Lasa",
-    "colorIdentity": "WUG"
+    "colorIdentity": "GUW",
+    "cardName": "Ms. Bumbleflower",
+    "art": "https://cards.scryfall.io/art_crop/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1782690299",
+    "image": "https://cards.scryfall.io/normal/front/4/2/42bbedc1-6b83-46b4-8b3b-a4e05ce77d87.jpg?1782690299"
   },
   {
     "name": "Rin and Seri (L)",
     "owner": "Lasa",
-    "colorIdentity": "WRG"
+    "colorIdentity": "GRW",
+    "cardName": "Rin and Seri, Inseparable",
+    "art": "https://cards.scryfall.io/art_crop/front/4/9/496583cb-e77b-4bed-83c0-146ecd82e82b.jpg?1782723240",
+    "image": "https://cards.scryfall.io/normal/front/4/9/496583cb-e77b-4bed-83c0-146ecd82e82b.jpg?1782723240"
   },
   {
     "name": "Zangief",
     "owner": "Lasa",
-    "colorIdentity": "BRG"
+    "colorIdentity": "BRG",
+    "cardName": null,
+    "art": null,
+    "image": null
   },
   {
     "name": "Gary",
     "owner": "Lasa",
-    "colorIdentity": "B"
+    "colorIdentity": "B",
+    "cardName": "Gray Merchant of Asphodel",
+    "art": "https://cards.scryfall.io/art_crop/front/0/0/00d001d0-fd29-4b7c-9d0e-9131b995f910.jpg?1782689859",
+    "image": "https://cards.scryfall.io/normal/front/0/0/00d001d0-fd29-4b7c-9d0e-9131b995f910.jpg?1782689859"
   },
   {
     "name": "Hearthhull (L)",
     "owner": "Lasa",
-    "colorIdentity": "BRG"
+    "colorIdentity": "BGR",
+    "cardName": "Hearthhull, the Worldseed",
+    "art": "https://cards.scryfall.io/art_crop/front/6/b/6b913e79-a9f6-44d4-bb37-c4f6f66b8151.jpg?1782685717",
+    "image": "https://cards.scryfall.io/normal/front/6/b/6b913e79-a9f6-44d4-bb37-c4f6f66b8151.jpg?1782685717"
   },
   {
     "name": "Tifa Lockhart",
     "owner": "Lasa",
-    "colorIdentity": "G"
+    "colorIdentity": "G",
+    "cardName": "Tifa Lockhart",
+    "art": "https://cards.scryfall.io/art_crop/front/f/b/fb781323-2746-405d-a9b2-e778c037a6e9.jpg?1782686444",
+    "image": "https://cards.scryfall.io/normal/front/f/b/fb781323-2746-405d-a9b2-e778c037a6e9.jpg?1782686444"
   },
   {
     "name": "Plankton",
     "owner": "Lasa",
-    "colorIdentity": "BG"
+    "colorIdentity": "BG",
+    "cardName": null,
+    "art": null,
+    "image": null
   },
   {
     "name": "Norin",
     "owner": "Lasa",
-    "colorIdentity": "R"
+    "colorIdentity": "R",
+    "cardName": "Norin the Wary",
+    "art": "https://cards.scryfall.io/art_crop/front/f/6/f61ea59a-1db0-4e6b-bcde-19787c76a49b.jpg?1782716866",
+    "image": "https://cards.scryfall.io/normal/front/f/6/f61ea59a-1db0-4e6b-bcde-19787c76a49b.jpg?1782716866"
   },
   {
     "name": "Aragorn, El Negro (L)",
     "owner": "Lasa",
-    "colorIdentity": "WUR"
+    "colorIdentity": "GRUW",
+    "cardName": "Aragorn, the Uniter",
+    "art": "https://cards.scryfall.io/art_crop/front/e/9/e98d5321-ec09-456c-a9ea-c8ca2cfc6205.jpg?1782697127",
+    "image": "https://cards.scryfall.io/normal/front/e/9/e98d5321-ec09-456c-a9ea-c8ca2cfc6205.jpg?1782697127"
   },
   {
     "name": "Obeka",
     "owner": "Lasa",
-    "colorIdentity": "UBR"
+    "colorIdentity": "BRU",
+    "cardName": "Obeka, Splitter of Seconds",
+    "art": "https://cards.scryfall.io/art_crop/front/0/3/03415c42-086e-4a2e-9be8-5cdcde83f134.jpg?1782691967",
+    "image": "https://cards.scryfall.io/normal/front/0/3/03415c42-086e-4a2e-9be8-5cdcde83f134.jpg?1782691967"
   },
   {
     "name": "Smeagol",
     "owner": "Lasa",
-    "colorIdentity": "BG"
+    "colorIdentity": "BG",
+    "cardName": "Sméagol, Helpful Guide",
+    "art": "https://cards.scryfall.io/art_crop/front/1/3/13253f8d-1897-41e8-a904-9e57ac7eff0a.jpg?1782697100",
+    "image": "https://cards.scryfall.io/normal/front/1/3/13253f8d-1897-41e8-a904-9e57ac7eff0a.jpg?1782697100"
   },
   {
     "name": "Tom Bombadil",
     "owner": "Lasa",
-    "colorIdentity": "WUBRG"
+    "colorIdentity": "BGRUW",
+    "cardName": "Tom Bombadil",
+    "art": "https://cards.scryfall.io/art_crop/front/2/a/2ab04c49-76a1-4896-8dca-8cb4c615f489.jpg?1782697098",
+    "image": "https://cards.scryfall.io/normal/front/2/a/2ab04c49-76a1-4896-8dca-8cb4c615f489.jpg?1782697098"
   },
   {
     "name": "Flubs",
     "owner": "Lasa",
-    "colorIdentity": "URG"
+    "colorIdentity": "GRU",
+    "cardName": "Flubs, the Fool",
+    "art": "https://cards.scryfall.io/art_crop/front/4/1/41e58eb8-e5b9-4ef6-be1f-00e28cebb998.jpg?1782689990",
+    "image": "https://cards.scryfall.io/normal/front/4/1/41e58eb8-e5b9-4ef6-be1f-00e28cebb998.jpg?1782689990"
   },
   {
     "name": "Eowyn",
     "owner": "Mak",
-    "colorIdentity": "WUR"
+    "colorIdentity": "RW",
+    "cardName": "Éowyn, Fearless Knight",
+    "art": "https://cards.scryfall.io/art_crop/front/a/d/adffb389-c9a3-41c4-b078-292a2bcf870d.jpg?1782697121",
+    "image": "https://cards.scryfall.io/normal/front/a/d/adffb389-c9a3-41c4-b078-292a2bcf870d.jpg?1782697121"
   },
   {
     "name": "Urza, Chief Artificer (M)",
     "owner": "Mak",
-    "colorIdentity": "WUB"
+    "colorIdentity": "BUW",
+    "cardName": "Urza, Chief Artificer",
+    "art": "https://cards.scryfall.io/art_crop/front/e/a/ea409050-4296-4b76-a6cd-2896ce1b88e4.jpg?1782699490",
+    "image": "https://cards.scryfall.io/normal/front/e/a/ea409050-4296-4b76-a6cd-2896ce1b88e4.jpg?1782699490"
   },
   {
     "name": "Breya (M)",
     "owner": "Mak",
-    "colorIdentity": "WUBR"
+    "colorIdentity": "BRUW",
+    "cardName": "Breya, Etherium Shaper",
+    "art": "https://cards.scryfall.io/art_crop/front/8/b/8bf3929c-957f-4ea2-a27d-7d53979844af.jpg?1782691120",
+    "image": "https://cards.scryfall.io/normal/front/8/b/8bf3929c-957f-4ea2-a27d-7d53979844af.jpg?1782691120"
   },
   {
     "name": "Beledros Witherbloom",
     "owner": "Mak",
-    "colorIdentity": "BG"
+    "colorIdentity": "BG",
+    "cardName": "Beledros Witherbloom",
+    "art": "https://cards.scryfall.io/art_crop/front/1/4/144c2886-3d37-4a8a-8e37-99ccff66599e.jpg?1782683159",
+    "image": "https://cards.scryfall.io/normal/front/1/4/144c2886-3d37-4a8a-8e37-99ccff66599e.jpg?1782683159"
   },
   {
     "name": "Zhudolock",
     "owner": "Mak",
-    "colorIdentity": ""
+    "colorIdentity": "",
+    "cardName": "Zhulodok, Void Gorger",
+    "art": "https://cards.scryfall.io/art_crop/front/a/0/a015461d-4214-4feb-8b04-519c537759eb.jpg?1782732823",
+    "image": "https://cards.scryfall.io/normal/front/a/0/a015461d-4214-4feb-8b04-519c537759eb.jpg?1782732823"
   },
   {
     "name": "Kozilek",
     "owner": "Mak",
-    "colorIdentity": ""
+    "colorIdentity": "",
+    "cardName": "Kozilek, Butcher of Truth",
+    "art": "https://cards.scryfall.io/art_crop/front/d/2/d27cf7b7-7982-46bd-a559-7789c0e74bae.jpg?1782737968",
+    "image": "https://cards.scryfall.io/normal/front/d/2/d27cf7b7-7982-46bd-a559-7789c0e74bae.jpg?1782737968"
   },
   {
     "name": "Kastral, The Wingcrested",
     "owner": "Mak",
-    "colorIdentity": "WU"
+    "colorIdentity": "UW",
+    "cardName": "Kastral, the Windcrested",
+    "art": "https://cards.scryfall.io/art_crop/front/e/b/ebf68793-22a2-4a59-9d37-6791584edca1.jpg?1782690453",
+    "image": "https://cards.scryfall.io/normal/front/e/b/ebf68793-22a2-4a59-9d37-6791584edca1.jpg?1782690453"
   },
   {
     "name": "Asusa",
     "owner": "Mak",
-    "colorIdentity": "G"
+    "colorIdentity": "G",
+    "cardName": "Azusa, Lost but Seeking",
+    "art": "https://cards.scryfall.io/art_crop/front/2/f/2fe97fbe-a6d6-4e96-8c26-f81bcdf579a1.jpg?1782733119",
+    "image": "https://cards.scryfall.io/normal/front/2/f/2fe97fbe-a6d6-4e96-8c26-f81bcdf579a1.jpg?1782733119"
   },
   {
     "name": "Minn",
     "owner": "Mak",
-    "colorIdentity": "U"
+    "colorIdentity": "U",
+    "cardName": "Minn, Wily Illusionist",
+    "art": "https://cards.scryfall.io/art_crop/front/4/e/4eec1d87-1007-44a1-a45d-0623816de681.jpg?1782704196",
+    "image": "https://cards.scryfall.io/normal/front/4/e/4eec1d87-1007-44a1-a45d-0623816de681.jpg?1782704196"
   },
   {
     "name": "Mole Man, Moloid Master",
     "owner": "Mak",
-    "colorIdentity": "G"
+    "colorIdentity": "G",
+    "cardName": "Mole Man, Moloid Master",
+    "art": "https://cards.scryfall.io/art_crop/front/1/b/1b406cc5-75c9-430a-83a2-de0f2a8aeae6.jpg?1782681764",
+    "image": "https://cards.scryfall.io/normal/front/1/b/1b406cc5-75c9-430a-83a2-de0f2a8aeae6.jpg?1782681764"
   },
   {
     "name": "Sythis",
     "owner": "Mak",
-    "colorIdentity": "WG"
+    "colorIdentity": "GW",
+    "cardName": "Sythis, Harvest's Hand",
+    "art": "https://cards.scryfall.io/art_crop/front/8/9/89511ab5-8ea6-4f07-a80b-c1ec7e89924e.jpg?1782732645",
+    "image": "https://cards.scryfall.io/normal/front/8/9/89511ab5-8ea6-4f07-a80b-c1ec7e89924e.jpg?1782732645"
   },
   {
     "name": "Ulamog",
     "owner": "Mak",
-    "colorIdentity": ""
+    "colorIdentity": "",
+    "cardName": "Ulamog, the Ceaseless Hunger",
+    "art": "https://cards.scryfall.io/art_crop/front/c/7/c74ae706-b3b3-4097-a387-6f6c38a9b603.jpg?1782733313",
+    "image": "https://cards.scryfall.io/normal/front/c/7/c74ae706-b3b3-4097-a387-6f6c38a9b603.jpg?1782733313"
   },
   {
     "name": "Kenrith",
     "owner": "Mak",
-    "colorIdentity": "WUBRG"
+    "colorIdentity": "BGRUW",
+    "cardName": "Kenrith, the Returned King",
+    "art": "https://cards.scryfall.io/art_crop/front/0/e/0e259db1-14db-4314-998c-6a076a28d8cb.jpg?1782733495",
+    "image": "https://cards.scryfall.io/normal/front/0/e/0e259db1-14db-4314-998c-6a076a28d8cb.jpg?1782733495"
   },
   {
     "name": "Selvala",
     "owner": "Mak",
-    "colorIdentity": "G"
+    "colorIdentity": "G",
+    "cardName": "Selvala, Heart of the Wilds",
+    "art": "https://cards.scryfall.io/art_crop/front/8/1/812856be-cf51-42de-96d2-4ac91e71d442.jpg?1782684212",
+    "image": "https://cards.scryfall.io/normal/front/8/1/812856be-cf51-42de-96d2-4ac91e71d442.jpg?1782684212"
   },
   {
     "name": "Adeline",
     "owner": "Mak",
-    "colorIdentity": "W"
+    "colorIdentity": "W",
+    "cardName": "Adeline, Resplendent Cathar",
+    "art": "https://cards.scryfall.io/art_crop/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1782686858",
+    "image": "https://cards.scryfall.io/normal/front/1/d/1de30c12-2011-495a-be25-f7a46b23e142.jpg?1782686858"
   },
   {
     "name": "Valgavoth (M)",
     "owner": "Migue",
-    "colorIdentity": "BR"
+    "colorIdentity": "B",
+    "cardName": "Valgavoth, Terror Eater",
+    "art": "https://cards.scryfall.io/art_crop/front/7/7/7740ff55-67bb-409e-90f7-2c2c8b8c770a.jpg?1782689545",
+    "image": "https://cards.scryfall.io/normal/front/7/7/7740ff55-67bb-409e-90f7-2c2c8b8c770a.jpg?1782689545"
   },
   {
     "name": "Admiral Brass (M)",
     "owner": "Migue",
-    "colorIdentity": "UBR"
+    "colorIdentity": "BRU",
+    "cardName": "Admiral Brass, Unsinkable",
+    "art": "https://cards.scryfall.io/art_crop/front/b/d/bdc2d492-9d1e-4543-8b9c-c66ee67992ce.jpg?1782694882",
+    "image": "https://cards.scryfall.io/normal/front/b/d/bdc2d492-9d1e-4543-8b9c-c66ee67992ce.jpg?1782694882"
   },
   {
     "name": "Teval (M)",
     "owner": "Migue",
-    "colorIdentity": "UBG"
+    "colorIdentity": "BGU",
+    "cardName": "Teval, the Balanced Scale",
+    "art": "https://cards.scryfall.io/art_crop/front/b/5/b5d1955a-9ff0-4f8b-9af8-341371957299.jpg?1782686942",
+    "image": "https://cards.scryfall.io/normal/front/b/5/b5d1955a-9ff0-4f8b-9af8-341371957299.jpg?1782686942"
   },
   {
     "name": "Toph, First Metalbender (M)",
     "owner": "Migue",
-    "colorIdentity": "WRG"
+    "colorIdentity": "GRW",
+    "cardName": "Toph, the First Metalbender",
+    "art": "https://cards.scryfall.io/art_crop/front/7/0/70b6670f-a9fa-4d75-b0a7-c01b5071a514.jpg?1782684476",
+    "image": "https://cards.scryfall.io/normal/front/7/0/70b6670f-a9fa-4d75-b0a7-c01b5071a514.jpg?1782684476"
   },
   {
     "name": "Reaper, King No More (M)",
     "owner": "Migue",
-    "colorIdentity": "BRG"
+    "colorIdentity": "BGR",
+    "cardName": "The Reaper, King No More",
+    "art": "https://cards.scryfall.io/art_crop/front/d/2/d2119f3f-27d2-4d43-a5ef-35c1b73d182a.jpg?1782684298",
+    "image": "https://cards.scryfall.io/normal/front/d/2/d2119f3f-27d2-4d43-a5ef-35c1b73d182a.jpg?1782684298"
   },
   {
     "name": "Auntie Ool (M)",
     "owner": "Migue",
-    "colorIdentity": "BRG"
+    "colorIdentity": "BGR",
+    "cardName": "Auntie Ool, Cursewretch",
+    "art": "https://cards.scryfall.io/art_crop/front/9/a/9a2e4252-9fbc-4d43-8935-db2cafaa7b5f.jpg?1782684299",
+    "image": "https://cards.scryfall.io/normal/front/9/a/9a2e4252-9fbc-4d43-8935-db2cafaa7b5f.jpg?1782684299"
   },
   {
     "name": "The Lord of Pain",
     "owner": "Migue",
-    "colorIdentity": "BR"
+    "colorIdentity": "BR",
+    "cardName": null,
+    "art": null,
+    "image": null
   },
   {
     "name": "Zinnia (M)",
     "owner": "Mike",
-    "colorIdentity": "WUR"
+    "colorIdentity": "RUW",
+    "cardName": "Zinnia, Valley's Voice",
+    "art": "https://cards.scryfall.io/art_crop/front/d/f/dfe36901-5841-4942-8b61-c273111f715e.jpg?1782690298",
+    "image": "https://cards.scryfall.io/normal/front/d/f/dfe36901-5841-4942-8b61-c273111f715e.jpg?1782690298"
   },
   {
     "name": "Galadriel",
     "owner": "Mike",
-    "colorIdentity": "UG"
+    "colorIdentity": "GUW",
+    "cardName": "Galadriel, Light of Valinor",
+    "art": "https://cards.scryfall.io/art_crop/front/f/4/f485596f-3a23-4714-ad7e-4c493ab1b530.jpg?1782695235",
+    "image": "https://cards.scryfall.io/normal/front/f/4/f485596f-3a23-4714-ad7e-4c493ab1b530.jpg?1782695235"
   },
   {
     "name": "Frodo and Sam (M)",
     "owner": "Mike",
-    "colorIdentity": "WBG"
+    "colorIdentity": "W",
+    "cardName": "Frodo, Determined Hero",
+    "art": "https://cards.scryfall.io/art_crop/front/8/3/83d1b37c-a8c6-4690-8701-3395397711e7.jpg?1782697062",
+    "image": "https://cards.scryfall.io/normal/front/8/3/83d1b37c-a8c6-4690-8701-3395397711e7.jpg?1782697062"
   },
   {
     "name": "Ureni (M)",
     "owner": "Mike",
-    "colorIdentity": "URG"
+    "colorIdentity": "GRU",
+    "cardName": "Ureni of the Unwritten",
+    "art": "https://cards.scryfall.io/art_crop/front/f/5/f54ecbf1-83df-4486-bd6a-7d1f173b6863.jpg?1782686941",
+    "image": "https://cards.scryfall.io/normal/front/f/5/f54ecbf1-83df-4486-bd6a-7d1f173b6863.jpg?1782686941"
   },
   {
     "name": "Eshki (M)",
     "owner": "Mike",
-    "colorIdentity": "URG"
+    "colorIdentity": "GRU",
+    "cardName": "Eshki, Temur's Roar",
+    "art": "https://cards.scryfall.io/art_crop/front/f/f/ff9aa863-8773-452d-946c-ae334c632e11.jpg?1782686946",
+    "image": "https://cards.scryfall.io/normal/front/f/f/ff9aa863-8773-452d-946c-ae334c632e11.jpg?1782686946"
   },
   {
     "name": "Sigarda",
     "owner": "Mike",
-    "colorIdentity": "WG"
+    "colorIdentity": "GW",
+    "cardName": "Sigarda, Font of Blessings",
+    "art": "https://cards.scryfall.io/art_crop/front/c/b/cba71725-d6df-44d7-a93b-934573759711.jpg?1782697376",
+    "image": "https://cards.scryfall.io/normal/front/c/b/cba71725-d6df-44d7-a93b-934573759711.jpg?1782697376"
   },
   {
     "name": "Hakbal",
     "owner": "Nicolas",
-    "colorIdentity": "UG"
+    "colorIdentity": "GU",
+    "cardName": "Hakbal of the Surging Soul",
+    "art": "https://cards.scryfall.io/art_crop/front/e/7/e738e675-4fd1-4bc3-97f5-71d0e2fc3f2e.jpg?1782694880",
+    "image": "https://cards.scryfall.io/normal/front/e/7/e738e675-4fd1-4bc3-97f5-71d0e2fc3f2e.jpg?1782694880"
   },
   {
     "name": "Stella Lee",
     "owner": "Nicolas",
-    "colorIdentity": "UR"
+    "colorIdentity": "RU",
+    "cardName": "Stella Lee, Wild Card",
+    "art": "https://cards.scryfall.io/art_crop/front/2/a/2a8a7696-b5d9-4378-9d5c-2c9007e4df63.jpg?1782692450",
+    "image": "https://cards.scryfall.io/normal/front/2/a/2a8a7696-b5d9-4378-9d5c-2c9007e4df63.jpg?1782692450"
   },
   {
     "name": "Hazel (N)",
     "owner": "Nicolas",
-    "colorIdentity": "BG"
+    "colorIdentity": "BG",
+    "cardName": "Hazel of the Rootbloom",
+    "art": "https://cards.scryfall.io/art_crop/front/1/2/1269ca79-907e-4932-9e77-a9a5d2929060.jpg?1782690301",
+    "image": "https://cards.scryfall.io/normal/front/1/2/1269ca79-907e-4932-9e77-a9a5d2929060.jpg?1782690301"
   },
   {
     "name": "Talrand",
     "owner": "Nicolas",
-    "colorIdentity": "U"
+    "colorIdentity": "U",
+    "cardName": "Talrand, Sky Summoner",
+    "art": "https://cards.scryfall.io/art_crop/front/1/b/1be3ed47-072e-481a-b3d9-dc232ac4b24f.jpg?1782692354",
+    "image": "https://cards.scryfall.io/normal/front/1/b/1be3ed47-072e-481a-b3d9-dc232ac4b24f.jpg?1782692354"
   },
   {
     "name": "Goro-Goro",
     "owner": "Nicolas",
-    "colorIdentity": "UBR"
+    "colorIdentity": "R",
+    "cardName": "Goro-Goro, Disciple of Ryusei",
+    "art": "https://cards.scryfall.io/art_crop/front/1/c/1ca736c7-35a9-48c7-b5a9-69b2a6e33ad0.jpg?1782702235",
+    "image": "https://cards.scryfall.io/normal/front/1/c/1ca736c7-35a9-48c7-b5a9-69b2a6e33ad0.jpg?1782702235"
   },
   {
     "name": "Hashaton",
     "owner": "Nicolas",
-    "colorIdentity": "WUB"
+    "colorIdentity": "BUW",
+    "cardName": "Hashaton, Scarab's Fist",
+    "art": "https://cards.scryfall.io/art_crop/front/0/2/02645651-cd55-4bd0-8a4d-fa257270a0e0.jpg?1782687497",
+    "image": "https://cards.scryfall.io/normal/front/0/2/02645651-cd55-4bd0-8a4d-fa257270a0e0.jpg?1782687497"
   },
   {
     "name": "Teval (N)",
     "owner": "Nicolas",
-    "colorIdentity": "UBG"
+    "colorIdentity": "BGU",
+    "cardName": "Teval, the Balanced Scale",
+    "art": "https://cards.scryfall.io/art_crop/front/b/5/b5d1955a-9ff0-4f8b-9af8-341371957299.jpg?1782686942",
+    "image": "https://cards.scryfall.io/normal/front/b/5/b5d1955a-9ff0-4f8b-9af8-341371957299.jpg?1782686942"
   },
   {
     "name": "Eriette",
     "owner": "Nicolas",
-    "colorIdentity": "WB"
+    "colorIdentity": "BW",
+    "cardName": "Eriette of the Charmed Apple",
+    "art": "https://cards.scryfall.io/art_crop/front/b/a/baf256c5-1b4c-4fbe-94e4-1538d2577f8f.jpg?1782683149",
+    "image": "https://cards.scryfall.io/normal/front/b/a/baf256c5-1b4c-4fbe-94e4-1538d2577f8f.jpg?1782683149"
   },
   {
     "name": "Kuja",
     "owner": "Nicolas",
-    "colorIdentity": "BR"
+    "colorIdentity": "BR",
+    "cardName": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+    "art": "https://cards.scryfall.io/art_crop/front/0/0/008782d2-72b0-4554-b1ce-2db99969a4d8.jpg?1782686418",
+    "image": "https://cards.scryfall.io/normal/front/0/0/008782d2-72b0-4554-b1ce-2db99969a4d8.jpg?1782686418"
   },
   {
     "name": "Cirdan",
     "owner": "Nicolas",
-    "colorIdentity": "UG"
+    "colorIdentity": "GU",
+    "cardName": "Círdan the Shipwright",
+    "art": "https://cards.scryfall.io/art_crop/front/c/4/c4f23d68-d0de-4b57-b0f9-9c0ca770c3c1.jpg?1782696934",
+    "image": "https://cards.scryfall.io/normal/front/c/4/c4f23d68-d0de-4b57-b0f9-9c0ca770c3c1.jpg?1782696934"
   },
   {
     "name": "Ragost",
     "owner": "Nicolas",
-    "colorIdentity": "WR"
+    "colorIdentity": "RW",
+    "cardName": "Ragost, Deft Gastronaut",
+    "art": "https://cards.scryfall.io/art_crop/front/0/1/011374c3-f69d-4573-8c32-5bd0fe083d6a.jpg?1782685429",
+    "image": "https://cards.scryfall.io/normal/front/0/1/011374c3-f69d-4573-8c32-5bd0fe083d6a.jpg?1782685429"
   },
   {
     "name": "Sokka, Tenacious Tactician (N)",
     "owner": "Nicolas",
-    "colorIdentity": "WUR"
+    "colorIdentity": "RUW",
+    "cardName": "Sokka, Tenacious Tactician",
+    "art": "https://cards.scryfall.io/art_crop/front/f/0/f0fa5897-1da7-488f-bb19-1632e969c050.jpg?1782684480",
+    "image": "https://cards.scryfall.io/normal/front/f/0/f0fa5897-1da7-488f-bb19-1632e969c050.jpg?1782684480"
   },
   {
     "name": "Blech",
     "owner": "Nicolas",
-    "colorIdentity": "BG"
+    "colorIdentity": "BG",
+    "cardName": "Blech, Loafing Pest",
+    "art": "https://cards.scryfall.io/art_crop/front/f/5/f588fa50-7cc5-41ba-90df-2d252eb5c785.jpg?1782682884",
+    "image": "https://cards.scryfall.io/normal/front/f/5/f588fa50-7cc5-41ba-90df-2d252eb5c785.jpg?1782682884"
   },
   {
     "name": "Jodah, The Unifier",
     "owner": "Nicolas",
-    "colorIdentity": "WUBRG"
+    "colorIdentity": "BGRUW",
+    "cardName": "Jodah, the Unifier",
+    "art": "https://cards.scryfall.io/art_crop/front/e/4/e4b1aa1e-b4e3-4346-8937-76b312501c70.jpg?1782700430",
+    "image": "https://cards.scryfall.io/normal/front/e/4/e4b1aa1e-b4e3-4346-8937-76b312501c70.jpg?1782700430"
   },
   {
     "name": "Kefka",
     "owner": "Nicolas",
-    "colorIdentity": "UBR"
+    "colorIdentity": "BRU",
+    "cardName": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+    "art": "https://cards.scryfall.io/art_crop/front/8/f/8fcf3fbb-1ddd-437e-81c1-f5a3133f5ee8.jpg?1782686419",
+    "image": "https://cards.scryfall.io/normal/front/8/f/8fcf3fbb-1ddd-437e-81c1-f5a3133f5ee8.jpg?1782686419"
   },
   {
     "name": "Valgavoth (O)",
     "owner": "Octaviano",
-    "colorIdentity": "BR"
+    "colorIdentity": "B",
+    "cardName": "Valgavoth, Terror Eater",
+    "art": "https://cards.scryfall.io/art_crop/front/7/7/7740ff55-67bb-409e-90f7-2c2c8b8c770a.jpg?1782689545",
+    "image": "https://cards.scryfall.io/normal/front/7/7/7740ff55-67bb-409e-90f7-2c2c8b8c770a.jpg?1782689545"
   },
   {
     "name": "Felothar (O)",
     "owner": "Octaviano",
-    "colorIdentity": "WBG"
+    "colorIdentity": "BGW",
+    "cardName": "Felothar the Steadfast",
+    "art": "https://cards.scryfall.io/art_crop/front/2/c/2c3549f6-25df-4ea7-84ad-922ccd4af6b2.jpg?1782686946",
+    "image": "https://cards.scryfall.io/normal/front/2/c/2c3549f6-25df-4ea7-84ad-922ccd4af6b2.jpg?1782686946"
   },
   {
     "name": "Bello, Bard of the Brambles (O)",
     "owner": "Octaviano",
-    "colorIdentity": "RG"
+    "colorIdentity": "GR",
+    "cardName": "Bello, Bard of the Brambles",
+    "art": "https://cards.scryfall.io/art_crop/front/3/1/31e4b7a1-b377-49d2-a92e-4bcb0db35f16.jpg?1782690303",
+    "image": "https://cards.scryfall.io/normal/front/3/1/31e4b7a1-b377-49d2-a92e-4bcb0db35f16.jpg?1782690303"
   },
   {
     "name": "Admiral Brass (O)",
     "owner": "Octaviano",
-    "colorIdentity": "UBR"
+    "colorIdentity": "BRU",
+    "cardName": "Admiral Brass, Unsinkable",
+    "art": "https://cards.scryfall.io/art_crop/front/b/d/bdc2d492-9d1e-4543-8b9c-c66ee67992ce.jpg?1782694882",
+    "image": "https://cards.scryfall.io/normal/front/b/d/bdc2d492-9d1e-4543-8b9c-c66ee67992ce.jpg?1782694882"
   },
   {
     "name": "Malcom & Breeches",
     "owner": "Octaviano",
-    "colorIdentity": "UR"
+    "colorIdentity": "U",
+    "cardName": "Malcolm, Keen-Eyed Navigator",
+    "art": "https://cards.scryfall.io/art_crop/front/5/1/51187cdb-85ee-4f68-9e29-d84d296f0825.jpg?1782694756",
+    "image": "https://cards.scryfall.io/normal/front/5/1/51187cdb-85ee-4f68-9e29-d84d296f0825.jpg?1782694756"
   },
   {
     "name": "Karduur Doomscourge",
     "owner": "Sabino",
-    "colorIdentity": "BR"
+    "colorIdentity": "BR",
+    "cardName": "Kardur, Doomscourge",
+    "art": "https://cards.scryfall.io/art_crop/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.jpg?1782689791",
+    "image": "https://cards.scryfall.io/normal/front/7/c/7c0f7712-7bbf-471b-8107-3a49cf922ad9.jpg?1782689791"
   },
   {
     "name": "Rakdos",
     "owner": "Sabino",
-    "colorIdentity": "BR"
+    "colorIdentity": "BR",
+    "cardName": "Rakdos, Lord of Riots",
+    "art": "https://cards.scryfall.io/art_crop/front/3/d/3d0d5a41-8251-437c-a4a0-3b712281ebb0.jpg?1782689783",
+    "image": "https://cards.scryfall.io/normal/front/3/d/3d0d5a41-8251-437c-a4a0-3b712281ebb0.jpg?1782689783"
   },
   {
     "name": "Alela, Cunning Conqueror (S)",
     "owner": "Sabino",
-    "colorIdentity": "UB"
+    "colorIdentity": "BU",
+    "cardName": "Alela, Cunning Conqueror",
+    "art": "https://cards.scryfall.io/art_crop/front/7/9/79ba5c35-6e5c-406a-b95f-844d5ec296ab.jpg?1782696379",
+    "image": "https://cards.scryfall.io/normal/front/7/9/79ba5c35-6e5c-406a-b95f-844d5ec296ab.jpg?1782696379"
   },
   {
     "name": "Kilo",
     "owner": "Sabino",
-    "colorIdentity": "WUR"
+    "colorIdentity": "WUR",
+    "cardName": null,
+    "art": null,
+    "image": null
   },
   {
     "name": "Pantlaza",
     "owner": "Sabino",
-    "colorIdentity": "WRG"
+    "colorIdentity": "GRW",
+    "cardName": "Pantlaza, Sun-Favored",
+    "art": "https://cards.scryfall.io/art_crop/front/2/5/2524645e-b066-4351-885b-10faa8d819d7.jpg?1782694880",
+    "image": "https://cards.scryfall.io/normal/front/2/5/2524645e-b066-4351-885b-10faa8d819d7.jpg?1782694880"
   },
   {
     "name": "Zurgo (S)",
     "owner": "Sabino",
-    "colorIdentity": "WBR"
+    "colorIdentity": "BRW",
+    "cardName": "Zurgo Helmsmasher",
+    "art": "https://cards.scryfall.io/art_crop/front/1/3/13f4bafe-0d21-47ba-8f16-0274107d618c.jpg?1782713044",
+    "image": "https://cards.scryfall.io/normal/front/1/3/13f4bafe-0d21-47ba-8f16-0274107d618c.jpg?1782713044"
   },
   {
     "name": "Norman Osborn",
     "owner": "Sabino",
-    "colorIdentity": "UBR"
+    "colorIdentity": "BRU",
+    "cardName": "Norman Osborn // Green Goblin",
+    "art": "https://cards.scryfall.io/art_crop/front/d/5/d5c53af9-7150-4e78-8771-2de7980aa307.jpg?1782684891",
+    "image": "https://cards.scryfall.io/normal/front/d/5/d5c53af9-7150-4e78-8771-2de7980aa307.jpg?1782684891"
   },
   {
     "name": "Tidus, Yuna's Guardian (S)",
     "owner": "Sabino",
-    "colorIdentity": "WUG"
+    "colorIdentity": "GUW",
+    "cardName": "Tidus, Yuna's Guardian",
+    "art": "https://cards.scryfall.io/art_crop/front/2/c/2cfd4494-346c-4cbc-8072-e267254cefcc.jpg?1782686051",
+    "image": "https://cards.scryfall.io/normal/front/2/c/2cfd4494-346c-4cbc-8072-e267254cefcc.jpg?1782686051"
   },
   {
     "name": "Gev",
     "owner": "Sabino",
-    "colorIdentity": "BR"
+    "colorIdentity": "BR",
+    "cardName": "Gev, Scaled Scorch",
+    "art": "https://cards.scryfall.io/art_crop/front/1/3/131ea976-289e-4f32-896d-27bbfd423ba9.jpg?1782690460",
+    "image": "https://cards.scryfall.io/normal/front/1/3/131ea976-289e-4f32-896d-27bbfd423ba9.jpg?1782690460"
   },
   {
     "name": "Inspirit",
     "owner": "Sabino",
-    "colorIdentity": "WUR"
+    "colorIdentity": "RUW",
+    "cardName": "Inspirit, Flagship Vessel",
+    "art": "https://cards.scryfall.io/art_crop/front/4/6/46900ec7-eb18-45c4-8e90-a48b665cfdee.jpg?1782685716",
+    "image": "https://cards.scryfall.io/normal/front/4/6/46900ec7-eb18-45c4-8e90-a48b665cfdee.jpg?1782685716"
   },
   {
     "name": "Makima",
     "owner": "Sabino",
-    "colorIdentity": ""
+    "colorIdentity": "",
+    "cardName": null,
+    "art": null,
+    "image": null
   },
   {
     "name": "Ghyrson",
     "owner": "Sabino",
-    "colorIdentity": "UR"
+    "colorIdentity": "RU",
+    "cardName": "Ghyrson Starn, Kelermorph",
+    "art": "https://cards.scryfall.io/art_crop/front/f/a/fa7349d9-c82f-4cf8-a852-92168d1f4966.jpg?1782700097",
+    "image": "https://cards.scryfall.io/normal/front/f/a/fa7349d9-c82f-4cf8-a852-92168d1f4966.jpg?1782700097"
   },
   {
     "name": "Omnath, Locus of Rage",
     "owner": "Sabino",
-    "colorIdentity": "RG"
+    "colorIdentity": "GR",
+    "cardName": "Omnath, Locus of Rage",
+    "art": "https://cards.scryfall.io/art_crop/front/6/3/637c5910-f835-496e-b1b9-445bfb71da97.jpg?1782684204",
+    "image": "https://cards.scryfall.io/normal/front/6/3/637c5910-f835-496e-b1b9-445bfb71da97.jpg?1782684204"
   },
   {
     "name": "The Wise Mothman",
     "owner": "Sabino",
-    "colorIdentity": "UBG"
+    "colorIdentity": "BGU",
+    "cardName": "The Wise Mothman",
+    "art": "https://cards.scryfall.io/art_crop/front/c/f/cfb80c75-4b1b-4f25-923a-933855e7345c.jpg?1782723922",
+    "image": "https://cards.scryfall.io/normal/front/c/f/cfb80c75-4b1b-4f25-923a-933855e7345c.jpg?1782723922"
   },
   {
     "name": "Lumra",
     "owner": "Sabino",
-    "colorIdentity": "G"
+    "colorIdentity": "G",
+    "cardName": "Lumra, Bellow of the Woods",
+    "art": "https://cards.scryfall.io/art_crop/front/a/e/ae4f3aaf-3960-48cd-b34b-32e4ae5ae088.jpg?1782690487",
+    "image": "https://cards.scryfall.io/normal/front/a/e/ae4f3aaf-3960-48cd-b34b-32e4ae5ae088.jpg?1782690487"
   },
   {
     "name": "Elenda",
     "owner": "Sabino",
-    "colorIdentity": "WB"
+    "colorIdentity": "BW",
+    "cardName": "Elenda, the Dusk Rose",
+    "art": "https://cards.scryfall.io/art_crop/front/e/1/e18feca3-1b1b-4456-8873-25a24849a917.jpg?1782694684",
+    "image": "https://cards.scryfall.io/normal/front/e/1/e18feca3-1b1b-4456-8873-25a24849a917.jpg?1782694684"
   },
   {
     "name": "Maralen",
     "owner": "Sabino",
-    "colorIdentity": "UBG"
+    "colorIdentity": "B",
+    "cardName": "Maralen of the Mornsong",
+    "art": "https://cards.scryfall.io/art_crop/front/b/a/ba98d363-194b-4bc0-b9fe-987c498ab6fa.jpg?1782716238",
+    "image": "https://cards.scryfall.io/normal/front/b/a/ba98d363-194b-4bc0-b9fe-987c498ab6fa.jpg?1782716238"
   },
   {
     "name": "Eshki (S)",
     "owner": "Sabino",
-    "colorIdentity": "URG"
+    "colorIdentity": "GRU",
+    "cardName": "Eshki, Temur's Roar",
+    "art": "https://cards.scryfall.io/art_crop/front/f/f/ff9aa863-8773-452d-946c-ae334c632e11.jpg?1782686946",
+    "image": "https://cards.scryfall.io/normal/front/f/f/ff9aa863-8773-452d-946c-ae334c632e11.jpg?1782686946"
   },
   {
     "name": "Zaxara",
     "owner": "Sabino",
-    "colorIdentity": "UBG"
+    "colorIdentity": "BGU",
+    "cardName": "Zaxara, the Exemplary",
+    "art": "https://cards.scryfall.io/art_crop/front/6/d/6dc390da-75f8-490a-a724-c12d21cfe578.jpg?1782700597",
+    "image": "https://cards.scryfall.io/normal/front/6/d/6dc390da-75f8-490a-a724-c12d21cfe578.jpg?1782700597"
   },
   {
     "name": "Ureni (S)",
     "owner": "Sabino",
-    "colorIdentity": "URG"
+    "colorIdentity": "GRU",
+    "cardName": "Ureni of the Unwritten",
+    "art": "https://cards.scryfall.io/art_crop/front/f/5/f54ecbf1-83df-4486-bd6a-7d1f173b6863.jpg?1782686941",
+    "image": "https://cards.scryfall.io/normal/front/f/5/f54ecbf1-83df-4486-bd6a-7d1f173b6863.jpg?1782686941"
   },
   {
     "name": "Auntie Ool (S)",
     "owner": "Sabino",
-    "colorIdentity": "BRG"
+    "colorIdentity": "BGR",
+    "cardName": "Auntie Ool, Cursewretch",
+    "art": "https://cards.scryfall.io/art_crop/front/9/a/9a2e4252-9fbc-4d43-8935-db2cafaa7b5f.jpg?1782684299",
+    "image": "https://cards.scryfall.io/normal/front/9/a/9a2e4252-9fbc-4d43-8935-db2cafaa7b5f.jpg?1782684299"
   },
   {
     "name": "Kona",
     "owner": "Sabino",
-    "colorIdentity": "G"
+    "colorIdentity": "G",
+    "cardName": "Kona, Rescue Beastie",
+    "art": "https://cards.scryfall.io/art_crop/front/6/f/6f035294-2787-4719-8520-227bf03e84e7.jpg?1782689481",
+    "image": "https://cards.scryfall.io/normal/front/6/f/6f035294-2787-4719-8520-227bf03e84e7.jpg?1782689481"
   },
   {
     "name": "Shalai and Hallar",
     "owner": "Sabino",
-    "colorIdentity": "WRG"
+    "colorIdentity": "GRW",
+    "cardName": "Shalai and Hallar",
+    "art": "https://cards.scryfall.io/art_crop/front/8/0/80804f25-efc3-44a2-bbae-9a97fec98009.jpg?1782698130",
+    "image": "https://cards.scryfall.io/normal/front/8/0/80804f25-efc3-44a2-bbae-9a97fec98009.jpg?1782698130"
   },
   {
     "name": "Zinnia (W)",
     "owner": "Wainer",
-    "colorIdentity": "WUR"
+    "colorIdentity": "RUW",
+    "cardName": "Zinnia, Valley's Voice",
+    "art": "https://cards.scryfall.io/art_crop/front/d/f/dfe36901-5841-4942-8b61-c273111f715e.jpg?1782690298",
+    "image": "https://cards.scryfall.io/normal/front/d/f/dfe36901-5841-4942-8b61-c273111f715e.jpg?1782690298"
   },
   {
     "name": "Aminatou",
     "owner": "Wainer",
-    "colorIdentity": "WUB"
+    "colorIdentity": "BUW",
+    "cardName": "Aminatou, the Fateshifter",
+    "art": "https://cards.scryfall.io/art_crop/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1782737855",
+    "image": "https://cards.scryfall.io/normal/front/b/c/bc010302-e715-4946-89eb-a214e0b836ba.jpg?1782737855"
   },
   {
     "name": "Terra (W)",
     "owner": "Wainer",
-    "colorIdentity": "WBR"
+    "colorIdentity": "BGRUW",
+    "cardName": "Terra, Magical Adept // Esper Terra",
+    "art": "https://cards.scryfall.io/art_crop/front/f/b/fbd447aa-588d-4c4d-925e-a7d3bdf6a65c.jpg?1782686407",
+    "image": "https://cards.scryfall.io/normal/front/f/b/fbd447aa-588d-4c4d-925e-a7d3bdf6a65c.jpg?1782686407"
   },
   {
     "name": "Hearthhull (W)",
     "owner": "Wainer",
-    "colorIdentity": "BRG"
+    "colorIdentity": "BGR",
+    "cardName": "Hearthhull, the Worldseed",
+    "art": "https://cards.scryfall.io/art_crop/front/6/b/6b913e79-a9f6-44d4-bb37-c4f6f66b8151.jpg?1782685717",
+    "image": "https://cards.scryfall.io/normal/front/6/b/6b913e79-a9f6-44d4-bb37-c4f6f66b8151.jpg?1782685717"
   },
   {
     "name": "Toph, First Metalbender (S)",
     "owner": "Samuel",
-    "colorIdentity": "WRG"
+    "colorIdentity": "GRW",
+    "cardName": "Toph, the First Metalbender",
+    "art": "https://cards.scryfall.io/art_crop/front/7/0/70b6670f-a9fa-4d75-b0a7-c01b5071a514.jpg?1782684476",
+    "image": "https://cards.scryfall.io/normal/front/7/0/70b6670f-a9fa-4d75-b0a7-c01b5071a514.jpg?1782684476"
   },
   {
     "name": "Edgar Markov",
     "owner": "Samuel",
-    "colorIdentity": "WBR"
+    "colorIdentity": "BRW",
+    "cardName": "Edgar Markov",
+    "art": "https://cards.scryfall.io/art_crop/front/a/5/a577ba08-0aa8-45be-aa83-d5078770127c.jpg?1782726695",
+    "image": "https://cards.scryfall.io/normal/front/a/5/a577ba08-0aa8-45be-aa83-d5078770127c.jpg?1782726695"
   },
   {
     "name": "Saheeli",
     "owner": "Samuel",
-    "colorIdentity": "URG"
+    "colorIdentity": "RU",
+    "cardName": "Saheeli, the Gifted",
+    "art": "https://cards.scryfall.io/art_crop/front/c/a/ca095559-ac77-4186-8d9b-b75ce0607582.jpg?1782709389",
+    "image": "https://cards.scryfall.io/normal/front/c/a/ca095559-ac77-4186-8d9b-b75ce0607582.jpg?1782709389"
   },
   {
     "name": "Dr. Doom King of Latveria (S)",
     "owner": "Samuel",
-    "colorIdentity": "UBR"
+    "colorIdentity": "BRU",
+    "cardName": "Doctor Doom, King of Latveria",
+    "art": "https://cards.scryfall.io/art_crop/front/0/9/099ed408-9178-4403-8b2d-479ca3cbda9b.jpg?1782682664",
+    "image": "https://cards.scryfall.io/normal/front/0/9/099ed408-9178-4403-8b2d-479ca3cbda9b.jpg?1782682664"
   },
   {
     "name": "Ashling, The Limitless (K)",
     "owner": "Kelmer",
-    "colorIdentity": "WUBRG"
+    "colorIdentity": "BGRUW",
+    "cardName": "Ashling, the Limitless",
+    "art": "https://cards.scryfall.io/art_crop/front/5/9/5924c01f-2815-4e37-b700-3ba6cc81e0e4.jpg?1782684299",
+    "image": "https://cards.scryfall.io/normal/front/5/9/5924c01f-2815-4e37-b700-3ba6cc81e0e4.jpg?1782684299"
   },
   {
     "name": "Captain America, Team Leader (C)",
     "owner": "Carlos N.",
-    "colorIdentity": "WUR"
+    "colorIdentity": "RUW",
+    "cardName": "Captain America, Team Leader",
+    "art": "https://cards.scryfall.io/art_crop/front/6/1/61a51b67-d941-4e07-9c12-ffe583cb65d4.jpg?1782682664",
+    "image": "https://cards.scryfall.io/normal/front/6/1/61a51b67-d941-4e07-9c12-ffe583cb65d4.jpg?1782682664"
   }
 ]

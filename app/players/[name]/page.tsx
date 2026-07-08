@@ -2,9 +2,8 @@
 import { useEffect, useState, useMemo } from "react";
 import { useParams } from "next/navigation";
 import { getGames, getDecks, getElo, getStreaks, getMonthlyWr } from "@/lib/data";
-import { getPlayerStats, getDeckStats, fmt, fmtScore, ciToLabel } from "@/lib/stats";
+import { getPlayerStats, getDeckStats, fmt } from "@/lib/stats";
 import type { GameEntry, DeckInfo, EloEntry, StreakEntry, MonthlyEntry } from "@/lib/types";
-import ManaSymbols from "@/components/ManaSymbols";
 import ScryfallArt from "@/components/ScryfallArt";
 import Link from "next/link";
 
@@ -61,16 +60,15 @@ export default function PlayerProfilePage() {
             <div>
               <h1 className="font-cinzel text-3xl font-bold text-parchment mb-1">{p.name}</h1>
               <div className="flex items-center gap-2">
-                <ManaSymbols identity={p.top3Colors} size="md" />
-                <span className="text-gold text-sm">{p.top3Colors || ciToLabel(p.favColorIdentity)}</span>
                 {league && (
                   <span className="text-xs px-2 py-0.5 rounded-full font-cinzel"
-                    style={{ background: league === "RD" ? "#C0392B22" : "#2980B922",
-                             color: league === "RD" ? "#e74c3c" : "#3498db",
-                             border: `1px solid ${league === "RD" ? "#C0392B66" : "#2980B966"}` }}>
-                    {league}
+                    style={{ background: league === "RD" ? "#C0392B22" : "#27AE6022",
+                             color: league === "RD" ? "#e74c3c" : "#2ecc71",
+                             border: `1px solid ${league === "RD" ? "#C0392B66" : "#27AE6066"}` }}>
+                    {league} League
                   </span>
                 )}
+                <span className="text-muted text-xs">{p.games} games since {games.find(g => g.player === p.name)?.date?.slice(0, 7) ?? ""}</span>
               </div>
             </div>
           </div>
@@ -78,29 +76,21 @@ export default function PlayerProfilePage() {
       </div>
 
       <div className="px-4 pb-6 space-y-4 mt-2">
-        {/* Core stats row 1 */}
+        {/* Core stats: win rate and wins are what matter */}
         <div className="grid grid-cols-3 gap-2">
-          <StatBox label="Score/G" value={fmtScore(p.cmdScore)} gold />
-          <StatBox label="Win Rate" value={fmt(p.winRate)} />
+          <StatBox label="Win Rate" value={fmt(p.winRate)} gold />
+          <StatBox label="Total Wins" value={String(p.wins)} gold />
           <StatBox label="Games" value={String(p.games)} />
         </div>
-
-        {/* ELO + Streak row */}
         <div className="grid grid-cols-3 gap-2">
-          {eloData ? (
-            <StatBox
-              label={`Elo (#${eloData.elo_rank})`}
-              value={Math.round(eloData.elo).toString()}
-              accent="#8E44AD"
-            />
-          ) : <div />}
-          <StatBox label="Total Wins" value={String(p.wins)} />
+          <StatBox label="Avg Placement" value={p.avgPlacement.toFixed(2)} />
           {streakData ? (
             <StatBox
               label="Best streak"
               value={`${streakData.max_victorias}W / ${streakData.max_derrotas}L`}
             />
-          ) : <StatBox label="Decks Used" value={String(p.decksPlayed.length)} />}
+          ) : <StatBox label="—" value="" />}
+          <StatBox label="Decks Used" value={String(p.decksPlayed.length)} />
         </div>
 
         {/* Monthly trend */}

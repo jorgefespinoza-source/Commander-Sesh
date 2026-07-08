@@ -100,7 +100,7 @@ export function getAllPlayerStats(games: GameEntry[]): PlayerStats[] {
   return players
     .map(p => getPlayerStats(p, games))
     .filter(p => p.games >= 3)
-    .sort((a, b) => b.cmdScore - a.cmdScore || b.wins - a.wins);
+    .sort((a, b) => b.winRate - a.winRate || b.wins - a.wins);
 }
 
 export function getDeckStats(deckName: string, games: GameEntry[], deckInfo?: DeckInfo): DeckStats {
@@ -111,6 +111,7 @@ export function getDeckStats(deckName: string, games: GameEntry[], deckInfo?: De
   return {
     name: deckName,
     owner: deckInfo?.owner ?? "",
+    cardName: deckInfo?.cardName ?? null,
     colorIdentity: deckInfo?.colorIdentity ?? dg[0]?.colorIdentity ?? "",
     games: dg.length,
     wins: wins.length,

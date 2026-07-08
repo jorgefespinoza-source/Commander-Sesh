@@ -1,6 +1,6 @@
 import type {
-  GameEntry, DeckInfo, EloEntry, MonthlyEntry, MvpEntry,
-  StreakEntry, RankingEntry, H2hEntry, TendenciaEntry, DeckDangerEntry, H2hMatrixEntry
+  GameEntry, DeckInfo, EloEntry, MonthlyEntry, MvpEntry, CardMap,
+  StreakEntry, RankingEntry, H2hEntry, TendenciaEntry, DeckDangerEntry, H2hMatrixEntry, KingmakerEntry
 } from "./types";
 
 const cache: Record<string, unknown[] | null> = {};
@@ -26,3 +26,14 @@ export const getH2h        = () => loadJson<H2hEntry>        ("/data/h2h.json");
 export const getTendencia  = () => loadJson<TendenciaEntry>  ("/data/tendencia.json");
 export const getDeckDanger = () => loadJson<DeckDangerEntry> ("/data/deck_danger.json");
 export const getH2hMatrix  = () => loadJson<H2hMatrixEntry>  ("/data/h2h_matrix.json");
+export const getH2hPairs   = () => loadJson<H2hEntry>        ("/data/h2h.json");
+export const getKingmaker  = () => loadJson<KingmakerEntry>  ("/data/kingmaker.json");
+
+// cards.json is an object map, not an array — cached separately.
+let cardsCache: CardMap | null = null;
+export async function getCards(): Promise<CardMap> {
+  if (cardsCache) return cardsCache;
+  const res = await fetch("/data/cards.json", { cache: "no-store" });
+  cardsCache = await res.json();
+  return cardsCache!;
+}

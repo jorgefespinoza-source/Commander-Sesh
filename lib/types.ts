@@ -12,7 +12,19 @@ export interface DeckInfo {
   name: string;
   owner: string;
   colorIdentity: string;
+  cardName?: string | null;  // official Scryfall card name (null = custom/proxy)
+  art?: string | null;       // art_crop URL
+  image?: string | null;     // full card image URL
 }
+
+/** Resolved card lookup: deck name -> card data (null = custom/unresolved). */
+export interface CardInfo {
+  card: string;
+  art: string | null;
+  image: string | null;
+  colors: string;
+}
+export type CardMap = Record<string, CardInfo | null>;
 
 export interface PlayerStats {
   name: string;
@@ -36,6 +48,7 @@ export interface DeckStats {
   name: string;
   owner: string;
   colorIdentity: string;
+  cardName?: string | null;   // official card name from Scryfall
   games: number;
   wins: number;
   winRate: number;
@@ -70,6 +83,17 @@ export interface MvpEntry {
   juegos: number;
   victorias: number;
   win_rate: number;
+}
+
+export interface KingmakerEntry {
+  player: string;
+  player_league: string;
+  juegos: number;
+  victorias: number;
+  segundo: number;
+  tercero: number;
+  win_rate: number;
+  seg_rate: number;
 }
 
 export interface StreakEntry {

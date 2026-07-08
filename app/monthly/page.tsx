@@ -7,7 +7,7 @@ import Link from "next/link";
 import ScryfallArt from "@/components/ScryfallArt";
 
 const COL_RD  = "#C0392B";
-const COL_MX  = "#2980B9";
+const COL_MX  = "#27AE60";
 
 export default function MonthlyPage() {
   const [mrd, setMrd]   = useState<MonthlyEntry[]>([]);
