@@ -58,9 +58,9 @@
   {
     "year_month": "2025-06",
     "player": "Jose",
-    "juegos": 6,
+    "juegos": 5,
     "victorias": 3,
-    "win_rate": 0.5
+    "win_rate": 0.6
   },
   {
     "year_month": "2025-06",
@@ -72,14 +72,14 @@
   {
     "year_month": "2025-06",
     "player": "Ianfi",
-    "juegos": 6,
+    "juegos": 5,
     "victorias": 1,
-    "win_rate": 0.167
+    "win_rate": 0.2
   },
   {
     "year_month": "2025-06",
     "player": "Lasa",
-    "juegos": 7,
+    "juegos": 6,
     "victorias": 0,
     "win_rate": 0
   },
@@ -281,29 +281,106 @@
   },
   {
     "year_month": "2026-05",
-    "player": "Migue",
-    "juegos": 6,
-    "victorias": 3,
-    "win_rate": 0.5
+    "player": "Ianfi",
+    "juegos": 11,
+    "victorias": 5,
+    "win_rate": 0.455
   },
   {
     "year_month": "2026-05",
-    "player": "Ianfi",
-    "juegos": 7,
-    "victorias": 2,
-    "win_rate": 0.286
+    "player": "Migue",
+    "juegos": 10,
+    "victorias": 3,
+    "win_rate": 0.3
   },
   {
     "year_month": "2026-05",
     "player": "Jorge Espinoza",
-    "juegos": 7,
-    "victorias": 2,
-    "win_rate": 0.286
+    "juegos": 11,
+    "victorias": 3,
+    "win_rate": 0.273
   },
   {
     "year_month": "2026-05",
     "player": "Jose",
     "juegos": 4,
+    "victorias": 0,
+    "win_rate": 0
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Blanca",
+    "juegos": 2,
+    "victorias": 1,
+    "win_rate": 0.5
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Jose",
+    "juegos": 2,
+    "victorias": 1,
+    "win_rate": 0.5
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Mike",
+    "juegos": 2,
+    "victorias": 1,
+    "win_rate": 0.5
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Jorge Espinoza",
+    "juegos": 12,
+    "victorias": 3,
+    "win_rate": 0.25
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Ianfi",
+    "juegos": 12,
+    "victorias": 3,
+    "win_rate": 0.25
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Migue",
+    "juegos": 12,
+    "victorias": 2,
+    "win_rate": 0.167
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Ianfi",
+    "juegos": 5,
+    "victorias": 2,
+    "win_rate": 0.4
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Jorge Espinoza",
+    "juegos": 5,
+    "victorias": 2,
+    "win_rate": 0.4
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Migue",
+    "juegos": 5,
+    "victorias": 1,
+    "win_rate": 0.2
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Jose",
+    "juegos": 2,
+    "victorias": 0,
+    "win_rate": 0
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Blanca",
+    "juegos": 3,
     "victorias": 0,
     "win_rate": 0
   }

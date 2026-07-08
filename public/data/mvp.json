@@ -11,9 +11,9 @@
     "year_month": "2025-05",
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 16,
-    "victorias": 10,
-    "win_rate": 0.625
+    "juegos": 17,
+    "victorias": 11,
+    "win_rate": 0.647
   },
   {
     "year_month": "2025-06",
@@ -27,17 +27,17 @@
     "year_month": "2025-07",
     "player": "Nicolas",
     "player_league": "RD",
-    "juegos": 3,
-    "victorias": 3,
-    "win_rate": 1
+    "juegos": 6,
+    "victorias": 4,
+    "win_rate": 0.667
   },
   {
     "year_month": "2025-08",
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 14,
+    "juegos": 17,
     "victorias": 8,
-    "win_rate": 0.571
+    "win_rate": 0.471
   },
   {
     "year_month": "2025-09",
@@ -75,9 +75,9 @@
     "year_month": "2026-01",
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 15,
+    "juegos": 16,
     "victorias": 10,
-    "win_rate": 0.667
+    "win_rate": 0.625
   },
   {
     "year_month": "2026-02",
@@ -91,9 +91,9 @@
     "year_month": "2026-03",
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 5,
-    "victorias": 3,
-    "win_rate": 0.6
+    "juegos": 6,
+    "victorias": 4,
+    "win_rate": 0.667
   },
   {
     "year_month": "2026-04",
@@ -107,8 +107,24 @@
     "year_month": "2026-05",
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 6,
-    "victorias": 5,
-    "win_rate": 0.833
+    "juegos": 11,
+    "victorias": 7,
+    "win_rate": 0.636
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Octaviano",
+    "player_league": "RD",
+    "juegos": 12,
+    "victorias": 6,
+    "win_rate": 0.5
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Eddy",
+    "player_league": "RD",
+    "juegos": 3,
+    "victorias": 2,
+    "win_rate": 0.667
   }
 ]

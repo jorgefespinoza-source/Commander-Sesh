@@ -18,10 +18,28 @@
     "month_n": 11
   },
   {
+    "year_month": "2026-06",
+    "player": "Blanca",
+    "player_league": "MX",
+    "juegos": 2,
+    "victorias": 1,
+    "win_rate": 0.5,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Blanca",
+    "player_league": "MX",
+    "juegos": 3,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 16
+  },
+  {
     "year_month": "2025-05",
     "player": "Caballol",
     "player_league": "RD",
-    "juegos": 3,
+    "juegos": 2,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 2
@@ -30,7 +48,7 @@
     "year_month": "2025-09",
     "player": "Caballol",
     "player_league": "RD",
-    "juegos": 3,
+    "juegos": 2,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 6
@@ -39,7 +57,7 @@
     "year_month": "2025-10",
     "player": "Caballol",
     "player_league": "RD",
-    "juegos": 6,
+    "juegos": 1,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 7
@@ -48,7 +66,7 @@
     "year_month": "2025-11",
     "player": "Caballol",
     "player_league": "RD",
-    "juegos": 2,
+    "juegos": 1,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 8
@@ -57,9 +75,9 @@
     "year_month": "2026-01",
     "player": "Caballol",
     "player_league": "RD",
-    "juegos": 4,
+    "juegos": 3,
     "victorias": 1,
-    "win_rate": 0.25,
+    "win_rate": 0.333,
     "month_n": 10
   },
   {
@@ -75,7 +93,7 @@
     "year_month": "2026-03",
     "player": "Caballol",
     "player_league": "RD",
-    "juegos": 1,
+    "juegos": 2,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 12
@@ -84,10 +102,118 @@
     "year_month": "2026-04",
     "player": "Caballol",
     "player_league": "RD",
-    "juegos": 4,
+    "juegos": 3,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 13
+  },
+  {
+    "year_month": "2026-05",
+    "player": "Caballol",
+    "player_league": "RD",
+    "juegos": 2,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 14
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Caballol",
+    "player_league": "RD",
+    "juegos": 9,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 15
+  },
+  {
+    "year_month": "2025-05",
+    "player": "Carlos",
+    "player_league": "RD",
+    "juegos": 1,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 2
+  },
+  {
+    "year_month": "2025-09",
+    "player": "Carlos",
+    "player_league": "RD",
+    "juegos": 1,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 6
+  },
+  {
+    "year_month": "2025-10",
+    "player": "Carlos",
+    "player_league": "RD",
+    "juegos": 5,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 7
+  },
+  {
+    "year_month": "2025-11",
+    "player": "Carlos",
+    "player_league": "RD",
+    "juegos": 1,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 8
+  },
+  {
+    "year_month": "2026-01",
+    "player": "Carlos",
+    "player_league": "RD",
+    "juegos": 1,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 10
+  },
+  {
+    "year_month": "2026-02",
+    "player": "Carlos",
+    "player_league": "RD",
+    "juegos": 2,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 11
+  },
+  {
+    "year_month": "2026-04",
+    "player": "Carlos",
+    "player_league": "RD",
+    "juegos": 3,
+    "victorias": 1,
+    "win_rate": 0.333,
+    "month_n": 13
+  },
+  {
+    "year_month": "2026-05",
+    "player": "Carlos",
+    "player_league": "RD",
+    "juegos": 2,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 14
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Carlos",
+    "player_league": "RD",
+    "juegos": 7,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Carlos N.",
+    "player_league": "RD",
+    "juegos": 3,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 15
   },
   {
     "year_month": "2025-04",
@@ -102,7 +228,7 @@
     "year_month": "2025-05",
     "player": "Diame",
     "player_league": "RD",
-    "juegos": 6,
+    "juegos": 5,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 2
@@ -111,18 +237,18 @@
     "year_month": "2025-06",
     "player": "Diame",
     "player_league": "RD",
-    "juegos": 7,
+    "juegos": 9,
     "victorias": 2,
-    "win_rate": 0.286,
+    "win_rate": 0.222,
     "month_n": 3
   },
   {
     "year_month": "2025-07",
     "player": "Diame",
     "player_league": "RD",
-    "juegos": 2,
-    "victorias": 0,
-    "win_rate": 0,
+    "juegos": 4,
+    "victorias": 1,
+    "win_rate": 0.25,
     "month_n": 4
   },
   {
@@ -147,7 +273,7 @@
     "year_month": "2025-10",
     "player": "Diame",
     "player_league": "RD",
-    "juegos": 5,
+    "juegos": 4,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 7
@@ -165,16 +291,16 @@
     "year_month": "2025-05",
     "player": "Eddy",
     "player_league": "RD",
-    "juegos": 7,
+    "juegos": 9,
     "victorias": 1,
-    "win_rate": 0.143,
+    "win_rate": 0.111,
     "month_n": 2
   },
   {
     "year_month": "2025-06",
     "player": "Eddy",
     "player_league": "RD",
-    "juegos": 7,
+    "juegos": 8,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 3
@@ -183,16 +309,16 @@
     "year_month": "2025-07",
     "player": "Eddy",
     "player_league": "RD",
-    "juegos": 2,
-    "victorias": 0,
-    "win_rate": 0,
+    "juegos": 4,
+    "victorias": 1,
+    "win_rate": 0.25,
     "month_n": 4
   },
   {
     "year_month": "2025-08",
     "player": "Eddy",
     "player_league": "RD",
-    "juegos": 4,
+    "juegos": 5,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 5
@@ -210,7 +336,7 @@
     "year_month": "2025-10",
     "player": "Eddy",
     "player_league": "RD",
-    "juegos": 7,
+    "juegos": 8,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 7
@@ -228,7 +354,7 @@
     "year_month": "2025-12",
     "player": "Eddy",
     "player_league": "RD",
-    "juegos": 5,
+    "juegos": 6,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 9
@@ -255,9 +381,9 @@
     "year_month": "2026-03",
     "player": "Eddy",
     "player_league": "RD",
-    "juegos": 2,
+    "juegos": 4,
     "victorias": 1,
-    "win_rate": 0.5,
+    "win_rate": 0.25,
     "month_n": 12
   },
   {
@@ -273,10 +399,28 @@
     "year_month": "2026-05",
     "player": "Eddy",
     "player_league": "RD",
-    "juegos": 6,
+    "juegos": 9,
     "victorias": 3,
-    "win_rate": 0.5,
+    "win_rate": 0.333,
     "month_n": 14
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Eddy",
+    "player_league": "RD",
+    "juegos": 5,
+    "victorias": 2,
+    "win_rate": 0.4,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Eddy",
+    "player_league": "RD",
+    "juegos": 3,
+    "victorias": 2,
+    "win_rate": 0.667,
+    "month_n": 16
   },
   {
     "year_month": "2025-10",
@@ -309,9 +453,9 @@
     "year_month": "2026-01",
     "player": "Gonzalo",
     "player_league": "RD",
-    "juegos": 11,
-    "victorias": 0,
-    "win_rate": 0,
+    "juegos": 12,
+    "victorias": 1,
+    "win_rate": 0.083,
     "month_n": 10
   },
   {
@@ -345,10 +489,28 @@
     "year_month": "2026-05",
     "player": "Gonzalo",
     "player_league": "RD",
-    "juegos": 6,
+    "juegos": 10,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 14
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Gonzalo",
+    "player_league": "RD",
+    "juegos": 5,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Gonzalo",
+    "player_league": "RD",
+    "juegos": 6,
+    "victorias": 1,
+    "win_rate": 0.167,
+    "month_n": 16
   },
   {
     "year_month": "2025-04",
@@ -372,27 +534,27 @@
     "year_month": "2025-06",
     "player": "Halvin",
     "player_league": "RD",
-    "juegos": 14,
+    "juegos": 15,
     "victorias": 2,
-    "win_rate": 0.143,
+    "win_rate": 0.133,
     "month_n": 3
   },
   {
     "year_month": "2025-07",
     "player": "Halvin",
     "player_league": "RD",
-    "juegos": 2,
+    "juegos": 4,
     "victorias": 1,
-    "win_rate": 0.5,
+    "win_rate": 0.25,
     "month_n": 4
   },
   {
     "year_month": "2025-08",
     "player": "Halvin",
     "player_league": "RD",
-    "juegos": 7,
-    "victorias": 4,
-    "win_rate": 0.571,
+    "juegos": 8,
+    "victorias": 5,
+    "win_rate": 0.625,
     "month_n": 5
   },
   {
@@ -408,9 +570,9 @@
     "year_month": "2025-10",
     "player": "Halvin",
     "player_league": "RD",
-    "juegos": 7,
+    "juegos": 6,
     "victorias": 2,
-    "win_rate": 0.286,
+    "win_rate": 0.333,
     "month_n": 7
   },
   {
@@ -471,10 +633,28 @@
     "year_month": "2026-05",
     "player": "Halvin",
     "player_league": "RD",
-    "juegos": 6,
-    "victorias": 1,
-    "win_rate": 0.167,
+    "juegos": 7,
+    "victorias": 2,
+    "win_rate": 0.286,
     "month_n": 14
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Halvin",
+    "player_league": "RD",
+    "juegos": 7,
+    "victorias": 4,
+    "win_rate": 0.571,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Halvin",
+    "player_league": "RD",
+    "juegos": 1,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 16
   },
   {
     "year_month": "2025-04",
@@ -498,9 +678,9 @@
     "year_month": "2025-06",
     "player": "Ianfi",
     "player_league": "MX",
-    "juegos": 6,
+    "juegos": 5,
     "victorias": 1,
-    "win_rate": 0.167,
+    "win_rate": 0.2,
     "month_n": 3
   },
   {
@@ -570,10 +750,28 @@
     "year_month": "2026-05",
     "player": "Ianfi",
     "player_league": "MX",
-    "juegos": 7,
-    "victorias": 2,
-    "win_rate": 0.286,
+    "juegos": 11,
+    "victorias": 5,
+    "win_rate": 0.455,
     "month_n": 14
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Ianfi",
+    "player_league": "MX",
+    "juegos": 12,
+    "victorias": 3,
+    "win_rate": 0.25,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Ianfi",
+    "player_league": "MX",
+    "juegos": 5,
+    "victorias": 2,
+    "win_rate": 0.4,
+    "month_n": 16
   },
   {
     "year_month": "2026-03",
@@ -597,10 +795,28 @@
     "year_month": "2026-05",
     "player": "Jorge Espinoza",
     "player_league": "MX",
-    "juegos": 7,
-    "victorias": 2,
-    "win_rate": 0.286,
+    "juegos": 11,
+    "victorias": 3,
+    "win_rate": 0.273,
     "month_n": 14
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Jorge Espinoza",
+    "player_league": "MX",
+    "juegos": 12,
+    "victorias": 3,
+    "win_rate": 0.25,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Jorge Espinoza",
+    "player_league": "MX",
+    "juegos": 5,
+    "victorias": 2,
+    "win_rate": 0.4,
+    "month_n": 16
   },
   {
     "year_month": "2025-05",
@@ -624,9 +840,9 @@
     "year_month": "2025-07",
     "player": "Jorge Kourie",
     "player_league": "RD",
-    "juegos": 3,
-    "victorias": 0,
-    "win_rate": 0,
+    "juegos": 6,
+    "victorias": 1,
+    "win_rate": 0.167,
     "month_n": 4
   },
   {
@@ -696,9 +912,9 @@
     "year_month": "2026-03",
     "player": "Jorge Kourie",
     "player_league": "RD",
-    "juegos": 2,
+    "juegos": 3,
     "victorias": 2,
-    "win_rate": 1,
+    "win_rate": 0.667,
     "month_n": 12
   },
   {
@@ -714,10 +930,28 @@
     "year_month": "2026-05",
     "player": "Jorge Kourie",
     "player_league": "RD",
-    "juegos": 8,
-    "victorias": 2,
-    "win_rate": 0.25,
+    "juegos": 11,
+    "victorias": 3,
+    "win_rate": 0.273,
     "month_n": 14
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Jorge Kourie",
+    "player_league": "RD",
+    "juegos": 8,
+    "victorias": 1,
+    "win_rate": 0.125,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Jorge Kourie",
+    "player_league": "RD",
+    "juegos": 3,
+    "victorias": 1,
+    "win_rate": 0.333,
+    "month_n": 16
   },
   {
     "year_month": "2025-04",
@@ -741,9 +975,9 @@
     "year_month": "2025-06",
     "player": "Jose",
     "player_league": "MX",
-    "juegos": 6,
+    "juegos": 5,
     "victorias": 3,
-    "win_rate": 0.5,
+    "win_rate": 0.6,
     "month_n": 3
   },
   {
@@ -810,6 +1044,42 @@
     "month_n": 14
   },
   {
+    "year_month": "2026-06",
+    "player": "Jose",
+    "player_league": "MX",
+    "juegos": 2,
+    "victorias": 1,
+    "win_rate": 0.5,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Jose",
+    "player_league": "MX",
+    "juegos": 2,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 16
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Kelmer",
+    "player_league": "RD",
+    "juegos": 3,
+    "victorias": 1,
+    "win_rate": 0.333,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Kelmer",
+    "player_league": "RD",
+    "juegos": 1,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 16
+  },
+  {
     "year_month": "2025-11",
     "player": "Konstantinos",
     "player_league": "RD",
@@ -849,7 +1119,7 @@
     "year_month": "2026-03",
     "player": "Konstantinos",
     "player_league": "RD",
-    "juegos": 4,
+    "juegos": 5,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 12
@@ -867,10 +1137,28 @@
     "year_month": "2026-05",
     "player": "Konstantinos",
     "player_league": "RD",
-    "juegos": 6,
+    "juegos": 7,
     "victorias": 2,
-    "win_rate": 0.333,
+    "win_rate": 0.286,
     "month_n": 14
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Konstantinos",
+    "player_league": "RD",
+    "juegos": 7,
+    "victorias": 2,
+    "win_rate": 0.286,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Konstantinos",
+    "player_league": "RD",
+    "juegos": 4,
+    "victorias": 1,
+    "win_rate": 0.25,
+    "month_n": 16
   },
   {
     "year_month": "2025-04",
@@ -894,7 +1182,7 @@
     "year_month": "2025-06",
     "player": "Lasa",
     "player_league": "MX",
-    "juegos": 7,
+    "juegos": 6,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 3
@@ -948,7 +1236,7 @@
     "year_month": "2025-07",
     "player": "Mak",
     "player_league": "RD",
-    "juegos": 5,
+    "juegos": 6,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 4
@@ -957,9 +1245,9 @@
     "year_month": "2025-08",
     "player": "Mak",
     "player_league": "RD",
-    "juegos": 13,
-    "victorias": 0,
-    "win_rate": 0,
+    "juegos": 17,
+    "victorias": 3,
+    "win_rate": 0.176,
     "month_n": 5
   },
   {
@@ -1002,9 +1290,9 @@
     "year_month": "2026-01",
     "player": "Mak",
     "player_league": "RD",
-    "juegos": 10,
+    "juegos": 11,
     "victorias": 1,
-    "win_rate": 0.1,
+    "win_rate": 0.091,
     "month_n": 10
   },
   {
@@ -1038,10 +1326,28 @@
     "year_month": "2026-05",
     "player": "Mak",
     "player_league": "RD",
-    "juegos": 4,
+    "juegos": 8,
+    "victorias": 3,
+    "win_rate": 0.375,
+    "month_n": 14
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Mak",
+    "player_league": "RD",
+    "juegos": 11,
+    "victorias": 2,
+    "win_rate": 0.182,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Mak",
+    "player_league": "RD",
+    "juegos": 2,
     "victorias": 0,
     "win_rate": 0,
-    "month_n": 14
+    "month_n": 16
   },
   {
     "year_month": "2025-10",
@@ -1101,10 +1407,28 @@
     "year_month": "2026-05",
     "player": "Migue",
     "player_league": "MX",
-    "juegos": 6,
+    "juegos": 10,
     "victorias": 3,
-    "win_rate": 0.5,
+    "win_rate": 0.3,
     "month_n": 14
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Migue",
+    "player_league": "MX",
+    "juegos": 12,
+    "victorias": 2,
+    "win_rate": 0.167,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Migue",
+    "player_league": "MX",
+    "juegos": 5,
+    "victorias": 1,
+    "win_rate": 0.2,
+    "month_n": 16
   },
   {
     "year_month": "2025-04",
@@ -1161,6 +1485,15 @@
     "month_n": 8
   },
   {
+    "year_month": "2026-06",
+    "player": "Mike",
+    "player_league": "MX",
+    "juegos": 2,
+    "victorias": 1,
+    "win_rate": 0.5,
+    "month_n": 15
+  },
+  {
     "year_month": "2025-04",
     "player": "Nicolas",
     "player_league": "RD",
@@ -1191,18 +1524,18 @@
     "year_month": "2025-07",
     "player": "Nicolas",
     "player_league": "RD",
-    "juegos": 3,
-    "victorias": 3,
-    "win_rate": 1,
+    "juegos": 6,
+    "victorias": 4,
+    "win_rate": 0.667,
     "month_n": 4
   },
   {
     "year_month": "2025-08",
     "player": "Nicolas",
     "player_league": "RD",
-    "juegos": 15,
+    "juegos": 19,
     "victorias": 7,
-    "win_rate": 0.467,
+    "win_rate": 0.368,
     "month_n": 5
   },
   {
@@ -1227,27 +1560,27 @@
     "year_month": "2025-11",
     "player": "Nicolas",
     "player_league": "RD",
-    "juegos": 12,
+    "juegos": 13,
     "victorias": 8,
-    "win_rate": 0.667,
+    "win_rate": 0.615,
     "month_n": 8
   },
   {
     "year_month": "2025-12",
     "player": "Nicolas",
     "player_league": "RD",
-    "juegos": 8,
+    "juegos": 9,
     "victorias": 4,
-    "win_rate": 0.5,
+    "win_rate": 0.444,
     "month_n": 9
   },
   {
     "year_month": "2026-01",
     "player": "Nicolas",
     "player_league": "RD",
-    "juegos": 14,
+    "juegos": 15,
     "victorias": 6,
-    "win_rate": 0.429,
+    "win_rate": 0.4,
     "month_n": 10
   },
   {
@@ -1281,10 +1614,28 @@
     "year_month": "2026-05",
     "player": "Nicolas",
     "player_league": "RD",
-    "juegos": 4,
+    "juegos": 9,
     "victorias": 1,
-    "win_rate": 0.25,
+    "win_rate": 0.111,
     "month_n": 14
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Nicolas",
+    "player_league": "RD",
+    "juegos": 12,
+    "victorias": 5,
+    "win_rate": 0.417,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Nicolas",
+    "player_league": "RD",
+    "juegos": 1,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 16
   },
   {
     "year_month": "2025-04",
@@ -1308,16 +1659,16 @@
     "year_month": "2025-06",
     "player": "Octaviano",
     "player_league": "RD",
-    "juegos": 10,
+    "juegos": 11,
     "victorias": 2,
-    "win_rate": 0.2,
+    "win_rate": 0.182,
     "month_n": 3
   },
   {
     "year_month": "2025-07",
     "player": "Octaviano",
     "player_league": "RD",
-    "juegos": 4,
+    "juegos": 5,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 4
@@ -1326,9 +1677,9 @@
     "year_month": "2025-08",
     "player": "Octaviano",
     "player_league": "RD",
-    "juegos": 8,
+    "juegos": 10,
     "victorias": 1,
-    "win_rate": 0.125,
+    "win_rate": 0.1,
     "month_n": 5
   },
   {
@@ -1407,10 +1758,46 @@
     "year_month": "2026-05",
     "player": "Octaviano",
     "player_league": "RD",
-    "juegos": 6,
+    "juegos": 8,
+    "victorias": 1,
+    "win_rate": 0.125,
+    "month_n": 14
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Octaviano",
+    "player_league": "RD",
+    "juegos": 12,
+    "victorias": 6,
+    "win_rate": 0.5,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Octaviano",
+    "player_league": "RD",
+    "juegos": 2,
+    "victorias": 1,
+    "win_rate": 0.5,
+    "month_n": 16
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Panadero",
+    "player_league": "RD",
+    "juegos": 1,
     "victorias": 0,
     "win_rate": 0,
-    "month_n": 14
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Panadero",
+    "player_league": "RD",
+    "juegos": 3,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 16
   },
   {
     "year_month": "2025-04",
@@ -1425,36 +1812,36 @@
     "year_month": "2025-05",
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 16,
-    "victorias": 10,
-    "win_rate": 0.625,
+    "juegos": 17,
+    "victorias": 11,
+    "win_rate": 0.647,
     "month_n": 2
   },
   {
     "year_month": "2025-06",
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 15,
-    "victorias": 8,
-    "win_rate": 0.533,
+    "juegos": 16,
+    "victorias": 9,
+    "win_rate": 0.563,
     "month_n": 3
   },
   {
     "year_month": "2025-07",
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 5,
+    "juegos": 7,
     "victorias": 3,
-    "win_rate": 0.6,
+    "win_rate": 0.429,
     "month_n": 4
   },
   {
     "year_month": "2025-08",
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 14,
+    "juegos": 17,
     "victorias": 8,
-    "win_rate": 0.571,
+    "win_rate": 0.471,
     "month_n": 5
   },
   {
@@ -1497,9 +1884,9 @@
     "year_month": "2026-01",
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 15,
+    "juegos": 16,
     "victorias": 10,
-    "win_rate": 0.667,
+    "win_rate": 0.625,
     "month_n": 10
   },
   {
@@ -1515,9 +1902,9 @@
     "year_month": "2026-03",
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 5,
-    "victorias": 3,
-    "win_rate": 0.6,
+    "juegos": 6,
+    "victorias": 4,
+    "win_rate": 0.667,
     "month_n": 12
   },
   {
@@ -1533,10 +1920,64 @@
     "year_month": "2026-05",
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 6,
-    "victorias": 5,
-    "win_rate": 0.833,
+    "juegos": 11,
+    "victorias": 7,
+    "win_rate": 0.636,
     "month_n": 14
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Sabino",
+    "player_league": "RD",
+    "juegos": 4,
+    "victorias": 2,
+    "win_rate": 0.5,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Sabino",
+    "player_league": "RD",
+    "juegos": 1,
+    "victorias": 1,
+    "win_rate": 1,
+    "month_n": 16
+  },
+  {
+    "year_month": "2025-05",
+    "player": "Samuel",
+    "player_league": "RD",
+    "juegos": 1,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 2
+  },
+  {
+    "year_month": "2025-06",
+    "player": "Samuel",
+    "player_league": "RD",
+    "juegos": 2,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 3
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Samuel",
+    "player_league": "RD",
+    "juegos": 5,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Samuel",
+    "player_league": "RD",
+    "juegos": 1,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 16
   },
   {
     "year_month": "2025-04",
@@ -1560,27 +2001,27 @@
     "year_month": "2025-06",
     "player": "Wainer",
     "player_league": "RD",
-    "juegos": 14,
-    "victorias": 5,
-    "win_rate": 0.357,
+    "juegos": 13,
+    "victorias": 4,
+    "win_rate": 0.308,
     "month_n": 3
   },
   {
     "year_month": "2025-07",
     "player": "Wainer",
     "player_league": "RD",
-    "juegos": 6,
+    "juegos": 7,
     "victorias": 2,
-    "win_rate": 0.333,
+    "win_rate": 0.286,
     "month_n": 4
   },
   {
     "year_month": "2025-08",
     "player": "Wainer",
     "player_league": "RD",
-    "juegos": 7,
+    "juegos": 10,
     "victorias": 1,
-    "win_rate": 0.143,
+    "win_rate": 0.1,
     "month_n": 5
   },
   {
@@ -1596,9 +2037,9 @@
     "year_month": "2025-10",
     "player": "Wainer",
     "player_league": "RD",
-    "juegos": 11,
-    "victorias": 2,
-    "win_rate": 0.182,
+    "juegos": 10,
+    "victorias": 1,
+    "win_rate": 0.1,
     "month_n": 7
   },
   {
@@ -1614,9 +2055,9 @@
     "year_month": "2025-12",
     "player": "Wainer",
     "player_league": "RD",
-    "juegos": 6,
-    "victorias": 0,
-    "win_rate": 0,
+    "juegos": 7,
+    "victorias": 1,
+    "win_rate": 0.143,
     "month_n": 9
   },
   {
@@ -1650,9 +2091,18 @@
     "year_month": "2026-05",
     "player": "Wainer",
     "player_league": "RD",
-    "juegos": 3,
+    "juegos": 4,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 14
+  },
+  {
+    "year_month": "2026-06",
+    "player": "Wainer",
+    "player_league": "RD",
+    "juegos": 2,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 15
   }
 ]

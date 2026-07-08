@@ -30,9 +30,19 @@
     "colorIdentity": "WUBRG"
   },
   {
+    "name": "Captain America, Team Leader (E)",
+    "owner": "Eddy",
+    "colorIdentity": "WUR"
+  },
+  {
     "name": "Firkraag",
     "owner": "Eddy",
     "colorIdentity": "UR"
+  },
+  {
+    "name": "Invisible Woman",
+    "owner": "Eddy",
+    "colorIdentity": "WURG"
   },
   {
     "name": "Magus Lucea Kane",
@@ -40,9 +50,19 @@
     "colorIdentity": "URG"
   },
   {
+    "name": "Leonardo & Raphael TMNT",
+    "owner": "Eddy",
+    "colorIdentity": "WUBRG"
+  },
+  {
     "name": "Rona",
     "owner": "Eddy",
     "colorIdentity": "UB"
+  },
+  {
+    "name": "Dr. Doom, King of Latveria (E)",
+    "owner": "Eddy",
+    "colorIdentity": "UBR"
   },
   {
     "name": "TMNT",
@@ -60,7 +80,7 @@
     "colorIdentity": "G"
   },
   {
-    "name": "Tidus",
+    "name": "Tidus, Yuna's Guardian (E)",
     "owner": "Eddy",
     "colorIdentity": "WUG"
   },
@@ -80,14 +100,14 @@
     "colorIdentity": "WUR"
   },
   {
-    "name": "Bello (G)",
+    "name": "Bello, Bard of the Brambles (G)",
     "owner": "Gonzalo",
     "colorIdentity": "RG"
   },
   {
     "name": "Wick",
     "owner": "Gonzalo",
-    "colorIdentity": ""
+    "colorIdentity": "B"
   },
   {
     "name": "Helga",
@@ -152,6 +172,11 @@
   {
     "name": "Alela, Artful Provocateur",
     "owner": "Halvin",
+    "colorIdentity": "WUB"
+  },
+  {
+    "name": "Satoru Umezaua",
+    "owner": "Halvin",
     "colorIdentity": "UB"
   },
   {
@@ -190,6 +215,11 @@
     "colorIdentity": ""
   },
   {
+    "name": "Light-Paws, Emperor's Voice",
+    "owner": "Halvin",
+    "colorIdentity": "W"
+  },
+  {
     "name": "Emmara (H)",
     "owner": "Halvin",
     "colorIdentity": "WG"
@@ -210,9 +240,14 @@
     "colorIdentity": "WBR"
   },
   {
-    "name": "Shiko and Narset",
+    "name": "Shiko and Narset, Unified",
     "owner": "Ianfi",
     "colorIdentity": "WUR"
+  },
+  {
+    "name": "Betor, Ancestor's Voice",
+    "owner": "Ianfi",
+    "colorIdentity": "WBG"
   },
   {
     "name": "Felothar (i)",
@@ -225,7 +260,7 @@
     "colorIdentity": "BG"
   },
   {
-    "name": "Bello (i)",
+    "name": "Bello, Bard of the Brambles (i)",
     "owner": "Ianfi",
     "colorIdentity": "RG"
   },
@@ -235,7 +270,7 @@
     "colorIdentity": "UB"
   },
   {
-    "name": "Ashling",
+    "name": "Ashling, The Limitless (i)",
     "owner": "Ianfi",
     "colorIdentity": "WUBRG"
   },
@@ -260,9 +295,9 @@
     "colorIdentity": "UBR"
   },
   {
-    "name": "Betor, Ancestor's Voice",
+    "name": "Zimone, Infinite Analyst",
     "owner": "Ianfi",
-    "colorIdentity": "WBG"
+    "colorIdentity": "UG"
   },
   {
     "name": "Cristiano Ronaldo, The Goat",
@@ -270,9 +305,19 @@
     "colorIdentity": "RG"
   },
   {
+    "name": "Hope Estheim",
+    "owner": "Ianfi",
+    "colorIdentity": "WU"
+  },
+  {
     "name": "Witherbloom, The Balancer",
     "owner": "Ianfi",
     "colorIdentity": "BG"
+  },
+  {
+    "name": "Zimone, Infinite Analyst",
+    "owner": "Ianfi",
+    "colorIdentity": "UG"
   },
   {
     "name": "Terra (J)",
@@ -300,9 +345,24 @@
     "colorIdentity": "BG"
   },
   {
+    "name": "Melek, Reforged Reasercher",
+    "owner": "Jorge Espinoza",
+    "colorIdentity": "UR"
+  },
+  {
+    "name": "Sauron, The Dark Lord (JE)",
+    "owner": "Jorge Espinoza",
+    "colorIdentity": ""
+  },
+  {
     "name": "Quintorious",
     "owner": "Jorge Espinoza",
     "colorIdentity": "WR"
+  },
+  {
+    "name": "Urza, Chief Artificer (J)",
+    "owner": "Jorge Espinoza",
+    "colorIdentity": "WUB"
   },
   {
     "name": "Aziza",
@@ -315,14 +375,9 @@
     "colorIdentity": "URG"
   },
   {
-    "name": "Ur Dragon",
+    "name": "Sauron, The Dark Lord (JK)",
     "owner": "Jorge Kourie",
     "colorIdentity": "WUBRG"
-  },
-  {
-    "name": "Sauron",
-    "owner": "Jorge Kourie",
-    "colorIdentity": "UBR"
   },
   {
     "name": "Krenko",
@@ -375,14 +430,24 @@
     "colorIdentity": "WUBRG"
   },
   {
+    "name": "Ms. Bumbleflower (J)",
+    "owner": "Jorge Kourie",
+    "colorIdentity": "WUG"
+  },
+  {
     "name": "Valgavoth (J)",
     "owner": "Jorge Kourie",
     "colorIdentity": "BR"
   },
   {
+    "name": "The Ur-Dragon",
+    "owner": "Jorge Kourie",
+    "colorIdentity": "WUBRG"
+  },
+  {
     "name": "Silk",
     "owner": "Jorge Kourie",
-    "colorIdentity": ""
+    "colorIdentity": "WG"
   },
   {
     "name": "Emmara (J)",
@@ -395,7 +460,7 @@
     "colorIdentity": "UBG"
   },
   {
-    "name": "Bello (J)",
+    "name": "Bello, Bard of the Brambles (J)",
     "owner": "Jose",
     "colorIdentity": "RG"
   },
@@ -462,12 +527,17 @@
   {
     "name": "Plankton",
     "owner": "Lasa",
-    "colorIdentity": "B"
+    "colorIdentity": "BG"
+  },
+  {
+    "name": "Norin",
+    "owner": "Lasa",
+    "colorIdentity": "R"
   },
   {
     "name": "Aragorn, El Negro (L)",
     "owner": "Lasa",
-    "colorIdentity": ""
+    "colorIdentity": "WUR"
   },
   {
     "name": "Obeka",
@@ -475,14 +545,9 @@
     "colorIdentity": "UBR"
   },
   {
-    "name": "Betor, Ancestor's Voice",
-    "owner": "Lasa",
-    "colorIdentity": "WBG"
-  },
-  {
     "name": "Smeagol",
     "owner": "Lasa",
-    "colorIdentity": ""
+    "colorIdentity": "BG"
   },
   {
     "name": "Tom Bombadil",
@@ -492,15 +557,15 @@
   {
     "name": "Flubs",
     "owner": "Lasa",
-    "colorIdentity": ""
+    "colorIdentity": "URG"
   },
   {
     "name": "Eowyn",
     "owner": "Mak",
-    "colorIdentity": ""
+    "colorIdentity": "WUR"
   },
   {
-    "name": "Urza",
+    "name": "Urza, Chief Artificer (M)",
     "owner": "Mak",
     "colorIdentity": "WUB"
   },
@@ -525,9 +590,14 @@
     "colorIdentity": ""
   },
   {
+    "name": "Kastral, The Wingcrested",
+    "owner": "Mak",
+    "colorIdentity": "WU"
+  },
+  {
     "name": "Asusa",
     "owner": "Mak",
-    "colorIdentity": ""
+    "colorIdentity": "G"
   },
   {
     "name": "Minn",
@@ -535,9 +605,14 @@
     "colorIdentity": "U"
   },
   {
+    "name": "Mole Man, Moloid Master",
+    "owner": "Mak",
+    "colorIdentity": "G"
+  },
+  {
     "name": "Sythis",
     "owner": "Mak",
-    "colorIdentity": ""
+    "colorIdentity": "WG"
   },
   {
     "name": "Ulamog",
@@ -575,7 +650,7 @@
     "colorIdentity": "UBG"
   },
   {
-    "name": "Toph, First Metalbender",
+    "name": "Toph, First Metalbender (M)",
     "owner": "Migue",
     "colorIdentity": "WRG"
   },
@@ -710,7 +785,7 @@
     "colorIdentity": "WBG"
   },
   {
-    "name": "Bello (O)",
+    "name": "Bello, Bard of the Brambles (O)",
     "owner": "Octaviano",
     "colorIdentity": "RG"
   },
@@ -760,6 +835,11 @@
     "colorIdentity": "UBR"
   },
   {
+    "name": "Tidus, Yuna's Guardian (S)",
+    "owner": "Sabino",
+    "colorIdentity": "WUG"
+  },
+  {
     "name": "Gev",
     "owner": "Sabino",
     "colorIdentity": "BR"
@@ -783,6 +863,11 @@
     "name": "Omnath, Locus of Rage",
     "owner": "Sabino",
     "colorIdentity": "RG"
+  },
+  {
+    "name": "The Wise Mothman",
+    "owner": "Sabino",
+    "colorIdentity": "UBG"
   },
   {
     "name": "Lumra",
@@ -848,5 +933,35 @@
     "name": "Hearthhull (W)",
     "owner": "Wainer",
     "colorIdentity": "BRG"
+  },
+  {
+    "name": "Toph, First Metalbender (S)",
+    "owner": "Samuel",
+    "colorIdentity": "WRG"
+  },
+  {
+    "name": "Edgar Markov",
+    "owner": "Samuel",
+    "colorIdentity": "WBR"
+  },
+  {
+    "name": "Saheeli",
+    "owner": "Samuel",
+    "colorIdentity": "URG"
+  },
+  {
+    "name": "Dr. Doom King of Latveria (S)",
+    "owner": "Samuel",
+    "colorIdentity": "UBR"
+  },
+  {
+    "name": "Ashling, The Limitless (K)",
+    "owner": "Kelmer",
+    "colorIdentity": "WUBRG"
+  },
+  {
+    "name": "Captain America, Team Leader (C)",
+    "owner": "Carlos N.",
+    "colorIdentity": "WUR"
   }
 ]

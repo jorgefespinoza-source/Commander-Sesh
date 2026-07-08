@@ -1,338 +1,442 @@
 [
   {
+    "deck_name": "Valgavoth (O)",
+    "player": "Octaviano",
+    "player_league": "RD",
+    "victorias": 13,
+    "avg_opp_elo": 1520.3,
+    "danger_score": 13.18
+  },
+  {
     "deck_name": "Teval (N)",
     "player": "Nicolas",
     "player_league": "RD",
     "victorias": 12,
-    "avg_opp_elo": 1530.7,
-    "danger_score": 12.25
+    "avg_opp_elo": 1550.6,
+    "danger_score": 12.4
   },
   {
-    "deck_name": "Pantlaza",
-    "player": "Sabino",
+    "deck_name": "Hazel (N)",
+    "player": "Nicolas",
     "player_league": "RD",
-    "victorias": 10,
-    "avg_opp_elo": 1505.1,
-    "danger_score": 10.03
-  },
-  {
-    "deck_name": "Valgavoth (O)",
-    "player": "Octaviano",
-    "player_league": "RD",
-    "victorias": 10,
-    "avg_opp_elo": 1504.3,
-    "danger_score": 10.03
+    "victorias": 9,
+    "avg_opp_elo": 1548.9,
+    "danger_score": 9.29
   },
   {
     "deck_name": "Hakbal",
     "player": "Nicolas",
     "player_league": "RD",
     "victorias": 9,
-    "avg_opp_elo": 1518.3,
-    "danger_score": 9.11
+    "avg_opp_elo": 1537.8,
+    "danger_score": 9.23
+  },
+  {
+    "deck_name": "Pantlaza",
+    "player": "Sabino",
+    "player_league": "RD",
+    "victorias": 9,
+    "avg_opp_elo": 1527.6,
+    "danger_score": 9.17
+  },
+  {
+    "deck_name": "Stella Lee",
+    "player": "Nicolas",
+    "player_league": "RD",
+    "victorias": 9,
+    "avg_opp_elo": 1514.6,
+    "danger_score": 9.09
   },
   {
     "deck_name": "Teval (J)",
     "player": "Jose",
     "player_league": "MX",
     "victorias": 9,
-    "avg_opp_elo": 1500.2,
+    "avg_opp_elo": 1499.5,
     "danger_score": 9
-  },
-  {
-    "deck_name": "Hazel (N)",
-    "player": "Nicolas",
-    "player_league": "RD",
-    "victorias": 8,
-    "avg_opp_elo": 1521.9,
-    "danger_score": 8.12
   },
   {
     "deck_name": "Zurgo (S)",
     "player": "Sabino",
     "player_league": "RD",
     "victorias": 8,
-    "avg_opp_elo": 1505.9,
-    "danger_score": 8.03
+    "avg_opp_elo": 1517.9,
+    "danger_score": 8.1
   },
   {
-    "deck_name": "Tidus",
+    "deck_name": "Tidus, Yuna's Guardian (S)",
     "player": "Sabino",
     "player_league": "RD",
     "victorias": 8,
-    "avg_opp_elo": 1503.1,
-    "danger_score": 8.02
-  },
-  {
-    "deck_name": "Stella Lee",
-    "player": "Nicolas",
-    "player_league": "RD",
-    "victorias": 8,
-    "avg_opp_elo": 1494.2,
-    "danger_score": 7.97
+    "avg_opp_elo": 1513.6,
+    "danger_score": 8.07
   },
   {
     "deck_name": "Ureni (S)",
     "player": "Sabino",
     "player_league": "RD",
     "victorias": 8,
-    "avg_opp_elo": 1487.7,
-    "danger_score": 7.93
+    "avg_opp_elo": 1504.8,
+    "danger_score": 8.03
   },
   {
-    "deck_name": "Shiko and Narset",
+    "deck_name": "Shiko and Narset, Unified",
     "player": "Ianfi",
     "player_league": "MX",
+    "victorias": 8,
+    "avg_opp_elo": 1494.5,
+    "danger_score": 7.97
+  },
+  {
+    "deck_name": "Ashling, The Limitless (i)",
+    "player": "Ianfi",
+    "player_league": "MX",
+    "victorias": 8,
+    "avg_opp_elo": 1477.4,
+    "danger_score": 7.88
+  },
+  {
+    "deck_name": "Teysa",
+    "player": "Halvin",
+    "player_league": "RD",
     "victorias": 7,
-    "avg_opp_elo": 1494.3,
-    "danger_score": 6.97
+    "avg_opp_elo": 1552.5,
+    "danger_score": 7.24
   },
   {
     "deck_name": "Sokka, Tenacious Tactician (N)",
     "player": "Nicolas",
     "player_league": "RD",
     "victorias": 7,
-    "avg_opp_elo": 1474,
-    "danger_score": 6.88
+    "avg_opp_elo": 1502.4,
+    "danger_score": 7.01
+  },
+  {
+    "deck_name": "Hashaton",
+    "player": "Nicolas",
+    "player_league": "RD",
+    "victorias": 6,
+    "avg_opp_elo": 1556.5,
+    "danger_score": 6.23
   },
   {
     "deck_name": "Eriette",
     "player": "Nicolas",
     "player_league": "RD",
     "victorias": 6,
-    "avg_opp_elo": 1528.4,
-    "danger_score": 6.11
+    "avg_opp_elo": 1546.1,
+    "danger_score": 6.18
   },
   {
-    "deck_name": "Terra (W)",
-    "player": "Wainer",
+    "deck_name": "Makima",
+    "player": "Sabino",
     "player_league": "RD",
     "victorias": 6,
-    "avg_opp_elo": 1515.1,
-    "danger_score": 6.06
+    "avg_opp_elo": 1516.9,
+    "danger_score": 6.07
+  },
+  {
+    "deck_name": "Omnath, Locus of Rage",
+    "player": "Sabino",
+    "player_league": "RD",
+    "victorias": 6,
+    "avg_opp_elo": 1503.5,
+    "danger_score": 6.01
   },
   {
     "deck_name": "Elenda",
     "player": "Sabino",
     "player_league": "RD",
     "victorias": 6,
-    "avg_opp_elo": 1491.6,
-    "danger_score": 5.97
-  },
-  {
-    "deck_name": "Ashling",
-    "player": "Ianfi",
-    "player_league": "MX",
-    "victorias": 6,
-    "avg_opp_elo": 1485.6,
-    "danger_score": 5.94
-  },
-  {
-    "deck_name": "Hashaton",
-    "player": "Nicolas",
-    "player_league": "RD",
-    "victorias": 5,
-    "avg_opp_elo": 1557.7,
-    "danger_score": 5.19
-  },
-  {
-    "deck_name": "Makima",
-    "player": "Sabino",
-    "player_league": "RD",
-    "victorias": 5,
-    "avg_opp_elo": 1508.4,
-    "danger_score": 5.03
-  },
-  {
-    "deck_name": "Omnath, Locus of Rage",
-    "player": "Sabino",
-    "player_league": "RD",
-    "victorias": 5,
-    "avg_opp_elo": 1476.2,
-    "danger_score": 4.92
+    "avg_opp_elo": 1497.4,
+    "danger_score": 5.99
   },
   {
     "deck_name": "Zinnia (W)",
     "player": "Wainer",
     "player_league": "RD",
-    "victorias": 4,
-    "avg_opp_elo": 1575.2,
-    "danger_score": 4.2
+    "victorias": 5,
+    "avg_opp_elo": 1580.8,
+    "danger_score": 5.27
   },
   {
-    "deck_name": "Teysa",
-    "player": "Halvin",
+    "deck_name": "Terra (W)",
+    "player": "Wainer",
     "player_league": "RD",
-    "victorias": 4,
-    "avg_opp_elo": 1548.4,
-    "danger_score": 4.13
+    "victorias": 5,
+    "avg_opp_elo": 1536.7,
+    "danger_score": 5.12
+  },
+  {
+    "deck_name": "Alela, Cunning Conqueror (S)",
+    "player": "Sabino",
+    "player_league": "RD",
+    "victorias": 5,
+    "avg_opp_elo": 1521.6,
+    "danger_score": 5.07
+  },
+  {
+    "deck_name": "Lumra",
+    "player": "Sabino",
+    "player_league": "RD",
+    "victorias": 5,
+    "avg_opp_elo": 1511.9,
+    "danger_score": 5.04
+  },
+  {
+    "deck_name": "Beledros Witherbloom",
+    "player": "Octaviano",
+    "player_league": "RD",
+    "victorias": 5,
+    "avg_opp_elo": 1507.2,
+    "danger_score": 5.02
   },
   {
     "deck_name": "Kefka",
     "player": "Nicolas",
     "player_league": "RD",
     "victorias": 4,
-    "avg_opp_elo": 1524.4,
-    "danger_score": 4.07
+    "avg_opp_elo": 1545.4,
+    "danger_score": 4.12
   },
   {
-    "deck_name": "Bello (O)",
+    "deck_name": "Bello, Bard of the Brambles (O)",
     "player": "Octaviano",
     "player_league": "RD",
     "victorias": 4,
-    "avg_opp_elo": 1516.1,
-    "danger_score": 4.04
+    "avg_opp_elo": 1533,
+    "danger_score": 4.09
   },
   {
     "deck_name": "Breya (H)",
     "player": "Halvin",
     "player_league": "RD",
     "victorias": 4,
-    "avg_opp_elo": 1510.2,
-    "danger_score": 4.03
+    "avg_opp_elo": 1514,
+    "danger_score": 4.04
   },
   {
-    "deck_name": "Alela, Cunning Conqueror (S)",
+    "deck_name": "Norman Osborn",
     "player": "Sabino",
     "player_league": "RD",
     "victorias": 4,
-    "avg_opp_elo": 1507,
-    "danger_score": 4.02
-  },
-  {
-    "deck_name": "Lumra",
-    "player": "Sabino",
-    "player_league": "RD",
-    "victorias": 4,
-    "avg_opp_elo": 1505.4,
-    "danger_score": 4.01
-  },
-  {
-    "deck_name": "Emmara (J)",
-    "player": "Jose",
-    "player_league": "MX",
-    "victorias": 4,
-    "avg_opp_elo": 1505.6,
-    "danger_score": 4.01
+    "avg_opp_elo": 1513.7,
+    "danger_score": 4.04
   },
   {
     "deck_name": "Neriv",
     "player": "Halvin",
     "player_league": "RD",
     "victorias": 4,
-    "avg_opp_elo": 1495.6,
-    "danger_score": 3.99
+    "avg_opp_elo": 1509.5,
+    "danger_score": 4.03
+  },
+  {
+    "deck_name": "Emmara (J)",
+    "player": "Jose",
+    "player_league": "MX",
+    "victorias": 4,
+    "avg_opp_elo": 1505.2,
+    "danger_score": 4.01
   },
   {
     "deck_name": "Zaxara",
     "player": "Sabino",
     "player_league": "RD",
     "victorias": 4,
-    "avg_opp_elo": 1462.8,
-    "danger_score": 3.9
+    "avg_opp_elo": 1478,
+    "danger_score": 3.94
+  },
+  {
+    "deck_name": "Iroh Grand Lotus",
+    "player": "Ianfi",
+    "player_league": "MX",
+    "victorias": 4,
+    "avg_opp_elo": 1478.4,
+    "danger_score": 3.94
+  },
+  {
+    "deck_name": "Sokka, Tenacious Tactician (i)",
+    "player": "Ianfi",
+    "player_league": "MX",
+    "victorias": 4,
+    "avg_opp_elo": 1471.6,
+    "danger_score": 3.92
+  },
+  {
+    "deck_name": "Sythis",
+    "player": "Mak",
+    "player_league": "RD",
+    "victorias": 3,
+    "avg_opp_elo": 1578.6,
+    "danger_score": 3.16
   },
   {
     "deck_name": "Kaalia",
     "player": "Jorge Kourie",
     "player_league": "RD",
     "victorias": 3,
-    "avg_opp_elo": 1550.2,
+    "avg_opp_elo": 1552.2,
     "danger_score": 3.1
+  },
+  {
+    "deck_name": "Rakdos",
+    "player": "Sabino",
+    "player_league": "RD",
+    "victorias": 3,
+    "avg_opp_elo": 1538.3,
+    "danger_score": 3.08
+  },
+  {
+    "deck_name": "Ghyrson",
+    "player": "Sabino",
+    "player_league": "RD",
+    "victorias": 3,
+    "avg_opp_elo": 1537.4,
+    "danger_score": 3.07
   },
   {
     "deck_name": "The Council",
     "player": "Halvin",
     "player_league": "RD",
     "victorias": 3,
-    "avg_opp_elo": 1526.3,
-    "danger_score": 3.05
-  },
-  {
-    "deck_name": "Norman Osborn",
-    "player": "Sabino",
-    "player_league": "RD",
-    "victorias": 3,
-    "avg_opp_elo": 1508.2,
-    "danger_score": 3.02
+    "avg_opp_elo": 1531.3,
+    "danger_score": 3.06
   },
   {
     "deck_name": "Auntie Ool (S)",
     "player": "Sabino",
     "player_league": "RD",
     "victorias": 3,
-    "avg_opp_elo": 1506.3,
-    "danger_score": 3.01
-  },
-  {
-    "deck_name": "Eshki (S)",
-    "player": "Sabino",
-    "player_league": "RD",
-    "victorias": 3,
-    "avg_opp_elo": 1485.8,
-    "danger_score": 2.97
-  },
-  {
-    "deck_name": "Iroh Grand Lotus",
-    "player": "Ianfi",
-    "player_league": "MX",
-    "victorias": 3,
-    "avg_opp_elo": 1486.6,
-    "danger_score": 2.97
+    "avg_opp_elo": 1526.6,
+    "danger_score": 3.05
   },
   {
     "deck_name": "Kona",
     "player": "Sabino",
     "player_league": "RD",
     "victorias": 3,
-    "avg_opp_elo": 1487.4,
-    "danger_score": 2.97
+    "avg_opp_elo": 1509.6,
+    "danger_score": 3.02
+  },
+  {
+    "deck_name": "Eshki (S)",
+    "player": "Sabino",
+    "player_league": "RD",
+    "victorias": 3,
+    "avg_opp_elo": 1502.9,
+    "danger_score": 3.01
+  },
+  {
+    "deck_name": "Sigarda",
+    "player": "Mike",
+    "player_league": "MX",
+    "victorias": 3,
+    "avg_opp_elo": 1498.9,
+    "danger_score": 3
+  },
+  {
+    "deck_name": "Aziza",
+    "player": "Jorge Espinoza",
+    "player_league": "MX",
+    "victorias": 3,
+    "avg_opp_elo": 1493.7,
+    "danger_score": 2.99
+  },
+  {
+    "deck_name": "Quintorious",
+    "player": "Jorge Espinoza",
+    "player_league": "MX",
+    "victorias": 3,
+    "avg_opp_elo": 1493,
+    "danger_score": 2.99
+  },
+  {
+    "deck_name": "Blech",
+    "player": "Nicolas",
+    "player_league": "RD",
+    "victorias": 3,
+    "avg_opp_elo": 1492.6,
+    "danger_score": 2.99
   },
   {
     "deck_name": "Felothar (O)",
     "player": "Nicolas",
     "player_league": "RD",
     "victorias": 3,
-    "avg_opp_elo": 1462.7,
-    "danger_score": 2.93
+    "avg_opp_elo": 1491.5,
+    "danger_score": 2.98
   },
   {
-    "deck_name": "Ur Dragon",
+    "deck_name": "Melek, Reforged Reasercher",
+    "player": "Jorge Espinoza",
+    "player_league": "MX",
+    "victorias": 3,
+    "avg_opp_elo": 1486.1,
+    "danger_score": 2.97
+  },
+  {
+    "deck_name": "The Ur-Dragon",
     "player": "Jorge Kourie",
     "player_league": "RD",
     "victorias": 3,
-    "avg_opp_elo": 1460.7,
-    "danger_score": 2.92
+    "avg_opp_elo": 1481.9,
+    "danger_score": 2.96
   },
   {
-    "deck_name": "Sythis",
-    "player": "Mak",
+    "deck_name": "Strefan, Maurer Progenitor",
+    "player": "Eddy",
     "player_league": "RD",
     "victorias": 2,
-    "avg_opp_elo": 1578.3,
-    "danger_score": 2.1
+    "avg_opp_elo": 1594.1,
+    "danger_score": 2.13
+  },
+  {
+    "deck_name": "Zinnia (G)",
+    "player": "Gonzalo",
+    "player_league": "RD",
+    "victorias": 2,
+    "avg_opp_elo": 1581.5,
+    "danger_score": 2.11
   },
   {
     "deck_name": "Felothar (O)",
     "player": "Halvin",
     "player_league": "RD",
     "victorias": 2,
-    "avg_opp_elo": 1543.5,
-    "danger_score": 2.06
-  },
-  {
-    "deck_name": "Karduur Doomscourge",
-    "player": "Sabino",
-    "player_league": "RD",
-    "victorias": 2,
-    "avg_opp_elo": 1534.5,
-    "danger_score": 2.05
+    "avg_opp_elo": 1563.1,
+    "danger_score": 2.08
   },
   {
     "deck_name": "Hearthhull (W)",
     "player": "Wainer",
     "player_league": "RD",
     "victorias": 2,
-    "avg_opp_elo": 1537.7,
+    "avg_opp_elo": 1558.8,
+    "danger_score": 2.08
+  },
+  {
+    "deck_name": "Minn",
+    "player": "Mak",
+    "player_league": "RD",
+    "victorias": 2,
+    "avg_opp_elo": 1563.6,
+    "danger_score": 2.08
+  },
+  {
+    "deck_name": "Lumra",
+    "player": "Diame",
+    "player_league": "RD",
+    "victorias": 2,
+    "avg_opp_elo": 1542.8,
+    "danger_score": 2.06
+  },
+  {
+    "deck_name": "Jared Carthalion",
+    "player": "Konstantinos",
+    "player_league": "RD",
+    "victorias": 2,
+    "avg_opp_elo": 1537.2,
     "danger_score": 2.05
   },
   {
@@ -340,7 +444,39 @@
     "player": "Jorge Kourie",
     "player_league": "RD",
     "victorias": 2,
-    "avg_opp_elo": 1521.1,
+    "avg_opp_elo": 1530.3,
+    "danger_score": 2.04
+  },
+  {
+    "deck_name": "Valgavoth (J)",
+    "player": "Jorge Kourie",
+    "player_league": "RD",
+    "victorias": 2,
+    "avg_opp_elo": 1532,
+    "danger_score": 2.04
+  },
+  {
+    "deck_name": "Yuna",
+    "player": "Jorge Kourie",
+    "player_league": "RD",
+    "victorias": 2,
+    "avg_opp_elo": 1532.7,
+    "danger_score": 2.04
+  },
+  {
+    "deck_name": "Dihada (H)",
+    "player": "Halvin",
+    "player_league": "RD",
+    "victorias": 2,
+    "avg_opp_elo": 1522.9,
+    "danger_score": 2.03
+  },
+  {
+    "deck_name": "Wulfgar",
+    "player": "Jorge Kourie",
+    "player_league": "RD",
+    "victorias": 2,
+    "avg_opp_elo": 1525.8,
     "danger_score": 2.03
   },
   {
@@ -348,7 +484,15 @@
     "player": "Mike",
     "player_league": "MX",
     "victorias": 2,
-    "avg_opp_elo": 1515.2,
+    "avg_opp_elo": 1514.1,
+    "danger_score": 2.02
+  },
+  {
+    "deck_name": "Sauron, The Dark Lord (JK)",
+    "player": "Jorge Kourie",
+    "player_league": "RD",
+    "victorias": 2,
+    "avg_opp_elo": 1512,
     "danger_score": 2.02
   },
   {
@@ -356,135 +500,127 @@
     "player": "Octaviano",
     "player_league": "RD",
     "victorias": 2,
-    "avg_opp_elo": 1514.1,
-    "danger_score": 2.02
-  },
-  {
-    "deck_name": "Ghyrson",
-    "player": "Sabino",
-    "player_league": "RD",
-    "victorias": 2,
-    "avg_opp_elo": 1516.3,
-    "danger_score": 2.02
-  },
-  {
-    "deck_name": "Hearthhull (J)",
-    "player": "Jorge Espinoza",
-    "player_league": "MX",
-    "victorias": 2,
     "avg_opp_elo": 1517.9,
     "danger_score": 2.02
   },
   {
-    "deck_name": "Aziza",
-    "player": "Jorge Espinoza",
-    "player_league": "MX",
-    "victorias": 2,
-    "avg_opp_elo": 1514.3,
-    "danger_score": 2.02
-  },
-  {
-    "deck_name": "Valgavoth (M)",
-    "player": "Migue",
-    "player_league": "MX",
-    "victorias": 2,
-    "avg_opp_elo": 1513.9,
-    "danger_score": 2.02
-  },
-  {
-    "deck_name": "Yuna",
-    "player": "Jorge Kourie",
+    "deck_name": "Kastral, The Wingcrested",
+    "player": "Mak",
     "player_league": "RD",
     "victorias": 2,
-    "avg_opp_elo": 1518.2,
+    "avg_opp_elo": 1518.5,
     "danger_score": 2.02
-  },
-  {
-    "deck_name": "Sigarda",
-    "player": "Mike",
-    "player_league": "MX",
-    "victorias": 2,
-    "avg_opp_elo": 1509.8,
-    "danger_score": 2.01
-  },
-  {
-    "deck_name": "Auntie Ool (M)",
-    "player": "Migue",
-    "player_league": "MX",
-    "victorias": 2,
-    "avg_opp_elo": 1508.1,
-    "danger_score": 2.01
-  },
-  {
-    "deck_name": "Celes",
-    "player": "Jorge Espinoza",
-    "player_league": "MX",
-    "victorias": 2,
-    "avg_opp_elo": 1506.6,
-    "danger_score": 2.01
   },
   {
     "deck_name": "Zinnia (M)",
     "player": "Ianfi",
     "player_league": "MX",
     "victorias": 2,
-    "avg_opp_elo": 1502,
-    "danger_score": 2
-  },
-  {
-    "deck_name": "Bello (J)",
-    "player": "Jose",
-    "player_league": "MX",
-    "victorias": 2,
-    "avg_opp_elo": 1498.1,
-    "danger_score": 2
+    "avg_opp_elo": 1507.2,
+    "danger_score": 2.01
   },
   {
     "deck_name": "Toshiro Umezaua",
     "player": "Halvin",
     "player_league": "RD",
     "victorias": 2,
-    "avg_opp_elo": 1498.8,
-    "danger_score": 2
+    "avg_opp_elo": 1508.1,
+    "danger_score": 2.01
+  },
+  {
+    "deck_name": "Hearthhull (J)",
+    "player": "Jorge Espinoza",
+    "player_league": "MX",
+    "victorias": 2,
+    "avg_opp_elo": 1503.8,
+    "danger_score": 2.01
+  },
+  {
+    "deck_name": "Valgavoth (M)",
+    "player": "Migue",
+    "player_league": "MX",
+    "victorias": 2,
+    "avg_opp_elo": 1506.3,
+    "danger_score": 2.01
   },
   {
     "deck_name": "Giada",
     "player": "Halvin",
     "player_league": "RD",
     "victorias": 2,
-    "avg_opp_elo": 1490.4,
-    "danger_score": 1.99
+    "avg_opp_elo": 1501.8,
+    "danger_score": 2
+  },
+  {
+    "deck_name": "Bello, Bard of the Brambles (J)",
+    "player": "Jose",
+    "player_league": "MX",
+    "victorias": 2,
+    "avg_opp_elo": 1497.9,
+    "danger_score": 2
   },
   {
     "deck_name": "Hakbal",
     "player": "Sabino",
     "player_league": "RD",
     "victorias": 2,
-    "avg_opp_elo": 1487.6,
-    "danger_score": 1.98
+    "avg_opp_elo": 1500.2,
+    "danger_score": 2
+  },
+  {
+    "deck_name": "Auntie Ool (M)",
+    "player": "Migue",
+    "player_league": "MX",
+    "victorias": 2,
+    "avg_opp_elo": 1501.6,
+    "danger_score": 2
+  },
+  {
+    "deck_name": "Leonardo & Raphael TMNT",
+    "player": "Eddy",
+    "player_league": "RD",
+    "victorias": 2,
+    "avg_opp_elo": 1500.7,
+    "danger_score": 2
+  },
+  {
+    "deck_name": "Toph, First Metalbender (M)",
+    "player": "Migue",
+    "player_league": "MX",
+    "victorias": 2,
+    "avg_opp_elo": 1500.5,
+    "danger_score": 2
   },
   {
     "deck_name": "Zhudolock",
     "player": "Mak",
     "player_league": "RD",
     "victorias": 2,
-    "avg_opp_elo": 1481.4,
-    "danger_score": 1.98
+    "avg_opp_elo": 1492.9,
+    "danger_score": 1.99
   },
   {
-    "deck_name": "Sokka, Tenacious Tactician (i)",
-    "player": "Ianfi",
+    "deck_name": "Celes",
+    "player": "Jorge Espinoza",
     "player_league": "MX",
     "victorias": 2,
-    "avg_opp_elo": 1479.2,
-    "danger_score": 1.97
+    "avg_opp_elo": 1492.3,
+    "danger_score": 1.99
   },
   {
     "deck_name": "TMNT",
     "player": "Eddy",
     "player_league": "RD",
     "victorias": 2,
-    "avg_opp_elo": 1469.6,
+    "avg_opp_elo": 1488.1,
+    "danger_score": 1.98
+  },
+  {
+    "deck_name": "Captain America, Team Leader (E)",
+    "player": "Eddy",
+    "player_league": "RD",
+    "victorias": 2,
+    "avg_opp_elo": 1471.5,
     "danger_score": 1.96
   },
   {
@@ -492,7 +628,7 @@
     "player": "Nicolas",
     "player_league": "RD",
     "victorias": 2,
-    "avg_opp_elo": 1458.6,
-    "danger_score": 1.94
+    "avg_opp_elo": 1462.9,
+    "danger_score": 1.95
   }
 ]

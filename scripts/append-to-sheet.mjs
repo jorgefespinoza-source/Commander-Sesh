@@ -18,16 +18,17 @@
  *        { "placement": 1, "player": "Octaviano", "deck": "Valgavoth" }, ... ] }, ... ]
  *
  * The script writes one sheet row per result, matching the Game Log columns:
- *   Date | Game | Placement | Player | Deck Name | Deck Written Name | Owner | Checked
- * Date is written only on the first row of each day and Game only on the first
- * row of each game (blank on continuation rows) to match the sheet's own style
- * and the parser in build-data.mjs. Pass --dry-run to preview without writing.
+ *   DATE | GAME ID | PLACE | PLAYER | DECK NAME | CHECKED
+ * GAME ID is a global sequential counter; the script reads the sheet's current
+ * maximum and continues from there. DATE and GAME ID are written only on the
+ * first row of each game (blank on continuation rows) to match the sheet's own
+ * style and the parser in build-data.mjs. Pass --dry-run to preview without writing.
  */
 
 import { readFile } from "node:fs/promises";
 import { createSign } from "node:crypto";
 
-const SHEET_ID = process.env.SHEET_ID || "1wrlHIJ6O6Z4kHnGcD2DhbUutuwIBLwN4";
+const SHEET_ID = process.env.SHEET_ID || "1iHjEijCrgXprn8gHXZqqUHHGjcqKH1r-y1zGlsH5g8I";
 const TAB = "Game Log";
 const DRY = process.argv.includes("--dry-run");
 const rowsPath = process.argv.find((a) => a.endsWith(".json") && !a.includes("sa"));
@@ -70,27 +71,37 @@ async function getAccessToken(sa) {
   return data.access_token;
 }
 
-/** Turn the reviewed games into Game Log sheet rows (per-day date, per-game number). */
-function toSheetRows(games) {
+/** Read the sheet's current max GAME ID via the public CSV endpoint. */
+async function getMaxGameId() {
+  const res = await fetch(
+    `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(TAB)}`);
+  if (!res.ok) throw new Error(`Failed to read Game Log CSV: HTTP ${res.status}`);
+  const text = await res.text();
+  let max = 0;
+  // GAME ID is the 2nd CSV column; quoted values like "394"
+  for (const line of text.split("\n").slice(1)) {
+    const m = line.match(/^"[^"]*","(\d+)"/);
+    if (m) max = Math.max(max, parseInt(m[1], 10));
+  }
+  if (!max) throw new Error("Could not determine current max GAME ID — refusing to guess.");
+  return max;
+}
+
+/** Turn the reviewed games into Game Log sheet rows (global sequential GAME ID). */
+function toSheetRows(games, startId) {
   const rows = [];
-  let lastDate = null;
-  const perDay = {};
+  let gid = startId;
   for (const g of games) {
-    perDay[g.date] = (perDay[g.date] || 0) + 1;
-    const gameNum = perDay[g.date];
+    gid++;
     let firstOfGame = true;
     for (const r of g.results) {
-      const dateCell = g.date !== lastDate && firstOfGame ? isoToSheet(g.date) : "";
-      lastDate = g.date;
       rows.push([
-        dateCell,                          // Date  (only first row of a new day)
-        firstOfGame ? String(gameNum) : "", // Game  (only first row of a game)
-        String(r.placement),                // Placement
-        r.player,                           // Player
-        r.deck,                             // Deck Name
-        "",                                 // Deck Written Name (left blank)
-        r.owner || "",                      // Owner (optional)
-        "",                                 // Checked
+        firstOfGame ? isoToSheet(g.date) : "", // DATE      (first row of each game)
+        firstOfGame ? String(gid) : "",        // GAME ID   (first row of each game)
+        String(r.placement),                    // PLACE
+        r.player,                               // PLAYER
+        r.deck,                                 // DECK NAME
+        "",                                     // CHECKED
       ]);
       firstOfGame = false;
     }
@@ -106,8 +117,10 @@ const isoToSheet = (iso) => {
 async function main() {
   if (!rowsPath) throw new Error("Pass the path to a rows.json file.");
   const games = JSON.parse(await readFile(rowsPath, "utf8"));
-  const rows = toSheetRows(games);
-  console.log(`Prepared ${rows.length} sheet rows from ${games.length} games.`);
+  const maxId = await getMaxGameId();
+  const rows = toSheetRows(games, maxId);
+  console.log(`Current max GAME ID: ${maxId}. Prepared ${rows.length} sheet rows ` +
+    `from ${games.length} games (ids ${maxId + 1}-${maxId + games.length}).`);
 
   if (DRY) {
     console.log("--dry-run: preview (not writing):");
@@ -117,7 +130,7 @@ async function main() {
 
   const sa = await loadServiceAccount();
   const token = await getAccessToken(sa);
-  const range = encodeURIComponent(`${TAB}!A:H`);
+  const range = encodeURIComponent(`${TAB}!A:F`);
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${range}:append` +
     `?valueInputOption=USER_ENTERED&insertDataOption=INSERT_ROWS`;
   const res = await fetch(url, {

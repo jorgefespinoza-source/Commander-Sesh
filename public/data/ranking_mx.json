@@ -1,68 +1,68 @@
 [
   {
     "rank": 1,
-    "player": "Jose",
+    "player": "Ianfi",
     "player_league": "MX",
-    "juegos": 56,
-    "victorias": 19,
-    "win_rate": 0.339,
+    "juegos": 88,
+    "victorias": 31,
+    "win_rate": 0.352,
     "avg_placement": 2.07,
-    "avg_place_norm": 0.589,
-    "mazos_distintos": 16
+    "avg_place_norm": 0.611,
+    "mazos_distintos": 18
   },
   {
     "rank": 2,
-    "player": "Ianfi",
+    "player": "Jose",
     "player_league": "MX",
-    "juegos": 68,
-    "victorias": 23,
-    "win_rate": 0.338,
-    "avg_placement": 2.06,
-    "avg_place_norm": 0.623,
-    "mazos_distintos": 17
+    "juegos": 59,
+    "victorias": 20,
+    "win_rate": 0.339,
+    "avg_placement": 2.08,
+    "avg_place_norm": 0.59,
+    "mazos_distintos": 15
   },
   {
     "rank": 3,
     "player": "Jorge Espinoza",
     "player_league": "MX",
-    "juegos": 31,
-    "victorias": 9,
-    "win_rate": 0.29,
-    "avg_placement": 2.03,
-    "avg_place_norm": 0.565,
-    "mazos_distintos": 13
+    "juegos": 52,
+    "victorias": 15,
+    "win_rate": 0.288,
+    "avg_placement": 2.08,
+    "avg_place_norm": 0.574,
+    "mazos_distintos": 16
   },
   {
     "rank": 4,
     "player": "Lasa",
     "player_league": "MX",
-    "juegos": 25,
+    "juegos": 24,
     "victorias": 6,
-    "win_rate": 0.24,
-    "avg_placement": 2.2,
-    "avg_place_norm": 0.588,
-    "mazos_distintos": 14
+    "win_rate": 0.25,
+    "avg_placement": 2.13,
+    "avg_place_norm": 0.613,
+    "mazos_distintos": 13
   },
   {
     "rank": 5,
     "player": "Mike",
     "player_league": "MX",
-    "juegos": 32,
-    "victorias": 7,
-    "win_rate": 0.219,
-    "avg_placement": 2.03,
-    "avg_place_norm": 0.621,
+    "juegos": 34,
+    "victorias": 8,
+    "win_rate": 0.235,
+    "avg_placement": 2,
+    "avg_place_norm": 0.636,
     "mazos_distintos": 6
   },
   {
     "rank": 6,
     "player": "Migue",
     "player_league": "MX",
-    "juegos": 37,
-    "victorias": 5,
-    "win_rate": 0.135,
-    "avg_placement": 2.49,
-    "avg_place_norm": 0.458,
-    "mazos_distintos": 15
+    "juegos": 58,
+    "victorias": 8,
+    "win_rate": 0.138,
+    "avg_placement": 2.43,
+    "avg_place_norm": 0.47,
+    "mazos_distintos": 17
   }
 ]

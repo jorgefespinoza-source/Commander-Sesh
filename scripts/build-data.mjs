@@ -28,7 +28,9 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 const DATA_DIR = join(ROOT, "public", "data");
 
-const SHEET_ID = process.env.SHEET_ID || "1wrlHIJ6O6Z4kHnGcD2DhbUutuwIBLwN4";
+// Native Google Sheet (converted from the original uploaded .xlsx on 2026-07-07;
+// the old ID 1wrlHIJ6O6Z4kHnGcD2DhbUutuwIBLwN4 is the dead Office-format file).
+const SHEET_ID = process.env.SHEET_ID || "1iHjEijCrgXprn8gHXZqqUHHGjcqKH1r-y1zGlsH5g8I";
 const csvUrl = (tab) =>
   `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(tab)}`;
 
@@ -159,9 +161,23 @@ function parseDeckList(rows) {
  * per-day game number, then re-indexed sequentially so grouping is unambiguous.
  */
 function parseGameLog(rows, colorByDeck) {
+  // Header names changed when the pod standardized the sheet (July 2026);
+  // accept both generations so a rename doesn't silently break the build.
+  const HEADER_ALIASES = {
+    date: ["DATE", "Date"],
+    game: ["GAME ID", "Game"],
+    placement: ["PLACE", "Placement"],
+    player: ["PLAYER", "Player"],
+    deck: ["DECK NAME", "Deck Name"],
+  };
+  const headerRow = rows[0].map((h) => String(h).trim());
   const idx = {};
-  rows[0].forEach((h, i) => (idx[String(h).trim()] = i));
-  const col = (cells, name) => String(cells[idx[name]] ?? "").trim();
+  for (const [key, names] of Object.entries(HEADER_ALIASES)) {
+    idx[key] = names.map((n) => headerRow.indexOf(n)).find((i) => i >= 0);
+    if (idx[key] === undefined)
+      throw new Error(`Game Log header not found: tried ${names.join(", ")}`);
+  }
+  const col = (cells, key) => String(cells[idx[key]] ?? "").trim();
 
   let curDate = "";
   let curDayGame = "";
@@ -169,13 +185,13 @@ function parseGameLog(rows, colorByDeck) {
   for (let r = 1; r < rows.length; r++) {
     const cells = rows[r];
     if (!cells || cells.every((c) => !String(c).trim())) continue;
-    const dISO = toISO(col(cells, "Date"));
+    const dISO = toISO(col(cells, "date"));
     if (dISO) curDate = dISO;
-    const g = col(cells, "Game");
+    const g = col(cells, "game");
     if (g) curDayGame = g;
-    const player = canonPlayer(col(cells, "Player"));
-    const deck = col(cells, "Deck Name");
-    const placement = parseInt(col(cells, "Placement"), 10);
+    const player = canonPlayer(col(cells, "player"));
+    const deck = col(cells, "deck");
+    const placement = parseInt(col(cells, "placement"), 10);
     if (!player && !deck) continue;
     raw.push({
       date: curDate,

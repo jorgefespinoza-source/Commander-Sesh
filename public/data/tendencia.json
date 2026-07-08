@@ -1,155 +1,173 @@
 [
   {
-    "player": "Konstantinos",
-    "player_league": "RD",
-    "meses": 7,
-    "slope": 0.0357,
-    "wr_inicial": 0,
-    "wr_final": 0.333,
-    "tendencia": "subiendo"
-  },
-  {
-    "player": "Eddy",
-    "player_league": "RD",
-    "meses": 13,
-    "slope": 0.0296,
-    "wr_inicial": 0.143,
-    "wr_final": 0.5,
-    "tendencia": "subiendo"
-  },
-  {
-    "player": "Jorge Kourie",
-    "player_league": "RD",
-    "meses": 13,
-    "slope": 0.021,
-    "wr_inicial": 0.222,
-    "wr_final": 0.25,
-    "tendencia": "subiendo"
-  },
-  {
-    "player": "Jose",
+    "player": "Blanca",
     "player_league": "MX",
-    "meses": 10,
-    "slope": 0.0198,
+    "meses": 4,
+    "slope": 0.05,
     "wr_inicial": 0,
     "wr_final": 0,
     "tendencia": "subiendo"
   },
   {
-    "player": "Migue",
+    "player": "Konstantinos",
+    "player_league": "RD",
+    "meses": 9,
+    "slope": 0.0405,
+    "wr_inicial": 0,
+    "wr_final": 0.25,
+    "tendencia": "subiendo"
+  },
+  {
+    "player": "Eddy",
+    "player_league": "RD",
+    "meses": 15,
+    "slope": 0.0302,
+    "wr_inicial": 0.111,
+    "wr_final": 0.667,
+    "tendencia": "subiendo"
+  },
+  {
+    "player": "Mike",
     "player_league": "MX",
     "meses": 7,
-    "slope": 0.0179,
-    "wr_inicial": 0.333,
+    "slope": 0.0246,
+    "wr_inicial": 0.167,
     "wr_final": 0.5,
     "tendencia": "subiendo"
   },
   {
     "player": "Sabino",
     "player_league": "RD",
-    "meses": 14,
-    "slope": 0.0117,
+    "meses": 16,
+    "slope": 0.012,
     "wr_inicial": 0.5,
-    "wr_final": 0.833,
+    "wr_final": 1,
+    "tendencia": "subiendo"
+  },
+  {
+    "player": "Carlos",
+    "player_league": "RD",
+    "meses": 9,
+    "slope": 0.0111,
+    "wr_inicial": 0,
+    "wr_final": 0,
     "tendencia": "subiendo"
   },
   {
     "player": "Ianfi",
     "player_league": "MX",
-    "meses": 11,
-    "slope": 0.009,
+    "meses": 13,
+    "slope": 0.0089,
     "wr_inicial": 0.5,
-    "wr_final": 0.286,
+    "wr_final": 0.4,
+    "tendencia": "estable"
+  },
+  {
+    "player": "Octaviano",
+    "player_league": "RD",
+    "meses": 16,
+    "slope": 0.0088,
+    "wr_inicial": 0.25,
+    "wr_final": 0.5,
     "tendencia": "estable"
   },
   {
     "player": "Mak",
     "player_league": "RD",
-    "meses": 14,
-    "slope": 0.0055,
+    "meses": 16,
+    "slope": 0.0087,
     "wr_inicial": 0.143,
-    "wr_final": 0,
-    "tendencia": "estable"
-  },
-  {
-    "player": "Caballol",
-    "player_league": "RD",
-    "meses": 8,
-    "slope": 0.003,
-    "wr_inicial": 0,
     "wr_final": 0,
     "tendencia": "estable"
   },
   {
     "player": "Gonzalo",
     "player_league": "RD",
-    "meses": 8,
-    "slope": 0,
+    "meses": 10,
+    "slope": 0.0076,
+    "wr_inicial": 0,
+    "wr_final": 0.167,
+    "tendencia": "estable"
+  },
+  {
+    "player": "Jorge Kourie",
+    "player_league": "RD",
+    "meses": 15,
+    "slope": 0.0071,
+    "wr_inicial": 0.222,
+    "wr_final": 0.333,
+    "tendencia": "estable"
+  },
+  {
+    "player": "Migue",
+    "player_league": "MX",
+    "meses": 9,
+    "slope": 0.0071,
+    "wr_inicial": 0.333,
+    "wr_final": 0.2,
+    "tendencia": "estable"
+  },
+  {
+    "player": "Jose",
+    "player_league": "MX",
+    "meses": 12,
+    "slope": 0.0022,
     "wr_inicial": 0,
     "wr_final": 0,
     "tendencia": "estable"
   },
   {
-    "player": "Mike",
-    "player_league": "MX",
-    "meses": 6,
-    "slope": -0.0057,
-    "wr_inicial": 0.167,
-    "wr_final": 0.167,
+    "player": "Caballol",
+    "player_league": "RD",
+    "meses": 10,
+    "slope": -0.002,
+    "wr_inicial": 0,
+    "wr_final": 0,
     "tendencia": "estable"
+  },
+  {
+    "player": "Jorge Espinoza",
+    "player_league": "MX",
+    "meses": 5,
+    "slope": -0.0043,
+    "wr_inicial": 0.429,
+    "wr_final": 0.4,
+    "tendencia": "estable"
+  },
+  {
+    "player": "Halvin",
+    "player_league": "RD",
+    "meses": 16,
+    "slope": -0.0105,
+    "wr_inicial": 0.333,
+    "wr_final": 0,
+    "tendencia": "bajando"
   },
   {
     "player": "Diame",
     "player_league": "RD",
     "meses": 8,
-    "slope": -0.0102,
+    "slope": -0.0109,
     "wr_inicial": 0,
     "wr_final": 0,
     "tendencia": "bajando"
   },
   {
-    "player": "Octaviano",
+    "player": "Wainer",
     "player_league": "RD",
     "meses": 14,
-    "slope": -0.0116,
-    "wr_inicial": 0.25,
+    "slope": -0.0211,
+    "wr_inicial": 0.125,
     "wr_final": 0,
     "tendencia": "bajando"
   },
   {
     "player": "Nicolas",
     "player_league": "RD",
-    "meses": 14,
-    "slope": -0.0194,
+    "meses": 16,
+    "slope": -0.023,
     "wr_inicial": 0.714,
-    "wr_final": 0.25,
-    "tendencia": "bajando"
-  },
-  {
-    "player": "Halvin",
-    "player_league": "RD",
-    "meses": 14,
-    "slope": -0.0216,
-    "wr_inicial": 0.333,
-    "wr_final": 0.167,
-    "tendencia": "bajando"
-  },
-  {
-    "player": "Wainer",
-    "player_league": "RD",
-    "meses": 13,
-    "slope": -0.0263,
-    "wr_inicial": 0.125,
     "wr_final": 0,
-    "tendencia": "bajando"
-  },
-  {
-    "player": "Jorge Espinoza",
-    "player_league": "MX",
-    "meses": 3,
-    "slope": -0.0715,
-    "wr_inicial": 0.429,
-    "wr_final": 0.286,
     "tendencia": "bajando"
   },
   {

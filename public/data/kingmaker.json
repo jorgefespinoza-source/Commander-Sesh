@@ -2,181 +2,201 @@
   {
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 129,
-    "victorias": 85,
-    "segundo": 30,
+    "juegos": 148,
+    "victorias": 93,
+    "segundo": 40,
     "tercero": 11,
-    "win_rate": 0.659,
-    "seg_rate": 0.233
+    "win_rate": 0.628,
+    "seg_rate": 0.27
   },
   {
     "player": "Nicolas",
     "player_league": "RD",
-    "juegos": 143,
-    "victorias": 69,
-    "segundo": 36,
-    "tercero": 26,
-    "win_rate": 0.483,
-    "seg_rate": 0.252
+    "juegos": 171,
+    "victorias": 75,
+    "segundo": 50,
+    "tercero": 32,
+    "win_rate": 0.439,
+    "seg_rate": 0.292
+  },
+  {
+    "player": "Ianfi",
+    "player_league": "MX",
+    "juegos": 88,
+    "victorias": 31,
+    "segundo": 28,
+    "tercero": 22,
+    "win_rate": 0.352,
+    "seg_rate": 0.318
   },
   {
     "player": "Jose",
     "player_league": "MX",
-    "juegos": 56,
-    "victorias": 19,
-    "segundo": 19,
+    "juegos": 59,
+    "victorias": 20,
+    "segundo": 20,
     "tercero": 13,
     "win_rate": 0.339,
     "seg_rate": 0.339
   },
   {
-    "player": "Ianfi",
-    "player_league": "MX",
-    "juegos": 68,
-    "victorias": 23,
-    "segundo": 24,
-    "tercero": 16,
-    "win_rate": 0.338,
-    "seg_rate": 0.353
-  },
-  {
     "player": "Halvin",
     "player_league": "RD",
-    "juegos": 90,
-    "victorias": 27,
-    "segundo": 20,
-    "tercero": 34,
-    "win_rate": 0.3,
-    "seg_rate": 0.222
+    "juegos": 102,
+    "victorias": 33,
+    "segundo": 23,
+    "tercero": 35,
+    "win_rate": 0.324,
+    "seg_rate": 0.225
   },
   {
     "player": "Jorge Espinoza",
     "player_league": "MX",
-    "juegos": 31,
-    "victorias": 9,
-    "segundo": 13,
-    "tercero": 8,
-    "win_rate": 0.29,
-    "seg_rate": 0.419
+    "juegos": 52,
+    "victorias": 15,
+    "segundo": 22,
+    "tercero": 11,
+    "win_rate": 0.288,
+    "seg_rate": 0.423
   },
   {
     "player": "Lasa",
     "player_league": "MX",
-    "juegos": 25,
+    "juegos": 24,
     "victorias": 6,
     "segundo": 11,
     "tercero": 5,
-    "win_rate": 0.24,
-    "seg_rate": 0.44
-  },
-  {
-    "player": "Jorge Kourie",
-    "player_league": "RD",
-    "juegos": 63,
-    "victorias": 15,
-    "segundo": 22,
-    "tercero": 19,
-    "win_rate": 0.238,
-    "seg_rate": 0.349
+    "win_rate": 0.25,
+    "seg_rate": 0.458
   },
   {
     "player": "Mike",
     "player_league": "MX",
-    "juegos": 32,
-    "victorias": 7,
-    "segundo": 18,
+    "juegos": 34,
+    "victorias": 8,
+    "segundo": 19,
     "tercero": 6,
-    "win_rate": 0.219,
-    "seg_rate": 0.563
+    "win_rate": 0.235,
+    "seg_rate": 0.559
+  },
+  {
+    "player": "Jorge Kourie",
+    "player_league": "RD",
+    "juegos": 81,
+    "victorias": 19,
+    "segundo": 28,
+    "tercero": 25,
+    "win_rate": 0.235,
+    "seg_rate": 0.346
   },
   {
     "player": "Octaviano",
     "player_league": "RD",
-    "juegos": 96,
-    "victorias": 18,
-    "segundo": 48,
-    "tercero": 18,
-    "win_rate": 0.188,
-    "seg_rate": 0.5
-  },
-  {
-    "player": "Wainer",
-    "player_league": "RD",
-    "juegos": 95,
-    "victorias": 16,
-    "segundo": 34,
-    "tercero": 30,
-    "win_rate": 0.168,
-    "seg_rate": 0.358
-  },
-  {
-    "player": "Migue",
-    "player_league": "MX",
-    "juegos": 37,
-    "victorias": 5,
-    "segundo": 15,
-    "tercero": 12,
-    "win_rate": 0.135,
-    "seg_rate": 0.405
+    "juegos": 116,
+    "victorias": 26,
+    "segundo": 54,
+    "tercero": 23,
+    "win_rate": 0.224,
+    "seg_rate": 0.466
   },
   {
     "player": "Konstantinos",
     "player_league": "RD",
-    "juegos": 18,
-    "victorias": 2,
-    "segundo": 10,
-    "tercero": 2,
-    "win_rate": 0.111,
-    "seg_rate": 0.556
+    "juegos": 31,
+    "victorias": 5,
+    "segundo": 14,
+    "tercero": 6,
+    "win_rate": 0.161,
+    "seg_rate": 0.452
+  },
+  {
+    "player": "Wainer",
+    "player_league": "RD",
+    "juegos": 101,
+    "victorias": 15,
+    "segundo": 37,
+    "tercero": 31,
+    "win_rate": 0.149,
+    "seg_rate": 0.366
   },
   {
     "player": "Eddy",
     "player_league": "RD",
-    "juegos": 59,
-    "victorias": 6,
-    "segundo": 29,
-    "tercero": 15,
-    "win_rate": 0.102,
-    "seg_rate": 0.492
+    "juegos": 80,
+    "victorias": 11,
+    "segundo": 38,
+    "tercero": 18,
+    "win_rate": 0.138,
+    "seg_rate": 0.475
+  },
+  {
+    "player": "Migue",
+    "player_league": "MX",
+    "juegos": 58,
+    "victorias": 8,
+    "segundo": 25,
+    "tercero": 18,
+    "win_rate": 0.138,
+    "seg_rate": 0.431
   },
   {
     "player": "Mak",
     "player_league": "RD",
-    "juegos": 120,
-    "victorias": 8,
-    "segundo": 59,
-    "tercero": 34,
-    "win_rate": 0.067,
-    "seg_rate": 0.492
+    "juegos": 143,
+    "victorias": 16,
+    "segundo": 70,
+    "tercero": 37,
+    "win_rate": 0.112,
+    "seg_rate": 0.49
   },
   {
     "player": "Diame",
     "player_league": "RD",
-    "juegos": 33,
-    "victorias": 2,
+    "juegos": 35,
+    "victorias": 3,
     "segundo": 13,
-    "tercero": 11,
-    "win_rate": 0.061,
-    "seg_rate": 0.394
+    "tercero": 12,
+    "win_rate": 0.086,
+    "seg_rate": 0.371
+  },
+  {
+    "player": "Blanca",
+    "player_league": "MX",
+    "juegos": 13,
+    "victorias": 1,
+    "segundo": 8,
+    "tercero": 2,
+    "win_rate": 0.077,
+    "seg_rate": 0.615
+  },
+  {
+    "player": "Carlos",
+    "player_league": "RD",
+    "juegos": 23,
+    "victorias": 1,
+    "segundo": 9,
+    "tercero": 5,
+    "win_rate": 0.043,
+    "seg_rate": 0.391
   },
   {
     "player": "Caballol",
     "player_league": "RD",
-    "juegos": 24,
+    "juegos": 26,
     "victorias": 1,
-    "segundo": 9,
-    "tercero": 8,
-    "win_rate": 0.042,
-    "seg_rate": 0.375
+    "segundo": 12,
+    "tercero": 9,
+    "win_rate": 0.038,
+    "seg_rate": 0.462
   },
   {
     "player": "Gonzalo",
     "player_league": "RD",
-    "juegos": 38,
-    "victorias": 0,
-    "segundo": 15,
-    "tercero": 19,
-    "win_rate": 0,
-    "seg_rate": 0.395
+    "juegos": 54,
+    "victorias": 2,
+    "segundo": 23,
+    "tercero": 24,
+    "win_rate": 0.037,
+    "seg_rate": 0.426
   }
 ]
