@@ -688,6 +688,8 @@
     "image": "https://cards.scryfall.io/normal/front/9/0/90eb0859-d24e-4703-8930-1cd4ac1fb3b6.jpg?1782697384",
     "colors": "RW"
   },
+  "Namor (J)": null,
+  "Namor (S)": null,
   "Neriv": {
     "card": "Neriv, Heart of the Storm",
     "art": "https://cards.scryfall.io/art_crop/front/b/5/b58112b0-a05c-4b98-b650-fd27ad97789f.jpg?1782687143",
@@ -725,6 +727,12 @@
     "colors": "GRW"
   },
   "Plankton": null,
+  "Prismari The Inspired": {
+    "card": "Prismari, the Inspiration",
+    "art": "https://cards.scryfall.io/art_crop/front/7/6/767ff9fa-4e7f-421a-b911-45186b520ae1.jpg?1783903636",
+    "image": "https://cards.scryfall.io/normal/front/7/6/767ff9fa-4e7f-421a-b911-45186b520ae1.jpg?1783903636",
+    "colors": "RU"
+  },
   "Quintorious": {
     "card": "Quintorius Kand",
     "art": "https://cards.scryfall.io/art_crop/front/4/3/4382fa49-9e34-45b3-8495-4916dcd995ec.jpg?1782694421",
@@ -925,6 +933,12 @@
     "colors": "BW"
   },
   "The Council": null,
+  "The Jolly Ballon Man": {
+    "card": "The Jolly Balloon Man",
+    "art": "https://cards.scryfall.io/art_crop/front/a/3/a3c4e2e0-1c0e-475d-a0f4-1be4216c2bad.jpg?1783909444",
+    "image": "https://cards.scryfall.io/normal/front/a/3/a3c4e2e0-1c0e-475d-a0f4-1be4216c2bad.jpg?1783909444",
+    "colors": "RW"
+  },
   "The Lord of Pain": null,
   "The Second Doctor": {
     "card": "The Second Doctor",

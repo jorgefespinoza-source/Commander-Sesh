@@ -408,9 +408,9 @@
     "year_month": "2026-07",
     "player": "Eddy",
     "player_league": "RD",
-    "juegos": 3,
+    "juegos": 6,
     "victorias": 2,
-    "win_rate": 0.667,
+    "win_rate": 0.333,
     "month_n": 16
   },
   {
@@ -498,9 +498,9 @@
     "year_month": "2026-07",
     "player": "Gonzalo",
     "player_league": "RD",
-    "juegos": 6,
+    "juegos": 9,
     "victorias": 1,
-    "win_rate": 0.167,
+    "win_rate": 0.111,
     "month_n": 16
   },
   {
@@ -642,9 +642,9 @@
     "year_month": "2026-07",
     "player": "Halvin",
     "player_league": "RD",
-    "juegos": 1,
-    "victorias": 0,
-    "win_rate": 0,
+    "juegos": 4,
+    "victorias": 1,
+    "win_rate": 0.25,
     "month_n": 16
   },
   {
@@ -759,8 +759,8 @@
     "year_month": "2026-07",
     "player": "Ianfi",
     "player_league": "MX",
-    "juegos": 5,
-    "victorias": 2,
+    "juegos": 10,
+    "victorias": 4,
     "win_rate": 0.4,
     "month_n": 16
   },
@@ -804,9 +804,9 @@
     "year_month": "2026-07",
     "player": "Jorge Espinoza",
     "player_league": "MX",
-    "juegos": 5,
-    "victorias": 2,
-    "win_rate": 0.4,
+    "juegos": 10,
+    "victorias": 3,
+    "win_rate": 0.3,
     "month_n": 16
   },
   {
@@ -939,9 +939,9 @@
     "year_month": "2026-07",
     "player": "Jorge Kourie",
     "player_league": "RD",
-    "juegos": 3,
+    "juegos": 5,
     "victorias": 1,
-    "win_rate": 0.333,
+    "win_rate": 0.2,
     "month_n": 16
   },
   {
@@ -1047,9 +1047,9 @@
     "year_month": "2026-07",
     "player": "Jose",
     "player_league": "MX",
-    "juegos": 2,
-    "victorias": 0,
-    "win_rate": 0,
+    "juegos": 7,
+    "victorias": 1,
+    "win_rate": 0.143,
     "month_n": 16
   },
   {
@@ -1146,9 +1146,9 @@
     "year_month": "2026-07",
     "player": "Konstantinos",
     "player_league": "RD",
-    "juegos": 4,
-    "victorias": 1,
-    "win_rate": 0.25,
+    "juegos": 7,
+    "victorias": 3,
+    "win_rate": 0.429,
     "month_n": 16
   },
   {
@@ -1335,9 +1335,9 @@
     "year_month": "2026-07",
     "player": "Mak",
     "player_league": "RD",
-    "juegos": 2,
-    "victorias": 0,
-    "win_rate": 0,
+    "juegos": 5,
+    "victorias": 2,
+    "win_rate": 0.4,
     "month_n": 16
   },
   {
@@ -1416,8 +1416,8 @@
     "year_month": "2026-07",
     "player": "Migue",
     "player_league": "MX",
-    "juegos": 5,
-    "victorias": 1,
+    "juegos": 10,
+    "victorias": 2,
     "win_rate": 0.2,
     "month_n": 16
   },
@@ -1623,9 +1623,9 @@
     "year_month": "2026-07",
     "player": "Nicolas",
     "player_league": "RD",
-    "juegos": 1,
-    "victorias": 0,
-    "win_rate": 0,
+    "juegos": 4,
+    "victorias": 2,
+    "win_rate": 0.5,
     "month_n": 16
   },
   {
@@ -1767,9 +1767,9 @@
     "year_month": "2026-07",
     "player": "Octaviano",
     "player_league": "RD",
-    "juegos": 2,
-    "victorias": 1,
-    "win_rate": 0.5,
+    "juegos": 5,
+    "victorias": 3,
+    "win_rate": 0.6,
     "month_n": 16
   },
   {
@@ -1785,7 +1785,7 @@
     "year_month": "2026-07",
     "player": "Panadero",
     "player_league": "RD",
-    "juegos": 3,
+    "juegos": 6,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 16
@@ -1929,9 +1929,9 @@
     "year_month": "2026-07",
     "player": "Sabino",
     "player_league": "RD",
-    "juegos": 1,
+    "juegos": 4,
     "victorias": 1,
-    "win_rate": 1,
+    "win_rate": 0.25,
     "month_n": 16
   },
   {
@@ -1965,7 +1965,7 @@
     "year_month": "2026-07",
     "player": "Samuel",
     "player_league": "RD",
-    "juegos": 1,
+    "juegos": 3,
     "victorias": 0,
     "win_rate": 0,
     "month_n": 16
@@ -2095,5 +2095,14 @@
     "victorias": 0,
     "win_rate": 0,
     "month_n": 15
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Wainer",
+    "player_league": "RD",
+    "juegos": 3,
+    "victorias": 0,
+    "win_rate": 0,
+    "month_n": 16
   }
 ]

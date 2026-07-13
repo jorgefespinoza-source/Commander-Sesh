@@ -1163,71 +1163,71 @@
   },
   {
     "year_month": "2026-07",
-    "player": "Sabino",
-    "juegos": 1,
-    "victorias": 1,
-    "win_rate": 1
-  },
-  {
-    "year_month": "2026-07",
-    "player": "Eddy",
-    "juegos": 3,
-    "victorias": 2,
-    "win_rate": 0.667
-  },
-  {
-    "year_month": "2026-07",
     "player": "Octaviano",
-    "juegos": 2,
-    "victorias": 1,
+    "juegos": 5,
+    "victorias": 3,
+    "win_rate": 0.6
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Nicolas",
+    "juegos": 4,
+    "victorias": 2,
     "win_rate": 0.5
   },
   {
     "year_month": "2026-07",
-    "player": "Jorge Kourie",
-    "juegos": 3,
-    "victorias": 1,
+    "player": "Konstantinos",
+    "juegos": 7,
+    "victorias": 3,
+    "win_rate": 0.429
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Mak",
+    "juegos": 5,
+    "victorias": 2,
+    "win_rate": 0.4
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Eddy",
+    "juegos": 6,
+    "victorias": 2,
     "win_rate": 0.333
   },
   {
     "year_month": "2026-07",
-    "player": "Konstantinos",
+    "player": "Halvin",
     "juegos": 4,
     "victorias": 1,
     "win_rate": 0.25
   },
   {
     "year_month": "2026-07",
-    "player": "Gonzalo",
-    "juegos": 6,
+    "player": "Sabino",
+    "juegos": 4,
     "victorias": 1,
-    "win_rate": 0.167
+    "win_rate": 0.25
   },
   {
     "year_month": "2026-07",
-    "player": "Mak",
-    "juegos": 2,
-    "victorias": 0,
-    "win_rate": 0
+    "player": "Jorge Kourie",
+    "juegos": 5,
+    "victorias": 1,
+    "win_rate": 0.2
   },
   {
     "year_month": "2026-07",
-    "player": "Nicolas",
-    "juegos": 1,
-    "victorias": 0,
-    "win_rate": 0
-  },
-  {
-    "year_month": "2026-07",
-    "player": "Halvin",
-    "juegos": 1,
-    "victorias": 0,
-    "win_rate": 0
+    "player": "Gonzalo",
+    "juegos": 9,
+    "victorias": 1,
+    "win_rate": 0.111
   },
   {
     "year_month": "2026-07",
     "player": "Samuel",
-    "juegos": 1,
+    "juegos": 3,
     "victorias": 0,
     "win_rate": 0
   },
@@ -1241,6 +1241,13 @@
   {
     "year_month": "2026-07",
     "player": "Panadero",
+    "juegos": 6,
+    "victorias": 0,
+    "win_rate": 0
+  },
+  {
+    "year_month": "2026-07",
+    "player": "Wainer",
     "juegos": 3,
     "victorias": 0,
     "win_rate": 0

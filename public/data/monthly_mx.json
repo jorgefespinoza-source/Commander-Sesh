@@ -352,30 +352,30 @@
   {
     "year_month": "2026-07",
     "player": "Ianfi",
-    "juegos": 5,
-    "victorias": 2,
+    "juegos": 10,
+    "victorias": 4,
     "win_rate": 0.4
   },
   {
     "year_month": "2026-07",
     "player": "Jorge Espinoza",
-    "juegos": 5,
-    "victorias": 2,
-    "win_rate": 0.4
+    "juegos": 10,
+    "victorias": 3,
+    "win_rate": 0.3
   },
   {
     "year_month": "2026-07",
     "player": "Migue",
-    "juegos": 5,
-    "victorias": 1,
+    "juegos": 10,
+    "victorias": 2,
     "win_rate": 0.2
   },
   {
     "year_month": "2026-07",
     "player": "Jose",
-    "juegos": 2,
-    "victorias": 0,
-    "win_rate": 0
+    "juegos": 7,
+    "victorias": 1,
+    "win_rate": 0.143
   },
   {
     "year_month": "2026-07",

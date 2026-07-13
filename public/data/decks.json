@@ -240,6 +240,14 @@
     "image": "https://cards.scryfall.io/normal/front/3/9/396f9198-67b6-45d8-91b4-dc853bff9623.jpg?1782701357"
   },
   {
+    "name": "The Jolly Ballon Man",
+    "owner": "Halvin",
+    "colorIdentity": "RW",
+    "cardName": "The Jolly Balloon Man",
+    "art": "https://cards.scryfall.io/art_crop/front/a/3/a3c4e2e0-1c0e-475d-a0f4-1be4216c2bad.jpg?1783909444",
+    "image": "https://cards.scryfall.io/normal/front/a/3/a3c4e2e0-1c0e-475d-a0f4-1be4216c2bad.jpg?1783909444"
+  },
+  {
     "name": "Giada",
     "owner": "Halvin",
     "colorIdentity": "W",
@@ -544,6 +552,14 @@
     "image": "https://cards.scryfall.io/normal/front/6/a/6ae992b6-506b-4667-884f-4f7fc075b71e.jpg?1782683151"
   },
   {
+    "name": "Prismari The Inspired",
+    "owner": "Jorge Espinoza",
+    "colorIdentity": "RU",
+    "cardName": "Prismari, the Inspiration",
+    "art": "https://cards.scryfall.io/art_crop/front/7/6/767ff9fa-4e7f-421a-b911-45186b520ae1.jpg?1783903636",
+    "image": "https://cards.scryfall.io/normal/front/7/6/767ff9fa-4e7f-421a-b911-45186b520ae1.jpg?1783903636"
+  },
+  {
     "name": "Gorma",
     "owner": "Jorge Espinoza",
     "colorIdentity": "BG",
@@ -566,6 +582,14 @@
     "cardName": "Sauron, the Dark Lord",
     "art": "https://cards.scryfall.io/art_crop/front/0/3/034e0929-b2c7-4b5f-94f2-8eaf4fb1a2a1.jpg?1782697105",
     "image": "https://cards.scryfall.io/normal/front/0/3/034e0929-b2c7-4b5f-94f2-8eaf4fb1a2a1.jpg?1782697105"
+  },
+  {
+    "name": "Namor (J)",
+    "owner": "Jorge Espinoza",
+    "colorIdentity": "U",
+    "cardName": null,
+    "art": null,
+    "image": null
   },
   {
     "name": "Quintorious",
@@ -1350,6 +1374,14 @@
     "cardName": "Gev, Scaled Scorch",
     "art": "https://cards.scryfall.io/art_crop/front/1/3/131ea976-289e-4f32-896d-27bbfd423ba9.jpg?1782690460",
     "image": "https://cards.scryfall.io/normal/front/1/3/131ea976-289e-4f32-896d-27bbfd423ba9.jpg?1782690460"
+  },
+  {
+    "name": "Namor (S)",
+    "owner": "Sabino",
+    "colorIdentity": "U",
+    "cardName": null,
+    "art": null,
+    "image": null
   },
   {
     "name": "Inspirit",

@@ -4,56 +4,56 @@
     "player_league": "RD",
     "max_victorias": 8,
     "max_derrotas": 9,
-    "juegos": 171,
-    "win_rate": 0.439
+    "juegos": 174,
+    "win_rate": 0.443
   },
   {
     "player": "Sabino",
     "player_league": "RD",
     "max_victorias": 8,
     "max_derrotas": 5,
-    "juegos": 148,
-    "win_rate": 0.628
+    "juegos": 151,
+    "win_rate": 0.616
   },
   {
     "player": "Mak",
     "player_league": "RD",
     "max_victorias": 5,
     "max_derrotas": 38,
-    "juegos": 143,
-    "win_rate": 0.112
+    "juegos": 146,
+    "win_rate": 0.123
   },
   {
     "player": "Octaviano",
     "player_league": "RD",
     "max_victorias": 4,
     "max_derrotas": 17,
-    "juegos": 116,
-    "win_rate": 0.224
+    "juegos": 119,
+    "win_rate": 0.235
   },
   {
     "player": "Jose",
     "player_league": "MX",
     "max_victorias": 4,
     "max_derrotas": 8,
-    "juegos": 59,
-    "win_rate": 0.339
+    "juegos": 64,
+    "win_rate": 0.328
   },
   {
     "player": "Halvin",
     "player_league": "RD",
     "max_victorias": 3,
     "max_derrotas": 12,
-    "juegos": 102,
+    "juegos": 105,
     "win_rate": 0.324
   },
   {
     "player": "Wainer",
     "player_league": "RD",
     "max_victorias": 3,
-    "max_derrotas": 17,
-    "juegos": 101,
-    "win_rate": 0.149
+    "max_derrotas": 19,
+    "juegos": 104,
+    "win_rate": 0.144
   },
   {
     "player": "Lasa",
@@ -68,8 +68,8 @@
     "player_league": "MX",
     "max_victorias": 2,
     "max_derrotas": 7,
-    "juegos": 88,
-    "win_rate": 0.352
+    "juegos": 93,
+    "win_rate": 0.355
   },
   {
     "player": "Diame",
@@ -84,40 +84,40 @@
     "player_league": "RD",
     "max_victorias": 2,
     "max_derrotas": 11,
-    "juegos": 81,
-    "win_rate": 0.235
+    "juegos": 83,
+    "win_rate": 0.229
   },
   {
     "player": "Eddy",
     "player_league": "RD",
     "max_victorias": 2,
     "max_derrotas": 36,
-    "juegos": 80,
-    "win_rate": 0.138
+    "juegos": 83,
+    "win_rate": 0.133
   },
   {
     "player": "Migue",
     "player_league": "MX",
     "max_victorias": 2,
     "max_derrotas": 16,
-    "juegos": 58,
-    "win_rate": 0.138
+    "juegos": 63,
+    "win_rate": 0.143
   },
   {
     "player": "Konstantinos",
     "player_league": "RD",
     "max_victorias": 2,
     "max_derrotas": 14,
-    "juegos": 31,
-    "win_rate": 0.161
+    "juegos": 34,
+    "win_rate": 0.206
   },
   {
     "player": "Jorge Espinoza",
     "player_league": "MX",
     "max_victorias": 2,
     "max_derrotas": 6,
-    "juegos": 52,
-    "win_rate": 0.288
+    "juegos": 57,
+    "win_rate": 0.281
   },
   {
     "player": "Mike",
@@ -148,8 +148,8 @@
     "player_league": "RD",
     "max_victorias": 1,
     "max_derrotas": 29,
-    "juegos": 54,
-    "win_rate": 0.037
+    "juegos": 57,
+    "win_rate": 0.035
   },
   {
     "player": "Blanca",
@@ -158,5 +158,13 @@
     "max_derrotas": 8,
     "juegos": 13,
     "win_rate": 0.077
+  },
+  {
+    "player": "Samuel",
+    "player_league": "RD",
+    "max_victorias": 0,
+    "max_derrotas": 11,
+    "juegos": 11,
+    "win_rate": 0
   }
 ]

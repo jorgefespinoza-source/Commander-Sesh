@@ -13354,5 +13354,491 @@
     "deck": "Invisible Woman",
     "colorIdentity": "GRUW",
     "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 395,
+    "placement": 1,
+    "player": "Ianfi",
+    "deck": "Sokka, Tenacious Tactician (i)",
+    "colorIdentity": "RUW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 395,
+    "placement": 2,
+    "player": "Migue",
+    "deck": "Valgavoth (M)",
+    "colorIdentity": "B",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 395,
+    "placement": 2,
+    "player": "Jose",
+    "deck": "Teval (J)",
+    "colorIdentity": "BGU",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 395,
+    "placement": 2,
+    "player": "Jorge Espinoza",
+    "deck": "Aziza",
+    "colorIdentity": "RW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 396,
+    "placement": 1,
+    "player": "Jorge Espinoza",
+    "deck": "Namor (J)",
+    "colorIdentity": "U",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 396,
+    "placement": 2,
+    "player": "Jose",
+    "deck": "The Second Doctor",
+    "colorIdentity": "UW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 396,
+    "placement": 3,
+    "player": "Migue",
+    "deck": "Toph, First Metalbender (M)",
+    "colorIdentity": "GRW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 396,
+    "placement": 4,
+    "player": "Ianfi",
+    "deck": "Felothar (i)",
+    "colorIdentity": "BGW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 397,
+    "placement": 1,
+    "player": "Nicolas",
+    "deck": "Stella Lee",
+    "colorIdentity": "RU",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 397,
+    "placement": 2,
+    "player": "Sabino",
+    "deck": "Namor (S)",
+    "colorIdentity": "U",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 397,
+    "placement": 2,
+    "player": "Jorge Kourie",
+    "deck": "Krenko",
+    "colorIdentity": "R",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 397,
+    "placement": 2,
+    "player": "Wainer",
+    "deck": "Sauron, The Dark Lord (JK)",
+    "colorIdentity": "BRU",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 398,
+    "placement": 1,
+    "player": "Ianfi",
+    "deck": "Fire Lord Azula (i)",
+    "colorIdentity": "BRU",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 398,
+    "placement": 2,
+    "player": "Jose",
+    "deck": "Aziza",
+    "colorIdentity": "RW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 398,
+    "placement": 3,
+    "player": "Jorge Espinoza",
+    "deck": "Prismari The Inspired",
+    "colorIdentity": "RU",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 398,
+    "placement": 3,
+    "player": "Migue",
+    "deck": "Auntie Ool (M)",
+    "colorIdentity": "BGR",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 399,
+    "placement": 1,
+    "player": "Mak",
+    "deck": "Sythis",
+    "colorIdentity": "GW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 399,
+    "placement": 2,
+    "player": "Samuel",
+    "deck": "Cloud",
+    "colorIdentity": "W",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 399,
+    "placement": 2,
+    "player": "Gonzalo",
+    "deck": "Wick",
+    "colorIdentity": "BRU",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 399,
+    "placement": 3,
+    "player": "Eddy",
+    "deck": "Captain America, Team Leader (E)",
+    "colorIdentity": "RUW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 400,
+    "placement": 1,
+    "player": "Jose",
+    "deck": "Emmara (J)",
+    "colorIdentity": "GW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 400,
+    "placement": 2,
+    "player": "Migue",
+    "deck": "Valgavoth (M)",
+    "colorIdentity": "B",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 400,
+    "placement": 3,
+    "player": "Jorge Espinoza",
+    "deck": "Prismari The Inspired",
+    "colorIdentity": "RU",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 400,
+    "placement": 4,
+    "player": "Ianfi",
+    "deck": "Hazel (i)",
+    "colorIdentity": "BG",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 401,
+    "placement": 1,
+    "player": "Octaviano",
+    "deck": "Beledros Witherbloom",
+    "colorIdentity": "BG",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 401,
+    "placement": 2,
+    "player": "Wainer",
+    "deck": "Valgavoth (O)",
+    "colorIdentity": "B",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 401,
+    "placement": 3,
+    "player": "Mak",
+    "deck": "Baylen",
+    "colorIdentity": "GRW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 401,
+    "placement": 3,
+    "player": "Sabino",
+    "deck": "Namor (S)",
+    "colorIdentity": "U",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 402,
+    "placement": 1,
+    "player": "Nicolas",
+    "deck": "Hakbal",
+    "colorIdentity": "GU",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 402,
+    "placement": 2,
+    "player": "Samuel",
+    "deck": "Dr. Doom King of Latveria (S)",
+    "colorIdentity": "BRU",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 402,
+    "placement": 2,
+    "player": "Gonzalo",
+    "deck": "Zinnia (G)",
+    "colorIdentity": "RUW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 402,
+    "placement": 3,
+    "player": "Konstantinos",
+    "deck": "Leonardo & Raphael TMNT",
+    "colorIdentity": "WUBRG",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 403,
+    "placement": 1,
+    "player": "Konstantinos",
+    "deck": "Leonardo & Raphael TMNT",
+    "colorIdentity": "WUBRG",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 403,
+    "placement": 2,
+    "player": "Halvin",
+    "deck": "Valgavoth (O)",
+    "colorIdentity": "B",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 403,
+    "placement": 3,
+    "player": "Octaviano",
+    "deck": "Beledros Witherbloom",
+    "colorIdentity": "BG",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 403,
+    "placement": 4,
+    "player": "Panadero",
+    "deck": "Invisible Woman",
+    "colorIdentity": "GRUW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 404,
+    "placement": 1,
+    "player": "Migue",
+    "deck": "Inspirit",
+    "colorIdentity": "RUW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 404,
+    "placement": 2,
+    "player": "Jose",
+    "deck": "Bello, Bard of the Brambles (i)",
+    "colorIdentity": "GR",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 404,
+    "placement": 2,
+    "player": "Ianfi",
+    "deck": "Zimone, Infinite Analyst",
+    "colorIdentity": "GU",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 404,
+    "placement": 2,
+    "player": "Jorge Espinoza",
+    "deck": "Namor (J)",
+    "colorIdentity": "U",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 405,
+    "placement": 1,
+    "player": "Mak",
+    "deck": "Toshiro Umezaua",
+    "colorIdentity": "B",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 405,
+    "placement": 2,
+    "player": "Sabino",
+    "deck": "The Wise Mothman",
+    "colorIdentity": "BGU",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 405,
+    "placement": 3,
+    "player": "Eddy",
+    "deck": "Captain America, Team Leader (E)",
+    "colorIdentity": "RUW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 405,
+    "placement": 4,
+    "player": "Nicolas",
+    "deck": "Blech",
+    "colorIdentity": "BG",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 406,
+    "placement": 1,
+    "player": "Konstantinos",
+    "deck": "Kaalia",
+    "colorIdentity": "BRW",
+    "podSize": 3
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 406,
+    "placement": 2,
+    "player": "Gonzalo",
+    "deck": "Wick",
+    "colorIdentity": "BRU",
+    "podSize": 3
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 406,
+    "placement": 3,
+    "player": "Panadero",
+    "deck": "Sauron, The Dark Lord (JK)",
+    "colorIdentity": "BRU",
+    "podSize": 3
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 407,
+    "placement": 1,
+    "player": "Octaviano",
+    "deck": "Shadowheart",
+    "colorIdentity": "B",
+    "podSize": 3
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 407,
+    "placement": 2,
+    "player": "Wainer",
+    "deck": "Eriette",
+    "colorIdentity": "BW",
+    "podSize": 3
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 407,
+    "placement": 3,
+    "player": "Halvin",
+    "deck": "The Jolly Ballon Man",
+    "colorIdentity": "RW",
+    "podSize": 3
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 408,
+    "placement": 1,
+    "player": "Halvin",
+    "deck": "The Jolly Ballon Man",
+    "colorIdentity": "RW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 408,
+    "placement": 2,
+    "player": "Jorge Kourie",
+    "deck": "Yuna",
+    "colorIdentity": "GUW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 408,
+    "placement": 3,
+    "player": "Eddy",
+    "deck": "Captain America, Team Leader (E)",
+    "colorIdentity": "RUW",
+    "podSize": 4
+  },
+  {
+    "date": "2026-07-10",
+    "gameNum": 408,
+    "placement": 4,
+    "player": "Panadero",
+    "deck": "Invisible Woman",
+    "colorIdentity": "GRUW",
+    "podSize": 4
   }
 ]
