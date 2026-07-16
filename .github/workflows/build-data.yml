@@ -38,7 +38,9 @@ jobs:
           git config user.email "actions@github.com"
           if [ -n "$(git status --porcelain public/data)" ]; then
             git add public/data
-            git commit -m "chore(data): refresh from Google Sheet [skip ci]"
+            # No [skip ci]: the push must trigger Vercel's deploy. This workflow
+            # itself only runs on schedule/dispatch, so there is no loop risk.
+            git commit -m "chore(data): refresh from Google Sheet"
             git push
             echo "Data changed — committed and pushed."
           else
