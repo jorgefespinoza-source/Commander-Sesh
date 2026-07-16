@@ -1,11 +1,12 @@
 "use client";
 import { useEffect, useState, useMemo } from "react";
-import { getGames, getDecks } from "@/lib/data";
+import { getGames, getDecks, getElo } from "@/lib/data";
 import { getAllDeckStats, filterBySeason, getSeasons, fmt } from "@/lib/stats";
 import type { GameEntry, DeckInfo, DeckStats } from "@/lib/types";
 import ManaSymbols from "@/components/ManaSymbols";
 import ScryfallArt from "@/components/ScryfallArt";
 import SeasonFilter from "@/components/SeasonFilter";
+import LeagueFilter, { type League } from "@/components/LeagueFilter";
 import Link from "next/link";
 
 export default function DecksPage() {
@@ -13,11 +14,15 @@ export default function DecksPage() {
   const [decks, setDecks] = useState<DeckInfo[]>([]);
   const [season, setSeason] = useState<number | null>(null);
   const [search, setSearch] = useState("");
+  const [league, setLeague] = useState<League>("ALL");
+  const [leagueOf, setLeagueOf] = useState<Map<string, string>>(new Map());
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    Promise.all([getGames(), getDecks()]).then(([g, d]) => {
-      setGames(g); setDecks(d); setLoading(false);
+    Promise.all([getGames(), getDecks(), getElo()]).then(([g, d, e]) => {
+      setGames(g); setDecks(d);
+      setLeagueOf(new Map(e.map(x => [x.player, x.player_league])));
+      setLoading(false);
     });
   }, []);
 
@@ -26,12 +31,15 @@ export default function DecksPage() {
   const deckStats = useMemo(() => getAllDeckStats(filtered, decks), [filtered, decks]);
 
   const shown = useMemo(() => {
-    if (!search.trim()) return deckStats;
+    let list = deckStats;
+    if (league !== "ALL") list = list.filter(d => leagueOf.get(d.owner) === league);
+    if (!search.trim()) return list;
     const q = search.toLowerCase();
-    return deckStats.filter(d =>
-      d.name.toLowerCase().includes(q) || d.owner.toLowerCase().includes(q)
+    return list.filter(d =>
+      d.name.toLowerCase().includes(q) || d.owner.toLowerCase().includes(q) ||
+      (d.cardName ?? "").toLowerCase().includes(q)
     );
-  }, [deckStats, search]);
+  }, [deckStats, search, league, leagueOf]);
 
   if (loading) return <LoadingSkeleton />;
 
@@ -50,7 +58,7 @@ export default function DecksPage() {
       </div>
 
       <div className="flex items-center justify-between mb-5">
-        <span className="text-xs text-muted font-semibold uppercase tracking-widest">Season</span>
+        <LeagueFilter value={league} onChange={setLeague} />
         <SeasonFilter seasons={seasons} selected={season} onChange={setSeason} />
       </div>
 

@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState, useMemo } from "react";
 import { useParams } from "next/navigation";
-import { getGames, getDecks } from "@/lib/data";
+import { getGames, getDecks, getCards } from "@/lib/data";
 import { getDeckStats, fmt } from "@/lib/stats";
-import type { GameEntry, DeckInfo, DeckStats } from "@/lib/types";
+import type { GameEntry, DeckInfo, CardInfo, CardMap } from "@/lib/types";
 import ManaSymbols from "@/components/ManaSymbols";
 import ScryfallArt from "@/components/ScryfallArt";
 import Link from "next/link";
@@ -16,13 +16,14 @@ export default function DeckDetailPage() {
 
   const [games, setGames] = useState<GameEntry[]>([]);
   const [decks, setDecks] = useState<DeckInfo[]>([]);
+  const [card, setCard]   = useState<CardInfo | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    Promise.all([getGames(), getDecks()]).then(([g, d]) => {
-      setGames(g); setDecks(d); setLoading(false);
+    Promise.all([getGames(), getDecks(), getCards()]).then(([g, d, c]: [GameEntry[], DeckInfo[], CardMap]) => {
+      setGames(g); setDecks(d); setCard(c[deckName] ?? null); setLoading(false);
     });
-  }, []);
+  }, [deckName]);
 
   const deck = useMemo(() => {
     if (!games.length) return null;
@@ -62,6 +63,49 @@ export default function DeckDetailPage() {
           <StatBox label="Games" value={String(deck.games)} />
           <StatBox label="Avg Place" value={`#${deck.avgPlacement.toFixed(1)}`} />
         </div>
+
+        {/* The real card: Scryfall + EDHREC intel */}
+        {card && (
+          <Section title="The Card">
+            <div className="flex gap-3">
+              {card.image && (
+                /* eslint-disable-next-line @next/next/no-img-element */
+                <img src={card.image} alt={card.card}
+                  className="w-28 rounded-lg flex-shrink-0 border border-border" loading="lazy" />
+              )}
+              <div className="flex-1 min-w-0 space-y-1.5">
+                <div className="text-sm text-parchment font-semibold leading-tight">{card.card}</div>
+                {card.type && <div className="text-[11px] text-muted">{card.type}</div>}
+                {card.set && <div className="text-[10px] text-muted italic">{card.set}</div>}
+                {card.edhrecRank != null && (
+                  <div className="text-[11px]">
+                    <span className="text-gold font-bold">#{card.edhrecRank.toLocaleString()}</span>
+                    <span className="text-muted"> most-played card on EDHREC</span>
+                  </div>
+                )}
+                {card.priceUsd && (
+                  <div className="text-[11px] text-muted">~${card.priceUsd} USD</div>
+                )}
+                <div className="flex gap-2 pt-1">
+                  {card.edhrecUri && (
+                    <a href={card.edhrecUri} target="_blank" rel="noopener noreferrer"
+                      className="px-2.5 py-1 rounded-full text-[11px] font-semibold transition-colors"
+                      style={{ background: "#7a5cc422", color: "#a78bda", border: "1px solid #7a5cc466" }}>
+                      EDHREC ↗
+                    </a>
+                  )}
+                  {card.scryfallUri && (
+                    <a href={card.scryfallUri} target="_blank" rel="noopener noreferrer"
+                      className="px-2.5 py-1 rounded-full text-[11px] font-semibold transition-colors"
+                      style={{ background: "#c8a95122", color: "#c8a951", border: "1px solid #c8a95166" }}>
+                      Scryfall ↗
+                    </a>
+                  )}
+                </div>
+              </div>
+            </div>
+          </Section>
+        )}
 
         {/* Placement breakdown */}
         <Section title="Placement Breakdown">

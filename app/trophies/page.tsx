@@ -209,7 +209,11 @@ export default function TrophiesPage() {
                   <span className="font-cinzel text-sm text-gold font-bold">{t.title}</span>
                   <span className="text-xs text-gold/80 font-bold whitespace-nowrap">{t.value}</span>
                 </div>
-                <div className="text-parchment text-sm font-semibold mt-0.5">{t.holder}</div>
+                <div className="flex items-center gap-1.5 mt-0.5">
+                  <span className="text-parchment text-sm font-semibold">{t.holder}</span>
+                  <span className="w-2 h-2 rounded-full inline-block"
+                    style={{ background: elo.find(e => e.player === t.holder)?.player_league === "MX" ? COL_MX : COL_RD }} />
+                </div>
                 <p className="text-[11px] text-muted mt-1 leading-relaxed">{t.desc}</p>
               </div>
             </div>

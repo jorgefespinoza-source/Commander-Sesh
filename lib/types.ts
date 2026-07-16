@@ -23,6 +23,13 @@ export interface CardInfo {
   art: string | null;
   image: string | null;
   colors: string;
+  type?: string | null;         // type line, e.g. "Legendary Creature — Elf Druid"
+  mana?: string | null;         // mana cost, e.g. "{2}{B}{G}"
+  set?: string | null;          // set name of the default printing
+  edhrecRank?: number | null;   // EDHREC popularity rank (1 = most played)
+  priceUsd?: string | null;     // Scryfall USD price
+  scryfallUri?: string | null;
+  edhrecUri?: string | null;
 }
 export type CardMap = Record<string, CardInfo | null>;
 

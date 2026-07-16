@@ -28,6 +28,18 @@ const OVERRIDES_PATH = join(__dirname, "config", "card-overrides.json");
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const stripOwner = (name) => name.replace(/\s*\([A-Za-z]\)$/, "").trim();
 
+/** EDHREC commander page URL from an official card name (front face for DFCs). */
+function edhrecCommanderUrl(cardName) {
+  const front = cardName.split("//")[0].trim();
+  const slug = front
+    .normalize("NFD").replace(/[̀-ͯ]/g, "") // drop accents
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-");
+  return slug ? `https://edhrec.com/commanders/${slug}` : null;
+}
+
 async function loadJson(path, fallback) {
   try { return JSON.parse(await readFile(path, "utf8")); } catch { return fallback; }
 }
@@ -59,11 +71,20 @@ async function fuzzyLookup(query, cache) {
     if (!res.ok) return null; // unexpected -> unresolved, not cached
     const c = await res.json();
     const img = c.image_uris ?? c.card_faces?.[0]?.image_uris ?? {};
+    const front = c.card_faces?.[0] ?? c;
     const result = {
       card: c.name,
       art: img.art_crop ?? null,
       image: img.normal ?? null,
       colors: (c.color_identity ?? []).join(""),
+      // premium extras for the app
+      type: front.type_line ?? c.type_line ?? null,
+      mana: front.mana_cost ?? c.mana_cost ?? null,
+      set: c.set_name ?? null,
+      edhrecRank: c.edhrec_rank ?? null,            // popularity: 1 = most played card on EDHREC
+      priceUsd: c.prices?.usd ?? c.prices?.usd_foil ?? null,
+      scryfallUri: c.scryfall_uri ?? null,
+      edhrecUri: edhrecCommanderUrl(c.name),
     };
     cache[key] = result;
     return result;

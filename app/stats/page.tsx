@@ -11,6 +11,7 @@ import type {
 import { fmt, stripOwnerSuffix } from "@/lib/stats";
 import Link from "next/link";
 import ScryfallArt from "@/components/ScryfallArt";
+import LeagueFilter, { type League } from "@/components/LeagueFilter";
 
 const COL_RD = "#C0392B";   // RD league = red
 const COL_MX = "#27AE60";   // MX league = green
@@ -20,6 +21,7 @@ type Tab = "monthly" | "elo" | "trends" | "h2h" | "danger" | "records";
 
 export default function StatsPage() {
   const [tab, setTab] = useState<Tab>("monthly");
+  const [league, setLeague] = useState<League>("ALL");
 
   const [elo, setElo]         = useState<EloEntry[]>([]);
   const [tend, setTend]       = useState<TendenciaEntry[]>([]);
@@ -65,9 +67,9 @@ export default function StatsPage() {
   return (
     <div className="max-w-lg mx-auto px-4 pt-6 pb-4">
       <h1 className="font-cinzel text-2xl font-bold text-gold-gradient mb-1">Analytics</h1>
-      <div className="flex items-center gap-3 mb-4 text-[10px]">
-        <span className="flex items-center gap-1"><Dot c={COL_RD} /> <span className="text-muted">RD League</span></span>
-        <span className="flex items-center gap-1"><Dot c={COL_MX} /> <span className="text-muted">MX League</span></span>
+      <div className="flex items-center justify-between mb-4">
+        <LeagueFilter value={league} onChange={setLeague} />
+        <span className="text-[10px] text-muted">RD = red · MX = green</span>
       </div>
 
       {/* Sub-tab bar */}
@@ -86,11 +88,11 @@ export default function StatsPage() {
       </div>
 
       {tab === "monthly" && <MonthlyTab mrd={mrd} mmx={mmx} mwr={mwr} mvp={mvp} currentMonth={currentMonth} />}
-      {tab === "records" && <RecordsTab streaks={streaks} king={king} />}
-      {tab === "elo"     && <EloTab elo={elo} />}
-      {tab === "trends"  && <TrendsTab tend={tend} />}
-      {tab === "h2h"     && <H2hTab matrix={matrix} />}
-      {tab === "danger"  && <DangerTab danger={danger} />}
+      {tab === "records" && <RecordsTab streaks={streaks} king={king} league={league} />}
+      {tab === "elo"     && <EloTab elo={elo} league={league} />}
+      {tab === "trends"  && <TrendsTab tend={tend} league={league} />}
+      {tab === "h2h"     && <H2hTab matrix={matrix} elo={elo} league={league} />}
+      {tab === "danger"  && <DangerTab danger={danger} league={league} />}
     </div>
   );
 }
@@ -227,7 +229,10 @@ function MonthlyTab({ mrd, mmx, mwr, mvp, currentMonth }: {
 
 // ── Records Tab (streaks + kingmaker) ──────────────────────────────────────────
 
-function RecordsTab({ streaks, king }: { streaks: StreakEntry[]; king: KingmakerEntry[] }) {
+function RecordsTab({ streaks, king, league }: { streaks: StreakEntry[]; king: KingmakerEntry[]; league: League }) {
+  const inL = (l: string) => league === "ALL" || l === league;
+  streaks = streaks.filter(s => inL(s.player_league));
+  king = king.filter(k => inL(k.player_league));
   const byWinStreak = [...streaks].sort((a, b) => b.max_victorias - a.max_victorias);
   const byLossStreak = [...streaks].sort((a, b) => b.max_derrotas - a.max_derrotas).slice(0, 8);
   const maxW = byWinStreak[0]?.max_victorias ?? 1;
@@ -318,8 +323,10 @@ function RecordsTab({ streaks, king }: { streaks: StreakEntry[]; king: Kingmaker
 
 // ── ELO Tab ────────────────────────────────────────────────────────────────────
 
-function EloTab({ elo }: { elo: EloEntry[] }) {
-  const sorted = [...elo].sort((a, b) => b.elo - a.elo);
+function EloTab({ elo, league }: { elo: EloEntry[]; league: League }) {
+  const sorted = [...elo]
+    .filter(e => league === "ALL" || e.player_league === league)
+    .sort((a, b) => b.elo - a.elo);
   const maxElo = sorted[0]?.elo ?? 1600;
   const minElo = sorted.at(-1)?.elo ?? 1400;
 
@@ -375,8 +382,10 @@ function EloTab({ elo }: { elo: EloEntry[] }) {
 
 // ── Trends Tab ─────────────────────────────────────────────────────────────────
 
-function TrendsTab({ tend }: { tend: TendenciaEntry[] }) {
-  const sorted = [...tend].sort((a, b) => b.slope - a.slope);
+function TrendsTab({ tend, league }: { tend: TendenciaEntry[]; league: League }) {
+  const sorted = [...tend]
+    .filter(t => league === "ALL" || t.player_league === league)
+    .sort((a, b) => b.slope - a.slope);
   const maxAbs = Math.max(...sorted.map(t => Math.abs(t.slope)), 0.001);
   const trendColor = (t: string) =>
     t === "subiendo" ? "#27AE60" : t === "bajando" ? COL_RD : "#7a7898";
@@ -449,7 +458,12 @@ function TrendsTab({ tend }: { tend: TendenciaEntry[] }) {
 
 // ── H2H Tab ────────────────────────────────────────────────────────────────────
 
-function H2hTab({ matrix }: { matrix: H2hMatrixEntry[] }) {
+function H2hTab({ matrix, elo, league }: { matrix: H2hMatrixEntry[]; elo: EloEntry[]; league: League }) {
+  const leagueOf = useMemo(() => new Map(elo.map(e => [e.player, e.player_league])), [elo]);
+  const inL = (p: string) => league === "ALL" || leagueOf.get(p) === league;
+  matrix = useMemo(() => matrix.filter(r => inL(r.from) && inL(r.to)),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [matrix, league, leagueOf]);
   const players = useMemo(() => {
     const set = new Set<string>();
     for (const r of matrix) { set.add(r.from); set.add(r.to); }
@@ -537,8 +551,10 @@ function H2hTab({ matrix }: { matrix: H2hMatrixEntry[] }) {
 
 // ── Danger Tab ─────────────────────────────────────────────────────────────────
 
-function DangerTab({ danger }: { danger: DeckDangerEntry[] }) {
-  const top20 = [...danger].sort((a, b) => b.danger_score - a.danger_score).slice(0, 20);
+function DangerTab({ danger, league }: { danger: DeckDangerEntry[]; league: League }) {
+  const top20 = [...danger]
+    .filter(d => league === "ALL" || d.player_league === league)
+    .sort((a, b) => b.danger_score - a.danger_score).slice(0, 20);
   const maxScore = top20[0]?.danger_score ?? 1;
 
   return (

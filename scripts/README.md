@@ -29,8 +29,14 @@ The other tabs (Player Profile, Logger) are in-sheet dashboards and are ignored.
 
 1. Fetches both tabs via the Google `gviz` CSV endpoint.
 2. **Cleans** the data: strips invisible/zero-width characters (e.g. a stray U+2060 that was splitting "Lasa"), applies name aliases (`config/aliases.json`), and **fills Date and Game number forward** so every row is dated — this fixes the old bug where ~1,000 rows had blank dates and silently dropped out of the season filter.
-3. Recomputes all 15 JSON files the app loads from `public/data/`.
-4. Prints a warning if any player in the Game Log isn't in the roster.
+3. **Resolves every deck to its real card** via Scryfall (fuzzy search + pod
+   overrides in `config/card-overrides.json`, validated against sheet colors):
+   official name, art, full image, type line, mana cost, set, EDHREC popularity
+   rank, USD price, and Scryfall/EDHREC links — written to `public/data/cards.json`
+   and cached in `config/scryfall-cache.json` so CI doesn't re-hit the API.
+4. Recomputes all 16 JSON files the app loads from `public/data/`.
+5. Prints a warning if any player in the Game Log isn't in the roster, and lists
+   any deck names it couldn't match to a card (fix them in `card-overrides.json`).
 
 Zero npm dependencies — just Node 20+ built-ins.
 
